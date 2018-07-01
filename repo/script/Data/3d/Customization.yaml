@@ -1,0 +1,51 @@
+- Name: Lamp
+  Path: ~res:/3d/Tanks/Customization/Lamp.sc2
+  Type: Lamp
+
+- Name: Thing_bag
+  Path: ~res:/3d/Tanks/Customization/Thing_bag.sc2
+  Type: Thing_bag
+
+- Name: Box_gun
+  Path: ~res:/3d/Tanks/Customization/Box_gun.sc2
+  Type: Box_gun
+
+- Name: Brezent_01
+  Path: ~res:/3d/Tanks/Customization/Brezent_01.sc2
+  Type: Brezent
+
+- Name: Coil_01
+  Path: ~res:/3d/Tanks/Customization/Coil_01.sc2
+  Type: Coil
+
+- Name: Brezent_01_Football
+  Path: ~res:/3d/Tanks/Customization/Brezent_01_Football.sc2
+  Type: Brezent_01_Football
+
+- Name: Grid
+  Path: ~res:/3d/Tanks/Customization/Grid.sc2
+  Type: Grid
+
+- Name: Ball
+  Path: ~res:/3d/Tanks/Customization/Ball.sc2
+  Type: Ball
+
+- Name: Box_gun_02
+  Path: ~res:/3d/Tanks/Customization/Box_gun_02.sc2
+  Type: Box_gun_02
+
+- Name: Box_gun_03
+  Path: ~res:/3d/Tanks/Customization/Box_gun_03.sc2
+  Type: Box_gun_03
+  
+- Name: Armored_Persona
+  Path: ~res:/3d/FXEvent/armored_persona/hangar/armored_persona/armored_persona.sc2
+  Type: Armored_Persona
+
+- Name: Machine_gun
+  Path: ~res:/3d/Tanks/Customization/Machine_gun.sc2
+  Type: Machine_gun
+
+- Name: Custom_eagle
+  Path: ~res:/3d/Tanks/Customization/Custom_eagle.sc2
+  Type: Custom_eagle
