@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ETCOM:etcom</key>
+	<dict>
+		<key>Skin:skin</key>
+		<dict>
+			<key>M18_Hellcat 헬캣 고증스킨:hellcat_1</key>
+			<string>5.0.1:aw</string>
+			<key>Leopard1 레오 화증스킨:leopard1_1</key>
+			<string>5.0.1:aw</string>
+		</dict>
+		<key>GFX:gfx</key>
+		<dict>
+			<key>에임 스킨 1:aim_1</key>
+			<string>5.0.1:aw</string>
+		</dict>
+		<key>SFX:sfx</key>
+		<dict>
+			<key>보이스팩 1:vo_1</key>
+			<string>5.0.1:aw</string>
+		</dict>
+		<key>etc:etc</key>
+		<dict>
+			<key>test 1:t_1</key>
+			<string>5.0.1:aw</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
