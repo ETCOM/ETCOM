@@ -1,0 +1,198 @@
+layer1:
+    life: 2.000000
+    stripeLifetime: 0.000000
+    endTime: 0.100000
+    scaleVelocityBase: 1.000000
+    stripeVertexSpawnStep: 1.000000
+    stripeStartSize: 0.000000
+    type: "layer"
+    stripeUScrollSpeed: 0.000000
+    enableFlow: false
+    stripeVScrollSpeed: 0.000000
+    colorOverLife: [100.346298, 93.229568, 63.338520, 255.000000]
+    stripeFadeDistanceFromTop: 0.000000
+    name: "hay"
+    layerType: "particles"
+    degradeStrategy: 0
+    particleOrientation: 1
+    inheritPosition: false
+    isLong: false
+    randomSpinDirection: true
+    pivotPoint: [0.000000, 0.000000]
+    effectFormat: 1
+    useFresToAlpha: false
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    force0: [0.000000, 0.000000, -40.000000]
+    size: [0.250000, 0.250000]
+    sprite: "../../../../../Data/Gfx/Particles/alpha/hay"
+    enableAlphaRemap: false
+    blending: 1
+    deltaTime: 0.000000
+    enableFlowAnimation: false
+    enableNoise: false
+    useNoiseScroll: false
+    useThreePointGradient: false
+    stripeInheritPositionForBase: false
+    enableFog: true
+    enableFrameBlend: false
+    loopEndTime: 100.000000
+    scaleVelocityFactor: 0.000000
+    startTime: 0.000000
+    gradientMiddlePoint: 0.500000
+    applyGlobalForces: false
+    loopVariation: 0.000000
+    loopSpriteAnimation: false
+    number: 300.000000
+    sizeVariation: [0.600000, 0.600000]
+    velocity: 3.000000
+    frameOverLifeEnabled: false
+    velocityVariation: 2.000000
+    velocityOverLife: [0.000000, 1.000000, 0.035500, 0.113100]
+    frameOverLifeFPS: 0.000000
+    spin: 5.000000
+    spinVariation: 5.000000
+    angle: 90.000000
+    angleVariation: 120.000000
+    randomFrameOnStart: false
+    isLooped: false
+    deltaVariation: 0.000000
+    usePerspectiveMapping: false
+    activeLODS: [1, 1, 0, 0]
+    forceCount: 1
+emitter:
+    name: "grape"
+    emissionVector: [0.000000, 0.000000, 1.000000]
+    type: "rect"
+    size: [2.000000, 1.000000, 1.000000]
+    shortEffect: false
+    emissionRange: 120.000000
+    emissionVectorInverted: true
+layer0:
+    life: 2.000000
+    stripeLifetime: 0.000000
+    endTime: 0.100000
+    scaleVelocityBase: 1.000000
+    stripeVertexSpawnStep: 1.000000
+    stripeStartSize: 0.000000
+    type: "layer"
+    stripeUScrollSpeed: 0.000000
+    enableFlow: false
+    stripeVScrollSpeed: 0.000000
+    colorOverLife: [162.606995, 162.606995, 76.221786, 255.000000]
+    stripeFadeDistanceFromTop: 0.000000
+    name: "hay1"
+    layerType: "particles"
+    degradeStrategy: 0
+    particleOrientation: 1
+    inheritPosition: false
+    isLong: false
+    randomSpinDirection: true
+    pivotPoint: [0.000000, 0.000000]
+    effectFormat: 1
+    useFresToAlpha: false
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    force0: [0.000000, 0.000000, -40.000000]
+    size: [0.050000, 0.050000]
+    sprite: "../../../../../Data/Gfx/Particles/alpha/leaf_one"
+    enableAlphaRemap: false
+    blending: 1
+    deltaTime: 0.000000
+    enableFlowAnimation: false
+    enableNoise: false
+    useNoiseScroll: false
+    useThreePointGradient: false
+    stripeInheritPositionForBase: false
+    enableFog: true
+    enableFrameBlend: false
+    loopEndTime: 100.000000
+    scaleVelocityFactor: 0.000000
+    startTime: 0.000000
+    gradientMiddlePoint: 0.500000
+    applyGlobalForces: false
+    loopVariation: 0.000000
+    loopSpriteAnimation: true
+    number: 300.000000
+    sizeVariation: [0.100000, 0.100000]
+    velocity: 3.000000
+    frameOverLifeEnabled: false
+    velocityVariation: 2.000000
+    velocityOverLife: [0.000000, 1.000000, 0.020000, 0.100000]
+    frameOverLifeFPS: 0.000000
+    spin: 200.000000
+    spinVariation: 10.000000
+    angle: 90.000000
+    angleVariation: 180.000000
+    randomFrameOnStart: false
+    isLooped: false
+    deltaVariation: 0.000000
+    usePerspectiveMapping: false
+    activeLODS: [1, 1, 0, 0]
+    forceCount: 1
+layer2:
+    life: 2.000000
+    stripeLifetime: 0.000000
+    endTime: 0.100000
+    scaleVelocityBase: 1.000000
+    stripeVertexSpawnStep: 1.000000
+    stripeStartSize: 0.000000
+    type: "layer"
+    stripeUScrollSpeed: 0.000000
+    enableFlow: false
+    stripeVScrollSpeed: 0.000000
+    colorOverLife: [83.821007, 77.669258, 52.291828, 255.000000]
+    stripeFadeDistanceFromTop: 0.000000
+    name: "dust"
+    layerType: "particles"
+    degradeStrategy: 2
+    particleOrientation: 1
+    inheritPosition: false
+    isLong: false
+    randomSpinDirection: true
+    pivotPoint: [0.000000, 0.000000]
+    effectFormat: 1
+    useFresToAlpha: false
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    force0: [0.000000, 0.000000, -40.000000]
+    size: [1.000000, 1.000000]
+    sprite: "../../../../../Data/Gfx/Particles/alpha/fog_white"
+    alphaOverLife: [0.000000, 0.322934, 1.000000, 0.000000]
+    enableAlphaRemap: false
+    blending: 1
+    deltaTime: 0.000000
+    enableFlowAnimation: false
+    enableNoise: false
+    useNoiseScroll: false
+    useThreePointGradient: false
+    stripeInheritPositionForBase: false
+    enableFog: true
+    enableFrameBlend: false
+    loopEndTime: 100.000000
+    scaleVelocityFactor: 0.000000
+    startTime: 0.000000
+    gradientMiddlePoint: 0.500000
+    applyGlobalForces: false
+    loopVariation: 0.000000
+    loopSpriteAnimation: false
+    number: 150.000000
+    sizeVariation: [0.500000, 0.500000]
+    sizeOverLifeXY: [0.000000, [1.000000, 1.000000], 1.000000, [2.000000, 2.000000]]
+    velocity: 3.000000
+    velocityOverLife: [0.000000, 1.000000, 0.020000, 0.100000]
+    frameOverLifeFPS: 0.000000
+    spin: 2.000000
+    spinVariation: 20.000000
+    angle: 90.000000
+    angleVariation: 120.000000
+    frameOverLifeEnabled: false
+    randomFrameOnStart: false
+    isLooped: false
+    deltaVariation: 0.000000
+    usePerspectiveMapping: false
+    activeLODS: [0, 1, 0, 0]
+    forceCount: 1

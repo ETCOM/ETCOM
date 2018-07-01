@@ -1,0 +1,142 @@
+layer1:
+    life: 7.000000
+    stripeLifetime: 0.000000
+    endTime: 10000.000000
+    scaleVelocityBase: 1.000000
+    stripeVertexSpawnStep: 1.000000
+    stripeStartSize: 0.000000
+    type: "layer"
+    stripeUScrollSpeed: 0.000000
+    enableFlow: false
+    stripeVScrollSpeed: 0.000000
+    colorOverLife: [0.001500, [162.000000, 158.000000, 123.000000, 255.000000], 0.997600, [142.688705, 135.809296, 140.968903, 255.000000]]
+    stripeFadeDistanceFromTop: 0.000000
+    name: "smoke2"
+    layerType: "particles"
+    degradeStrategy: 0
+    particleOrientation: 1
+    inheritPosition: true
+    isLong: false
+    randomSpinDirection: false
+    pivotPoint: [0.000000, 0.000000]
+    useFresToAlpha: false
+    effectFormat: 1
+    numberVariation: 2.000000
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    force0: [0.000000, 0.000000, 0.500000]
+    size: [100.000000, 100.000000]
+    sprite: "../../../../../../Data/Gfx/Particles/UI/Login4.8/R_dust_density"
+    alphaOverLife: [0.000000, 0.000000, 0.188571, 0.367736, 0.577143, 0.218774, 0.739048, 0.047864, 0.980000, 0.000000]
+    enableAlphaRemap: false
+    blending: 1
+    deltaTime: 0.000000
+    enableFlowAnimation: false
+    enableNoise: false
+    useNoiseScroll: false
+    useThreePointGradient: false
+    enableFog: true
+    stripeInheritPositionForBase: false
+    enableFrameBlend: false
+    loopEndTime: 0.000000
+    scaleVelocityFactor: 0.000000
+    startTime: 0.000000
+    gradientMiddlePoint: 0.500000
+    lifeVariation: 2.000000
+    applyGlobalForces: false
+    number: 2.000000
+    loopVariation: 0.000000
+    loopSpriteAnimation: true
+    sizeVariation: [20.000000, 20.000000]
+    force1: [10.000000, 0.000000, 0.000000]
+    sizeOverLifeXY: [0.000000, [0.000000, 0.000000], 0.998095, [3.337226, 3.337226]]
+    velocity: 15.000000
+    frameOverLifeEnabled: false
+    velocityVariation: 15.000000
+    spinVariation: -8.000000
+    angleVariation: 120.000000
+    frameOverLifeFPS: 10.000000
+    randomFrameOnStart: false
+    isLooped: false
+    deltaVariation: 0.000000
+    usePerspectiveMapping: false
+    activeLODS: [1, 1, 1, 1]
+    forceCount: 2
+    forceOverLife0: [0.000000, 1.000000, 0.990000, 0.800000]
+emitter:
+    name: "smoke"
+    emissionVector: [0.700000, -1.000000, 0.000000]
+    emissionAngle: 1.000000
+    type: "point"
+    size: [0.000000, 1.200000, 0.000000]
+    shortEffect: false
+    radius: 1.000000
+    emissionRange: 10.000000
+    emissionVectorInverted: true
+layer0:
+    life: 7.000000
+    stripeLifetime: 0.000000
+    endTime: 10000.000000
+    scaleVelocityBase: 1.000000
+    stripeVertexSpawnStep: 1.000000
+    stripeStartSize: 0.000000
+    type: "layer"
+    stripeUScrollSpeed: 0.000000
+    enableFlow: false
+    stripeVScrollSpeed: 0.000000
+    colorOverLife: [0.001500, [162.000000, 158.000000, 123.000000, 255.000000], 0.997600, [142.688705, 135.809296, 140.968903, 255.000000]]
+    stripeFadeDistanceFromTop: 0.000000
+    name: "smoke1"
+    layerType: "particles"
+    degradeStrategy: 0
+    particleOrientation: 1
+    inheritPosition: true
+    isLong: false
+    randomSpinDirection: false
+    pivotPoint: [0.000000, 0.000000]
+    useFresToAlpha: false
+    effectFormat: 1
+    numberVariation: 2.000000
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    force0: [0.000000, 0.000000, 0.500000]
+    size: [100.000000, 100.000000]
+    sprite: "../../../../../../Data/Gfx/Particles/UI/Login4.8/Fx_DustSpray_two"
+    alphaOverLife: [0.000000, 0.000000, 0.078300, 0.000000, 0.153100, 0.339400, 0.268571, 1.000000, 0.693333, 1.000000, 0.980000, 0.000000]
+    enableAlphaRemap: false
+    blending: 1
+    deltaTime: 0.000000
+    enableFlowAnimation: false
+    enableNoise: false
+    useNoiseScroll: false
+    useThreePointGradient: false
+    enableFog: true
+    stripeInheritPositionForBase: false
+    enableFrameBlend: false
+    loopEndTime: 0.000000
+    scaleVelocityFactor: 0.000000
+    startTime: 0.000000
+    gradientMiddlePoint: 0.500000
+    lifeVariation: 2.000000
+    applyGlobalForces: false
+    number: 2.000000
+    loopVariation: 0.000000
+    loopSpriteAnimation: true
+    sizeVariation: [20.000000, 20.000000]
+    force1: [10.000000, 0.000000, 0.000000]
+    sizeOverLifeXY: [0.000000, [0.000000, 0.000000], 0.604400, [2.441900, 2.441900], 0.990000, [6.000000, 6.000000]]
+    velocity: 15.000000
+    frameOverLifeEnabled: false
+    velocityVariation: 15.000000
+    spinVariation: -8.000000
+    angleVariation: 120.000000
+    frameOverLifeFPS: 10.000000
+    randomFrameOnStart: false
+    isLooped: false
+    deltaVariation: 0.000000
+    usePerspectiveMapping: false
+    activeLODS: [1, 1, 1, 1]
+    forceCount: 2
+    forceOverLife0: [0.000000, 1.000000, 0.990000, 0.800000]

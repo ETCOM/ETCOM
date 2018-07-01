@@ -1,0 +1,69 @@
+emitter:
+    name: "fireworks"
+    emissionVector: [0.000000, 0.000000, 1.000000]
+    type: "shockwave"
+    size: [0.000000, 0.000000, 0.000000]
+    shortEffect: false
+    radius: 1.000000
+    emissionRange: 0.000000
+    emissionVectorInverted: true
+layer0:
+    life: 1.500000
+    stripeLifetime: 0.000000
+    endTime: 0.100000
+    scaleVelocityBase: 0.000000
+    stripeVertexSpawnStep: 1.000000
+    stripeStartSize: 0.000000
+    type: "layer"
+    stripeUScrollSpeed: 0.000000
+    enableFlow: false
+    stripeVScrollSpeed: 0.000000
+    colorOverLife: [255.000000, 97.665367, 12.949416, 255.000000]
+    stripeFadeDistanceFromTop: 0.000000
+    name: "fire_spawn"
+    layerType: "particles"
+    degradeStrategy: 0
+    particleOrientation: 1
+    inheritPosition: true
+    isLong: false
+    randomSpinDirection: true
+    pivotPoint: [0.000000, 0.000000]
+    effectFormat: 1
+    useFresToAlpha: false
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    size: [3.000000, 3.000000]
+    sprite: "../../../../../../Data/Gfx/Particles/UI/9may/o2_expGlow"
+    alphaOverLife: [0.000000, 0.000000, 0.207516, 1.000000, 1.000000, 0.000000]
+    enableAlphaRemap: false
+    blending: 3
+    deltaTime: 0.000000
+    enableFlowAnimation: false
+    enableNoise: false
+    useNoiseScroll: false
+    useThreePointGradient: false
+    stripeInheritPositionForBase: false
+    enableFog: true
+    enableFrameBlend: false
+    loopEndTime: 10.000000
+    scaleVelocityFactor: 0.000000
+    startTime: 0.000000
+    gradientMiddlePoint: 0.500000
+    lifeVariation: 0.300000
+    applyGlobalForces: false
+    loopVariation: 0.000000
+    loopSpriteAnimation: true
+    number: 1000.000000
+    velocity: 1.000000
+    frameOverLifeEnabled: false
+    velocityVariation: 20.000000
+    velocityOverLife: [0.000000, 2.000000, 0.388889, 1.000000, 0.640000, 0.000000]
+    frameOverLifeFPS: 4.000000
+    spin: 90.000000
+    spinVariation: 90.000000
+    randomFrameOnStart: false
+    isLooped: false
+    deltaVariation: 0.000000
+    usePerspectiveMapping: false
+    activeLODS: [1, 1, 1, 1]

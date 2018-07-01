@@ -1,0 +1,10 @@
+emitter:
+    name: "fire"
+    emissionVector: [0.000000, 0.000000, 1.000000]
+    emissionAngle: 0.000000
+    type: "rect"
+    size: [2.000000, 2.000000, 0.000000]
+    shortEffect: false
+    radius: 0.500000
+    emissionRange: 0.000000
+    emissionVectorInverted: true

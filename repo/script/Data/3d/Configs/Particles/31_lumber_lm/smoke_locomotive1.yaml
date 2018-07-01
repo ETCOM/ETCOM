@@ -1,0 +1,77 @@
+emitter:
+    name: "smoke"
+    emissionVector: [0.000000, 0.000000, 1.000000]
+    emissionAngle: 1.000000
+    type: "oncircle"
+    size: [1.000000, 1.200000, 0.000000]
+    shortEffect: false
+    radius: 0.300000
+    emissionRange: 10.000000
+    emissionVectorInverted: true
+layer0:
+    life: 8.000000
+    stripeLifetime: 0.000000
+    endTime: 6.000000
+    scaleVelocityBase: 1.000000
+    stripeVertexSpawnStep: 1.000000
+    stripeStartSize: 0.000000
+    type: "layer"
+    stripeUScrollSpeed: 0.000000
+    enableFlow: false
+    stripeVScrollSpeed: 0.000000
+    colorOverLife: [199.365753, 213.132294, 227.848251, 255.000000]
+    stripeFadeDistanceFromTop: 0.000000
+    name: "FOG"
+    layerType: "particles"
+    degradeStrategy: 0
+    particleOrientation: 1
+    inheritPosition: true
+    isLong: false
+    randomSpinDirection: true
+    pivotPoint: [0.000000, 0.000000]
+    useFresToAlpha: false
+    effectFormat: 1
+    numberVariation: 3.000000
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    force0: [1.000000, 0.000000, 0.000000]
+    size: [0.500000, 0.500000]
+    sprite: "../../../../../Data/Gfx/Particles/alpha/fog_white"
+    alphaOverLife: [0.000000, 0.000000, 0.077744, 0.497810, 0.663110, 0.495630, 0.990000, 0.000000]
+    enableAlphaRemap: false
+    blending: 1
+    deltaTime: 0.500000
+    enableFlowAnimation: false
+    enableNoise: false
+    useNoiseScroll: false
+    useThreePointGradient: false
+    enableFog: false
+    stripeInheritPositionForBase: false
+    enableFrameBlend: false
+    loopEndTime: 1000.000000
+    scaleVelocityFactor: 0.000000
+    startTime: 0.000000
+    gradientMiddlePoint: 0.500000
+    lifeVariation: 7.000000
+    applyGlobalForces: false
+    number: 3.000000
+    loopVariation: 0.500000
+    loopSpriteAnimation: false
+    sizeVariation: [0.500000, 0.500000]
+    sizeOverLifeXY: [0.000000, [0.200000, 0.200000], 0.990000, [4.000000, 4.000000]]
+    velocity: 0.461300
+    frameOverLifeEnabled: false
+    velocityVariation: 0.009000
+    frameOverLifeFPS: 10.000000
+    spin: 30.000000
+    spinVariation: 30.000000
+    angle: 120.000000
+    angleVariation: 120.000000
+    randomFrameOnStart: false
+    isLooped: true
+    deltaVariation: 0.500000
+    usePerspectiveMapping: false
+    activeLODS: [0, 1, 0, 0]
+    forceCount: 1
+    forceOverLife0: [0.000000, 0.000000, 0.352400, 0.016400, 0.427300, 0.030600, 0.483100, 0.050100, 0.522800, 0.073200, 0.555100, 0.098900, 0.583000, 0.138900, 0.606500, 0.189500, 0.632900, 0.243700, 0.672500, 0.290700, 0.726900, 0.309400, 0.825300, 0.319200]

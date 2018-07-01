@@ -1,0 +1,168 @@
+emitter:
+    name: "confetti2"
+    emissionVector: [0.000000, 0.000000, -1.000000]
+    type: "oncircle_edges"
+    size: [30.000000, 1.000000, 0.000000]
+    shortEffect: false
+    radius: 6.000000
+    emissionRange: 120.000000
+    emissionVectorInverted: true
+layer0:
+    life: 14.000000
+    stripeLifetime: 0.000000
+    endTime: 1000.000000
+    scaleVelocityBase: 1.000000
+    stripeVertexSpawnStep: 1.000000
+    stripeStartSize: 0.000000
+    type: "layer"
+    stripeUScrollSpeed: 0.000000
+    enableFlow: false
+    reflectionChaos2: 0.000000
+    stripeVScrollSpeed: 0.000000
+    stripeFadeDistanceFromTop: 0.000000
+    name: "confetti2"
+    layerType: "particles"
+    reflectionPercent1: 100
+    forceType0: "drag"
+    degradeStrategy: 0
+    particleOrientation: 1
+    inheritPosition: false
+    isLong: false
+    randomSpinDirection: true
+    pivotPoint: [0.000000, 0.000000]
+    useFresToAlpha: false
+    effectFormat: 1
+    fresToAlphaBias: 0.000000
+    planeScale2: 5.000000
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    size: [0.070000, 0.020000]
+    sprite: "../../../../../Data/Gfx/Particles/alpha/treil"
+    dragForcePosition0: [0.000000, 0.000000, 0.000000]
+    alphaOverLife: [0.000000, 1.000000, 0.792185, 1.000000, 1.000000, 0.000000]
+    rndReflectionForceMin2: 1.000000
+    enableAlphaRemap: false
+    blending: 1
+    deltaTime: 0.000000
+    enableFlowAnimation: false
+    enableNoise: false
+    dragForceRadius1: 1.000000
+    useNoiseScroll: false
+    useThreePointGradient: false
+    enableFog: false
+    stripeInheritPositionForBase: false
+    randomizeReflectionForce2: false
+    enableFrameBlend: false
+    loopEndTime: 100.000000
+    scaleVelocityFactor: 0.000000
+    startTime: 0.000000
+    gradientMiddlePoint: 0.500000
+    applyGlobalForces: false
+    number: 6.000000
+    loopVariation: 0.000000
+    loopSpriteAnimation: true
+    sizeVariation: [0.100000, 0.100000]
+    velocity: 1.000000
+    frameOverLifeEnabled: false
+    velocityVariation: 1.000000
+    frameOverLifeFPS: 0.000000
+    spinOverLife: [0.000000, 1.000000, 0.500000, 1.000000, 0.530000, 0.000000]
+    spin: 200.000000
+    forceIsActive0: true
+    dragForceRadius2: 1.000000
+    spinVariation: 90.000000
+    worldAlign0: true
+    angle: 0.000000
+    dragForcePower0: [1.000000, 1.000000, 1.000000]
+    angleVariation: 360.000000
+    forceDirection0: [0.000000, 0.000000, 1.000000]
+    colorRandom: [0.000000, [255.000000, 225.715958, 3.984436, 255.000000], 0.474654, [255.000000, 0.996109, 0.996109, 255.000000], 0.998328, [255.000000, 218.840469, 189.256805, 255.000000]]
+    dragForceInfinityRange1: true
+    randomFrameOnStart: false
+    forceWindBias1: 1.000000
+    isLooped: false
+    deltaVariation: 0.000000
+    usePerspectiveMapping: false
+    activeLODS: [1, 1, 1, 1]
+    reflectionPercent2: 0
+    dragForceCount: 3
+    forceName0: "Drag"
+    dragForceRotation0: [0.000000, 0.000000, 0.000000]
+    dragForceInfinityRange0: true
+    killParticles0: false
+    normalAsReflectionVector0: true
+    randomizeReflectionForce0: false
+    pointGravityUseRandomPointsOnSphere0: false
+    isGlobal0: false
+    dragForceBoxSize0: [1.000000, 1.000000, 1.000000]
+    dragForceRadius0: 1.000000
+    dragForceShape0: "box"
+    dragForceTimingType0: "const"
+    forceWindFreq0: 0.000000
+    windTurbulenceFrequency0: 0.000000
+    reflectionChaos1: 0.000000
+    forceWindTurb0: 0.000000
+    pointGravityRadius0: 1.000000
+    rndReflectionForceMin0: 1.000000
+    rndReflectionForceMax0: 1.100000
+    velocityThreshold0: 0.300000
+    planeScale0: 5.000000
+    forceWindTurb1: 0.000000
+    reflectionChaos0: 0.000000
+    backwardTurbulenceProbability0: 0
+    forceType1: "grav"
+    reflectionPercent0: 100
+    forceWindBias0: 1.000000
+    startTime0: 0.000000
+    endTime0: 15.000000
+    forceName1: "Gravity"
+    forceIsActive1: true
+    dragForcePosition1: [0.000000, 0.000000, 0.000000]
+    dragForceRotation1: [0.000000, 0.000000, 0.000000]
+    killParticles1: false
+    normalAsReflectionVector1: true
+    randomizeReflectionForce1: false
+    worldAlign1: true
+    pointGravityUseRandomPointsOnSphere1: false
+    velocityThreshold2: 0.000000
+    isGlobal1: false
+    dragForcePower1: [1.000000, 0.000000, 0.000000]
+    dragForceBoxSize1: [1.000000, 1.000000, 1.000000]
+    dragForceShape1: "box"
+    dragForceTimingType1: "const"
+    forceDirection1: [0.000000, 0.000000, 1.000000]
+    forceWindFreq1: 0.000000
+    windTurbulenceFrequency1: 0.000000
+    pointGravityRadius1: 1.000000
+    rndReflectionForceMin1: 1.000000
+    rndReflectionForceMax1: 1.100000
+    isGlobal2: false
+    velocityThreshold1: 0.300000
+    planeScale1: 5.000000
+    backwardTurbulenceProbability1: 0
+    startTime1: 0.000000
+    endTime1: 15.000000
+    forceName2: "Plane Collision"
+    forceType2: "plncoll"
+    forceIsActive2: true
+    dragForcePosition2: [0.000000, 0.000000, -8.000745]
+    dragForceRotation2: [0.000000, 0.000000, 0.000000]
+    dragForceInfinityRange2: true
+    killParticles2: false
+    normalAsReflectionVector2: false
+    worldAlign2: true
+    pointGravityUseRandomPointsOnSphere2: false
+    dragForcePower2: [0.000000, 0.000000, 0.000000]
+    dragForceBoxSize2: [1.000000, 1.000000, 1.000000]
+    dragForceShape2: "box"
+    dragForceTimingType2: "const"
+    forceDirection2: [0.000000, 0.000000, 1.000000]
+    forceWindFreq2: 0.000000
+    windTurbulenceFrequency2: 0.000000
+    forceWindTurb2: 0.000000
+    pointGravityRadius2: 1.000000
+    rndReflectionForceMax2: 1.100000
+    backwardTurbulenceProbability2: 0
+    forceWindBias2: 1.000000
+    startTime2: 0.000000
+    endTime2: 15.000000

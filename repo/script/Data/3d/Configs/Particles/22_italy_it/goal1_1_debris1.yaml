@@ -1,0 +1,226 @@
+emitter:
+    name: "debris1"
+    emissionVector: [0.000000, 0.000000, 1.000000]
+    type: "rect"
+    size: [0.100000, 0.500000, 0.100000]
+    shortEffect: false
+    emissionRange: 120.000000
+    emissionVectorInverted: true
+layer0:
+    life: 2.000000
+    stripeLifetime: 0.000000
+    endTime: 0.300000
+    scaleVelocityBase: 1.000000
+    stripeVertexSpawnStep: 1.000000
+    stripeStartSize: 0.000000
+    type: "layer"
+    stripeUScrollSpeed: 0.000000
+    enableFlow: false
+    stripeVScrollSpeed: 0.000000
+    windTurbulenceFrequency0: 0.000000
+    colorOverLife: [102.708168, 95.968872, 85.856026, 255.000000]
+    stripeFadeDistanceFromTop: 0.000000
+    name: "dust"
+    layerType: "particles"
+    degradeStrategy: 2
+    particleOrientation: 1
+    inheritPosition: false
+    isLong: false
+    randomSpinDirection: false
+    pivotPoint: [0.000000, 0.000000]
+    useFresToAlpha: false
+    effectFormat: 1
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    size: [0.500000, 0.500000]
+    sprite: "../../../../../Data/Gfx/Particles/alpha/fog_white"
+    dragForcePosition0: [0.000000, 0.000000, 0.000000]
+    alphaOverLife: [0.000000, 0.000000, 0.470000, 0.500000, 0.990000, 0.000000]
+    enableAlphaRemap: false
+    blending: 1
+    deltaTime: 0.000000
+    enableFlowAnimation: false
+    enableNoise: false
+    useNoiseScroll: false
+    useThreePointGradient: false
+    enableFog: true
+    stripeInheritPositionForBase: false
+    enableFrameBlend: false
+    loopEndTime: 0.000000
+    scaleVelocityFactor: 0.000000
+    startTime: 0.000000
+    gradientMiddlePoint: 0.500000
+    lifeVariation: 1.000000
+    applyGlobalForces: false
+    number: 20.000000
+    loopVariation: 0.000000
+    loopSpriteAnimation: true
+    sizeVariation: [0.200000, 0.200000]
+    sizeOverLifeXY: [0.000000, [1.000000, 1.000000], 1.000000, [2.000000, 2.000000]]
+    velocity: 0.500000
+    frameOverLifeEnabled: false
+    velocityVariation: 0.100000
+    velocityOverLife: [0.000000, 1.000000, 1.000000, 0.000000]
+    frameOverLifeFPS: 0.000000
+    spinOverLife: 1.000000
+    spin: 10.000000
+    spinVariation: 5.082200
+    worldAlign0: true
+    angle: 180.000000
+    dragForcePower0: [1.000000, 1.000000, 1.000000]
+    angleVariation: 180.000000
+    randomFrameOnStart: false
+    isLooped: false
+    deltaVariation: 0.000000
+    usePerspectiveMapping: false
+    activeLODS: [0, 1, 1, 0]
+    dragForceCount: 1
+    forceName0: "Gravity"
+    forceType0: "grav"
+    forceIsActive0: true
+    dragForceRotation0: [0.000000, 0.000000, 0.000000]
+    dragForceInfinityRange0: true
+    killParticles0: false
+    normalAsReflectionVector0: true
+    randomizeReflectionForce0: false
+    pointGravityUseRandomPointsOnSphere0: false
+    isGlobal0: false
+    dragForceBoxSize0: [1.000000, 1.000000, 1.000000]
+    dragForceRadius0: 1.000000
+    dragForceShape0: "box"
+    dragForceTimingType0: "const"
+    forceDirection0: [0.000000, 0.000000, 1.000000]
+    forceWindFreq0: 0.000000
+    forceWindTurb0: 0.000000
+    pointGravityRadius0: 1.000000
+    rndReflectionForceMin0: 1.000000
+    rndReflectionForceMax0: 1.100000
+    velocityThreshold0: 0.300000
+    planeScale0: 5.000000
+    reflectionChaos0: 0.000000
+    backwardTurbulenceProbability0: 0
+    reflectionPercent0: 100
+    forceWindBias0: 1.000000
+    startTime0: 0.000000
+    endTime0: 15.000000
+layer1:
+    life: 5.000000
+    stripeLifetime: 0.000000
+    endTime: 0.100000
+    scaleVelocityBase: 1.000000
+    stripeVertexSpawnStep: 1.000000
+    stripeStartSize: 0.000000
+    type: "layer"
+    stripeUScrollSpeed: 0.000000
+    enableFlow: false
+    stripeVScrollSpeed: 0.000000
+    colorOverLife: [211.000000, 158.000000, 117.000000, 255.000000]
+    stripeFadeDistanceFromTop: 0.000000
+    name: "debris5"
+    layerType: "particles"
+    degradeStrategy: 0
+    particleOrientation: 1
+    inheritPosition: false
+    isLong: false
+    randomSpinDirection: true
+    pivotPoint: [0.000000, 0.000000]
+    effectFormat: 1
+    useFresToAlpha: false
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    force0: [0.000000, 0.000000, -10.000000]
+    size: [0.030000, 0.150000]
+    sprite: "../../../../../Data/Gfx/Particles/alpha/flinders"
+    enableAlphaRemap: false
+    blending: 1
+    deltaTime: 0.000000
+    enableFlowAnimation: false
+    enableNoise: false
+    useNoiseScroll: false
+    useThreePointGradient: false
+    stripeInheritPositionForBase: false
+    enableFog: true
+    enableFrameBlend: false
+    loopEndTime: 10.000000
+    scaleVelocityFactor: 0.000000
+    startTime: 0.000000
+    gradientMiddlePoint: 0.500000
+    applyGlobalForces: false
+    loopVariation: 0.000000
+    loopSpriteAnimation: true
+    number: 50.000000
+    sizeVariation: [0.020000, 0.050000]
+    velocity: 2.000000
+    frameOverLifeEnabled: false
+    velocityVariation: 3.000000
+    frameOverLifeFPS: 0.000000
+    spin: 120.000000
+    spinVariation: 180.000000
+    randomFrameOnStart: false
+    isLooped: false
+    deltaVariation: 0.000000
+    usePerspectiveMapping: false
+    activeLODS: [1, 1, 0, 0]
+    forceCount: 1
+layer2:
+    life: 5.000000
+    stripeLifetime: 0.000000
+    endTime: 0.100000
+    scaleVelocityBase: 1.000000
+    stripeVertexSpawnStep: 1.000000
+    stripeStartSize: 0.000000
+    type: "layer"
+    stripeUScrollSpeed: 0.000000
+    enableFlow: false
+    stripeVScrollSpeed: 0.000000
+    colorOverLife: [255.000000, 255.000000, 241.000000, 255.000000]
+    stripeFadeDistanceFromTop: 0.000000
+    name: "debris6"
+    layerType: "particles"
+    degradeStrategy: 0
+    particleOrientation: 1
+    inheritPosition: false
+    isLong: false
+    randomSpinDirection: true
+    pivotPoint: [0.000000, 0.000000]
+    effectFormat: 1
+    useFresToAlpha: false
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    force0: [0.000000, 0.000000, -10.000000]
+    size: [0.030000, 0.050000]
+    sprite: "../../../../../Data/Gfx/Particles/alpha/flinders_one"
+    enableAlphaRemap: false
+    blending: 1
+    deltaTime: 0.000000
+    enableFlowAnimation: false
+    enableNoise: false
+    useNoiseScroll: false
+    useThreePointGradient: false
+    stripeInheritPositionForBase: false
+    enableFog: true
+    enableFrameBlend: false
+    loopEndTime: 10.000000
+    scaleVelocityFactor: 0.000000
+    startTime: 0.000000
+    gradientMiddlePoint: 0.500000
+    applyGlobalForces: false
+    loopVariation: 0.000000
+    loopSpriteAnimation: true
+    number: 40.000000
+    sizeVariation: [0.000000, 0.200000]
+    velocity: 2.000000
+    frameOverLifeEnabled: false
+    velocityVariation: 3.000000
+    frameOverLifeFPS: 0.000000
+    spin: 200.000000
+    spinVariation: 180.000000
+    randomFrameOnStart: false
+    isLooped: false
+    deltaVariation: 0.000000
+    usePerspectiveMapping: false
+    activeLODS: [1, 1, 0, 0]
+    forceCount: 1

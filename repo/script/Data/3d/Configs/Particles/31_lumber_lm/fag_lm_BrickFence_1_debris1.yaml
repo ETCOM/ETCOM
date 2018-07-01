@@ -1,0 +1,201 @@
+layer1:
+    life: 2.000000
+    stripeLifetime: 0.000000
+    endTime: 0.300000
+    scaleVelocityBase: 1.000000
+    stripeVertexSpawnStep: 1.000000
+    stripeStartSize: 0.000000
+    type: "layer"
+    stripeUScrollSpeed: 0.000000
+    enableFlow: false
+    stripeVScrollSpeed: 0.000000
+    colorOverLife: [197.101166, 168.501938, 139.902710, 255.000000]
+    stripeFadeDistanceFromTop: 0.000000
+    name: "debris"
+    layerType: "particles"
+    degradeStrategy: 0
+    particleOrientation: 1
+    inheritPosition: false
+    isLong: false
+    randomSpinDirection: true
+    pivotPoint: [0.000000, 0.000000]
+    effectFormat: 1
+    useFresToAlpha: false
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    force0: [0.000000, 0.000000, -1.000000]
+    size: [0.050000, 0.050000]
+    sprite: "../../../../../Data/Gfx/Particles/alpha/white_debris_anim"
+    enableAlphaRemap: false
+    blending: 1
+    deltaTime: 0.000000
+    enableFlowAnimation: false
+    enableNoise: false
+    useNoiseScroll: false
+    useThreePointGradient: false
+    stripeInheritPositionForBase: false
+    enableFog: true
+    enableFrameBlend: true
+    loopEndTime: 0.000000
+    scaleVelocityFactor: 0.000000
+    startTime: 0.000000
+    gradientMiddlePoint: 0.500000
+    applyGlobalForces: false
+    loopVariation: 0.000000
+    loopSpriteAnimation: true
+    number: 30.000000
+    sizeVariation: [0.150000, 0.150000]
+    velocity: 2.000000
+    frameOverLifeEnabled: true
+    velocityVariation: 1.000000
+    velocityOverLife: [0.000000, 1.000000, 0.480000, 0.300000, 0.990000, 1.003400]
+    frameOverLifeFPS: 20.000000
+    spin: 60.000000
+    spinVariation: 60.000000
+    angle: 1.000000
+    angleVariation: 360.000000
+    randomFrameOnStart: true
+    isLooped: false
+    deltaVariation: 0.000000
+    usePerspectiveMapping: false
+    activeLODS: [1, 1, 0, 0]
+    forceCount: 1
+    forceOverLife0: [0.000000, 0.000000, 0.990000, 30.000000]
+emitter:
+    name: "debris1"
+    emissionVector: [0.000000, 0.000000, 1.000000]
+    emissionAngle: 0.000000
+    type: "rect"
+    size: [0.300000, 3.000000, 2.000000]
+    shortEffect: false
+    emissionRange: 90.000000
+    emissionVectorInverted: true
+layer0:
+    life: 2.000000
+    stripeLifetime: 0.000000
+    endTime: 0.300000
+    scaleVelocityBase: 1.000000
+    stripeVertexSpawnStep: 1.000000
+    stripeStartSize: 0.000000
+    type: "layer"
+    stripeUScrollSpeed: 0.000000
+    enableFlow: false
+    stripeVScrollSpeed: 0.000000
+    colorOverLife: [255.000000, 159.000000, 105.000000, 255.000000]
+    stripeFadeDistanceFromTop: 0.000000
+    name: "debris2"
+    layerType: "particles"
+    degradeStrategy: 0
+    particleOrientation: 1
+    inheritPosition: false
+    isLong: false
+    randomSpinDirection: true
+    pivotPoint: [0.000000, 0.000000]
+    effectFormat: 1
+    useFresToAlpha: false
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    force0: [0.000000, 0.000000, -1.000000]
+    size: [0.050000, 0.050000]
+    sprite: "../../../../../Data/Gfx/Particles/alpha/white_debris_anim_one"
+    enableAlphaRemap: false
+    blending: 1
+    deltaTime: 0.000000
+    enableFlowAnimation: false
+    enableNoise: false
+    useNoiseScroll: false
+    useThreePointGradient: false
+    stripeInheritPositionForBase: false
+    enableFog: true
+    enableFrameBlend: true
+    loopEndTime: 0.000000
+    scaleVelocityFactor: 0.000000
+    startTime: 0.000000
+    gradientMiddlePoint: 0.500000
+    applyGlobalForces: false
+    loopVariation: 0.000000
+    loopSpriteAnimation: true
+    number: 30.000000
+    sizeVariation: [0.100000, 0.100000]
+    velocity: 2.000000
+    frameOverLifeEnabled: true
+    velocityVariation: 1.000000
+    velocityOverLife: [0.000000, 1.000000, 0.480000, 0.300000, 0.990000, 1.003400]
+    frameOverLifeFPS: 20.000000
+    spin: 60.000000
+    spinVariation: 60.000000
+    angle: 1.000000
+    angleVariation: 360.000000
+    randomFrameOnStart: true
+    isLooped: false
+    deltaVariation: 0.000000
+    usePerspectiveMapping: false
+    activeLODS: [1, 1, 0, 0]
+    forceCount: 1
+    forceOverLife0: [0.000000, 0.000000, 0.990000, 30.000000]
+layer2:
+    life: 2.000000
+    stripeLifetime: 0.000000
+    endTime: 0.300000
+    scaleVelocityBase: 1.000000
+    stripeVertexSpawnStep: 1.000000
+    stripeStartSize: 0.000000
+    type: "layer"
+    stripeUScrollSpeed: 0.000000
+    enableFlow: false
+    stripeVScrollSpeed: 0.000000
+    colorOverLife: [255.000000, 161.000000, 116.000000, 255.000000]
+    stripeFadeDistanceFromTop: 0.000000
+    name: "debris3"
+    layerType: "particles"
+    degradeStrategy: 0
+    particleOrientation: 1
+    inheritPosition: false
+    isLong: false
+    randomSpinDirection: true
+    pivotPoint: [0.000000, 0.000000]
+    effectFormat: 1
+    useFresToAlpha: false
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    force0: [0.000000, 0.000000, -1.000000]
+    size: [0.025000, 0.025000]
+    sprite: "../../../../../Data/Gfx/Particles/alpha/white_debris_anim_two"
+    enableAlphaRemap: false
+    blending: 1
+    deltaTime: 0.000000
+    enableFlowAnimation: false
+    enableNoise: false
+    useNoiseScroll: false
+    useThreePointGradient: false
+    stripeInheritPositionForBase: false
+    enableFog: true
+    enableFrameBlend: true
+    loopEndTime: 0.000000
+    scaleVelocityFactor: 0.000000
+    startTime: 0.000000
+    gradientMiddlePoint: 0.500000
+    applyGlobalForces: false
+    loopVariation: 0.000000
+    loopSpriteAnimation: true
+    number: 100.000000
+    sizeVariation: [0.050000, 0.050000]
+    velocity: 1.000000
+    frameOverLifeEnabled: true
+    velocityVariation: 1.000000
+    velocityOverLife: [0.000000, 1.000000, 0.480000, 0.300000, 0.990000, 1.003400]
+    frameOverLifeFPS: 25.000000
+    spin: 120.000000
+    spinVariation: 60.000000
+    angle: 1.000000
+    angleVariation: 360.000000
+    randomFrameOnStart: false
+    isLooped: false
+    deltaVariation: 0.000000
+    usePerspectiveMapping: false
+    activeLODS: [1, 1, 0, 0]
+    forceCount: 1
+    forceOverLife0: [0.000000, 0.000000, 0.990000, 30.000000]

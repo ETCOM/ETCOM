@@ -1,0 +1,9 @@
+emitter:
+    name: "confetti2"
+    emissionVector: [0.000000, 0.000000, 0.100000]
+    type: "rect"
+    size: [5.000000, 15.000000, 0.000000]
+    shortEffect: false
+    radius: 8.000000
+    emissionRange: 120.000000
+    emissionVectorInverted: true

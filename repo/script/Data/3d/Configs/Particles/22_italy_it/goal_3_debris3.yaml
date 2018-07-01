@@ -1,0 +1,128 @@
+emitter:
+    name: "debris3"
+    emissionVector: [0.000000, 0.000000, 1.000000]
+    type: "rect"
+    size: [0.100000, 0.100000, 0.100000]
+    shortEffect: false
+    emissionRange: 60.000000
+    emissionVectorInverted: true
+layer0:
+    life: 5.000000
+    stripeLifetime: 0.000000
+    endTime: 0.100000
+    scaleVelocityBase: 1.000000
+    stripeVertexSpawnStep: 1.000000
+    stripeStartSize: 0.000000
+    type: "layer"
+    stripeUScrollSpeed: 0.000000
+    enableFlow: false
+    stripeVScrollSpeed: 0.000000
+    colorOverLife: [211.000000, 158.000000, 117.000000, 255.000000]
+    stripeFadeDistanceFromTop: 0.000000
+    name: "debris5"
+    layerType: "particles"
+    degradeStrategy: 0
+    particleOrientation: 1
+    inheritPosition: false
+    isLong: false
+    randomSpinDirection: true
+    pivotPoint: [0.000000, 0.000000]
+    effectFormat: 1
+    useFresToAlpha: false
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    force0: [0.000000, 0.000000, -10.000000]
+    size: [0.050000, 0.100000]
+    sprite: "../../../../../Data/Gfx/Particles/alpha/flinders"
+    enableAlphaRemap: false
+    blending: 1
+    deltaTime: 0.000000
+    enableFlowAnimation: false
+    enableNoise: false
+    useNoiseScroll: false
+    useThreePointGradient: false
+    stripeInheritPositionForBase: false
+    enableFog: true
+    enableFrameBlend: false
+    loopEndTime: 10.000000
+    scaleVelocityFactor: 0.000000
+    startTime: 0.000000
+    gradientMiddlePoint: 0.500000
+    applyGlobalForces: false
+    loopVariation: 0.000000
+    loopSpriteAnimation: true
+    number: 50.000000
+    sizeVariation: [0.000000, 0.200000]
+    velocity: 2.000000
+    frameOverLifeEnabled: false
+    velocityVariation: 3.000000
+    frameOverLifeFPS: 0.000000
+    spin: 120.000000
+    spinVariation: 180.000000
+    randomFrameOnStart: false
+    isLooped: false
+    deltaVariation: 0.000000
+    usePerspectiveMapping: false
+    activeLODS: [1, 1, 0, 0]
+    forceCount: 1
+layer1:
+    life: 5.000000
+    stripeLifetime: 0.000000
+    endTime: 0.100000
+    scaleVelocityBase: 1.000000
+    stripeVertexSpawnStep: 1.000000
+    stripeStartSize: 0.000000
+    type: "layer"
+    stripeUScrollSpeed: 0.000000
+    enableFlow: false
+    stripeVScrollSpeed: 0.000000
+    colorOverLife: [255.000000, 255.000000, 241.000000, 255.000000]
+    stripeFadeDistanceFromTop: 0.000000
+    name: "debris6"
+    layerType: "particles"
+    degradeStrategy: 0
+    particleOrientation: 1
+    inheritPosition: false
+    isLong: false
+    randomSpinDirection: true
+    pivotPoint: [0.000000, 0.000000]
+    effectFormat: 1
+    useFresToAlpha: false
+    fresToAlphaBias: 0.000000
+    fresToAlphaPower: 0.000000
+    alphaRemapLoopCount: 1.000000
+    force0: [0.000000, 0.000000, -10.000000]
+    size: [0.050000, 0.050000]
+    sprite: "../../../../../Data/Gfx/Particles/alpha/flinders_one"
+    enableAlphaRemap: false
+    blending: 1
+    deltaTime: 0.000000
+    enableFlowAnimation: false
+    enableNoise: false
+    useNoiseScroll: false
+    useThreePointGradient: false
+    stripeInheritPositionForBase: false
+    enableFog: true
+    enableFrameBlend: false
+    loopEndTime: 10.000000
+    scaleVelocityFactor: 0.000000
+    startTime: 0.000000
+    gradientMiddlePoint: 0.500000
+    applyGlobalForces: false
+    loopVariation: 0.000000
+    loopSpriteAnimation: true
+    number: 50.000000
+    sizeVariation: [0.000000, 0.400000]
+    velocity: 2.000000
+    frameOverLifeEnabled: false
+    velocityVariation: 3.000000
+    frameOverLifeFPS: 0.000000
+    spin: 200.000000
+    spinVariation: 180.000000
+    randomFrameOnStart: false
+    isLooped: false
+    deltaVariation: 0.000000
+    usePerspectiveMapping: false
+    activeLODS: [1, 1, 0, 0]
+    forceCount: 1

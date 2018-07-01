@@ -1,0 +1,9 @@
+emitter:
+    name: "confetti1"
+    emissionVector: [0.000000, 0.000000, -1.000000]
+    type: "oncircle_edges"
+    size: [30.000000, 1.000000, 0.000000]
+    shortEffect: false
+    radius: 8.000000
+    emissionRange: 120.000000
+    emissionVectorInverted: true

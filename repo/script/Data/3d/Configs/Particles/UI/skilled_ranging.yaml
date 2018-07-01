@@ -1,0 +1,65 @@
+emitter:
+    name: "skilled_ranging"
+    emissionVector: [0.000000, 0.000000, 1.000000]
+    type: "point"
+    size: [0.000000, 0.000000, 0.000000]
+    shortEffect: false
+    emissionRange: 0.000000
+    emissionVectorInverted: true
+layer0:
+    life: 1.000000
+    stripeLifetime: 20.000000
+    endTime: 1000.000000
+    scaleVelocityBase: 1.000000
+    stripeVertexSpawnStep: 1.000000
+    stripeStartSize: 1.000000
+    type: "layer"
+    stripeUScrollSpeed: 0.000000
+    enableFlow: false
+    stripeVScrollSpeed: -0.010000
+    colorOverLife: [255.000000, 197.225677, 23.906614, 255.000000]
+    stripeFadeDistanceFromTop: 0.000000
+    name: "skilled_ranging"
+    layerType: "single"
+    alphaRemapOverLife: [0.000000, 0.000000, 1.000000, 1.000000]
+    degradeStrategy: 0
+    particleOrientation: 1
+    inheritPosition: true
+    isLong: false
+    randomSpinDirection: false
+    pivotPoint: [0.000000, 0.000000]
+    effectFormat: 1
+    useFresToAlpha: false
+    fresToAlphaBias: 17870062645024386973696.000000
+    fresToAlphaPower: 57916318229582342782976.000000
+    alphaRemapLoopCount: 1.000000
+    size: [40.000000, 40.000000]
+    sprite: "../../../../../Data/Gfx/UI/BattleScreenHUD/StatusEffectIcons/skilled_ranging_3"
+    alphaRemap: "../../../../../Data/Gfx/Particles/UI/grad_remap/3/AlphaRemap3"
+    alphaOverLife: [0.000000, 0.000000, 0.500000, 0.550000, 1.000000, 0.000000]
+    enableAlphaRemap: false
+    blending: 3
+    deltaTime: 0.000000
+    enableFlowAnimation: false
+    enableNoise: false
+    useNoiseScroll: false
+    useThreePointGradient: false
+    stripeInheritPositionForBase: false
+    enableFog: false
+    enableFrameBlend: false
+    loopEndTime: 100.000000
+    scaleVelocityFactor: 0.000000
+    startTime: 0.000000
+    gradientMiddlePoint: 0.500000
+    applyGlobalForces: false
+    loopVariation: 0.000000
+    loopSpriteAnimation: true
+    number: 1.000000
+    sizeOverLifeXY: [0.000000, [0.900000, 0.900000], 1.000000, [1.300000, 1.300000]]
+    frameOverLifeEnabled: false
+    frameOverLifeFPS: 0.000000
+    randomFrameOnStart: false
+    isLooped: false
+    deltaVariation: 0.000000
+    usePerspectiveMapping: false
+    activeLODS: [1, 1, 1, 1]

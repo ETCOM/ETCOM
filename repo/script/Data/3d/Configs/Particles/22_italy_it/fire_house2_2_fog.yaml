@@ -1,0 +1,10 @@
+emitter:
+    name: "fog"
+    emissionVector: [0.000000, -0.000000, 0.500000]
+    emissionAngle: 1.000000
+    type: "rect"
+    size: [2.000000, 1.000000, 0.000000]
+    shortEffect: false
+    radius: 1.000000
+    emissionRange: 30.000000
+    emissionVectorInverted: true
