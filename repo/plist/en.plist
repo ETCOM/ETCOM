@@ -7,24 +7,28 @@
 		<key>Skin:skin</key>
 		<dict>
 			<key>M18_Hellcat 헬캣 고증스킨:hellcat_1</key>
-			<string>5.0.1:aw</string>
+			<string>5.0.1:a</string>
 			<key>Leopard1 레오 화증스킨:leopard1_1</key>
-			<string>5.0.1:aw</string>
+			<string>5.0.1:a</string>
+			<key>BT 7A Green Racer:bt_7a_1</key>
+			<string>5.0.1:a</string>
 		</dict>
 		<key>GFX:gfx</key>
 		<dict>
 			<key>에임 스킨 1:aim_1</key>
-			<string>5.0.1:aw</string>
+			<string>5.0.1:a</string>
 		</dict>
 		<key>SFX:sfx</key>
 		<dict>
-			<key>보이스팩 1:vo_1</key>
-			<string>5.0.1:aw</string>
+			<key>Camiyu(카미유) Voice Pack 소녀톤:cami_r1</key>
+			<string>5.0.1:a</string>
+			<key>PC WoT GUI Sound Pack With Radio Sounds:wotpcwrs</key>
+			<string>5.0.1:a</string>
 		</dict>
 		<key>etc:etc</key>
 		<dict>
 			<key>test 1:t_1</key>
-			<string>5.0.1:aw</string>
+			<string>5.0.1:a</string>
 		</dict>
 	</dict>
 </dict>
