@@ -1,0 +1,18 @@
+Header:
+    version: "21"
+Controls:
+-   class: "UIControl"
+    name: "box"
+    size: [270.000000, 380.000000]
+    noInput: true
+    components:
+        Background: {}
+    children:
+    -   class: "UIParticles"
+        name: "glow2"
+        position: [135.000000, 200.000000]
+        size: [32.000000, 32.000000]
+        pivot: [0.500000, 0.500000]
+        noInput: true
+        effectPath: "~res:/3d/FX/UI/PRMP_offers/glow2.sc2"
+        autoStart: true

@@ -1,0 +1,195 @@
+Header:
+    version: "21"
+ImportedPackages:
+- "~res:/UI/Screens/Common.yaml"
+- "~res:/UI/Screens/Common/SmartTextField.yaml"
+- "~res:/UI/Screens/Fonts.yaml"
+- "~res:/UI/Screens/Common/StyledButton.yaml"
+- "~res:/UI/Styles/ButtonSoundStyles.yaml"
+Controls:
+-   class: "UIControl"
+    name: "Dialog"
+    position: [0.000000, 0.000000]
+    size: [500.000000, 500.000000]
+    components:
+        SizePolicy:
+            verticalPolicy: "PercentOfParent"
+            verticalValue: 80.000000
+        Anchor:
+            hCenterAnchorEnabled: true
+            vCenterAnchorEnabled: true
+        ModalInput: {}
+        UIEventBindingComponent: {}
+        UIDataSourceComponent0: {}
+    children:
+    -   class: "UIControl"
+        name: "Middle"
+        components:
+            Anchor:
+                leftAnchorEnabled: true
+                rightAnchorEnabled: true
+                topAnchorEnabled: true
+                topAnchor: 0.000000
+                bottomAnchorEnabled: true
+                bottomAnchor: 0.000000
+            Background:
+                drawType: "DRAW_STRETCH_BOTH"
+                sprite: "~res:/Gfx/UI/CommonUIElements/PopupBackMiddle"
+                leftRightStretchCap: 4.000000
+                topBottomStretchCap: 4.000000
+        children:
+        -   class: "UIControl"
+            name: "VerticalBox"
+            size: [460.000000, 32.000000]
+            components:
+                LinearLayout:
+                    orientation: "TopDown"
+                    padding: 10.000000
+                    spacing: 10.000000
+                SizePolicy:
+                    verticalPolicy: "PercentOfParent"
+                Anchor:
+                    leftAnchorEnabled: true
+                    leftAnchor: 10.000000
+                    rightAnchorEnabled: true
+                    rightAnchor: 10.000000
+            children:
+            -   prototype: "SmartTextField/SmartTextField"
+                name: "SearchField"
+                components:
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfParent"
+                children:
+                -   path: "VerticalBox/Background/TextField"
+                    bindings:
+                    - ["text", "filter", "ReadWrite"]
+                    children: []
+                -   path: "VerticalBox/Background/TextField/Hint"
+                    components:
+                        UITextComponent:
+                            text: "Search for bot"
+            -   class: "UIControl"
+                name: "ListContainer"
+                size: [460.000000, 314.000000]
+                components:
+                    SizePolicy:
+                        verticalPolicy: "PercentOfParent"
+                    Anchor:
+                        leftAnchorEnabled: true
+                        rightAnchorEnabled: true
+                    DebugRender:
+                        enabled: false
+                children:
+                -   class: "UIList"
+                    name: "VehiclesList"
+                    position: [0.000000, 11.000000]
+                    components:
+                        Anchor:
+                            leftAnchorEnabled: true
+                            leftAnchor: 0.000000
+                            rightAnchorEnabled: true
+                            rightAnchor: 0.000000
+                            topAnchorEnabled: true
+                            topAnchor: 0.000000
+                            bottomAnchorEnabled: true
+                            bottomAnchor: 0.000000
+                        DebugRender:
+                            enabled: false
+                        UIDataListComponent:
+                            cellPackage: "~res:/UI/Screens/Battle/SelectVehicleBotCell.yaml"
+                            cellControl: "VehicleCell"
+                            dataContainer: "vehicles"
+                            selectionSupported: true
+                    bindings:
+                    - ["UIDataListComponent.selectedIndex", "selectedIndex", "ReadWrite"]
+                -   prototype: "Common/VerticalScrollBar"
+                    name: "ScrollBar"
+                    components:
+                        Anchor:
+                            rightAnchorEnabled: true
+                            rightAnchor: -10.000000
+                            topAnchorEnabled: true
+                            topAnchor: 0.000000
+                            bottomAnchorEnabled: true
+                            bottomAnchor: 0.000000
+                        ScrollBarDelegate:
+                            delegate: "../VehiclesList"
+            -   class: "UIControl"
+                name: "ButtonHolder"
+                components:
+                    LinearLayout:
+                        orientation: "TopDown"
+                        spacing: 10.000000
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfParent"
+                        verticalPolicy: "PercentOfChildrenSum"
+                    Anchor:
+                        bottomAnchorEnabled: true
+                        bottomAnchor: 20.000000
+                children:
+                -   class: "UIControl"
+                    name: "Row0"
+                    position: [0.000000, 0.000000]
+                    size: [32.000000, 32.000000]
+                    noInput: true
+                    components:
+                        LinearLayout:
+                            spacing: 20.000000
+                        SizePolicy:
+                            horizontalPolicy: "PercentOfParent"
+                            verticalPolicy: "PercentOfMaxChild"
+                    children:
+                    -   prototype: "StyledButton/StyledButton"
+                        name: "AddEnemyButton"
+                        classes: "button button-color-orange button-ok-sound"
+                        components:
+                            SizePolicy:
+                                horizontalPolicy: "PercentOfParent"
+                            UIInputEventComponent:
+                                onTouchUpInside: "OnAddEnemyBot"
+                        bindings:
+                        - ["enabled", "selectedIndex != -1", "Read"]
+                        children:
+                        -   path: "Caption"
+                            components:
+                                UITextComponent:
+                                    text: "Add enemy bot"
+                    -   prototype: "StyledButton/StyledButton"
+                        name: "AddAllyButton"
+                        classes: "button button-color-green button-ok-sound"
+                        components:
+                            SizePolicy:
+                                horizontalPolicy: "PercentOfParent"
+                            UIInputEventComponent:
+                                onTouchUpInside: "OnAddAllyBot"
+                        bindings:
+                        - ["enabled", "selectedIndex != -1", "Read"]
+                        children:
+                        -   path: "Caption"
+                            components:
+                                UITextComponent:
+                                    text: "Add ally bot"
+                -   class: "UIControl"
+                    name: "Row1"
+                    position: [0.000000, 0.000000]
+                    size: [32.000000, 32.000000]
+                    noInput: true
+                    components:
+                        SizePolicy:
+                            horizontalPolicy: "PercentOfParent"
+                            verticalPolicy: "PercentOfMaxChild"
+                    children:
+                    -   prototype: "StyledButton/StyledButton"
+                        name: "CloseButton"
+                        visible: true
+                        classes: "button button-color-gray button-cancel-sound"
+                        components:
+                            SizePolicy:
+                                horizontalPolicy: "PercentOfParent"
+                            UIInputEventComponent:
+                                onTouchUpInside: "OnClose"
+                        children:
+                        -   path: "Caption"
+                            components:
+                                UITextComponent:
+                                    text: "#common:DialogButton/Cancel"

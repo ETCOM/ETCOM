@@ -1,0 +1,22 @@
+Header:
+    version: "21"
+ImportedPackages:
+- "~res:/UI/Screens/Fonts.yaml"
+- "~res:/UI/Screens/Lobby/Common/CommonHint.yaml"
+Controls:
+-   prototype: "CommonHint/Hint"
+    name: "Hint"
+    pivot: [0.500000, 0.000000]
+    components:
+        SizePolicy:
+            horizontalValue: 600.000000
+        Background: {}
+    children:
+    -   path: "Text2"
+        components:
+            SizePolicy:
+                verticalPolicy: "Formula"
+                verticalFormula: "content+26*2"
+            UITextComponent:
+                text: "dlc/MainScreen/Hint"
+                align: ["LEFT", "VCENTER"]

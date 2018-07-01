@@ -1,0 +1,16 @@
+name: "june_football_event/championship/Header"
+priority: 3
+stages:
+ info-bfoot:
+  timer_hint: "template_event/AnyStage/Start"
+  button: "~res:/UI/Screens/Lobby/Story/JuneFootball2018/Button_Inform.yaml"
+  info: "event-info-blz-foo"
+ progress-bfoot:
+  timer_hint: "template_event/AnyStage/Finish"
+  button: "~res:/UI/Screens/Lobby/Story/JuneFootball2018/Button_Process.yaml"
+  info: "event-progress-blz-foo"
+  tree: "~res:/UI/Screens/Lobby/Story/JuneFootball2018/JuneFootball2018StoryTree.yaml"
+  customComment: "june_football_event/championship/ProgressStage/StepTree/Comment"
+currencyKeys:
+  prx_bfl_3: "june_football_event/Currencies/Goals/Terms"
+  prx_bfl_4: "june_football_event/Currencies/Cups/Terms"

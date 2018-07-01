@@ -1,0 +1,40 @@
+Header:
+    version: "21"
+ImportedPackages:
+- "~res:/UI/Screens/Fonts.yaml"
+- "~res:/UI/Screens/Common/Selection.yaml"
+StyleSheets:
+-   selector: ".cell:selected #Selection"
+    properties:
+        visible: true
+-   selector: ".cell #Selection"
+    properties:
+        visible: false
+Controls:
+-   class: "UIListCell"
+    name: "VehicleCell"
+    size: [458.000000, 40.000000]
+    classes: "button cell"
+    components:
+        Background: {}
+    children:
+    -   class: "UIControl"
+        name: "VehicleName"
+        noInput: true
+        classes: "header0 color=text-color-white"
+        components:
+            SizePolicy:
+                horizontalPolicy: "PercentOfContent"
+                verticalPolicy: "PercentOfContent"
+            UITextComponent: {}
+        bindings:
+        - ["UITextComponent.text", "vehicleStr", "Read"]
+    -   prototype: "Selection/Selection"
+        name: "Selection"
+        classes: "selection-color-orange"
+        components:
+            Anchor:
+                leftAnchorEnabled: true
+                rightAnchorEnabled: true
+                topAnchorEnabled: true
+                bottomAnchorEnabled: true

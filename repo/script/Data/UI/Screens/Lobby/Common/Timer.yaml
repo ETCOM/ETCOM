@@ -1,0 +1,69 @@
+Header:
+    version: "20"
+ImportedPackages:
+- "~res:/UI/Screens/Fonts.yaml"
+StyleSheets:
+-   selector: ".default-timer-color"
+    properties:
+        bg-color: [1.000000, 1.000000, 1.000000, 1.000000]
+-   selector: ".expiring-timer-color"
+    properties:
+        bg-color: [1.000000, 0.000000, 0.000000, 1.000000]
+-   selector: ".short-time-format"
+    properties: {}
+-   selector: ".medium-time-format"
+    properties: {}
+-   selector: ".long-time-format"
+    properties: {}
+Prototypes:
+-   class: "UIControl"
+    customClass: "UITimerControl"
+    name: "Timer"
+    noInput: true
+    classes: "time-format=medium-time-format"
+    components:
+        LinearLayout:
+            spacing: 5.000000
+        SizePolicy:
+            horizontalPolicy: "PercentOfChildrenSum"
+            verticalPolicy: "PercentOfMaxChild"
+        Background: {}
+    children:
+    -   class: "UIControl"
+        name: "Shadow"
+        visible: false
+        noInput: true
+        components:
+            IgnoreLayout: {}
+            Anchor:
+                leftAnchorEnabled: true
+                leftAnchor: -10.000000
+                rightAnchorEnabled: true
+                rightAnchor: -10.000000
+                topAnchorEnabled: true
+                topAnchor: -10.000000
+                bottomAnchorEnabled: true
+                bottomAnchor: -10.000000
+            Background:
+                drawType: "DRAW_SCALE_TO_RECT"
+                sprite: "~res:/Gfx/UI/LobbyCommon/TextShadow"
+    -   class: "UIControl"
+        name: "Icon"
+        noInput: true
+        components:
+            SizePolicy:
+                horizontalPolicy: "PercentOfContent"
+                verticalPolicy: "PercentOfParent"
+            Background:
+                sprite: "~res:/Gfx/UI/LobbyCommon/timer_icon"
+                colorInherit: "COLOR_MULTIPLY_ON_PARENT"
+                perPixelAccuracy: "PER_PIXEL_ACCURACY_ENABLED"
+    -   class: "UIStaticText"
+        name: "Time"
+        classes: "text1 text-color-white"
+        components:
+            SizePolicy:
+                horizontalPolicy: "PercentOfContent"
+                verticalPolicy: "PercentOfContent"
+            UITextComponent:
+                text: "1d 14h"

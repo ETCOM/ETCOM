@@ -1,0 +1,368 @@
+Header:
+    version: "21"
+ImportedPackages:
+- "~res:/UI/Screens/Lobby/Story/StoryTreePrototypes.yaml"
+- "~res:/UI/Screens/Fonts.yaml"
+- "~res:/UI/Screens/Common/StyledButton.yaml"
+Controls:
+-   class: "UIControl"
+    name: "Stories"
+    position: [0.000000, 0.000000]
+    size: [960.000000, 420.000000]
+    noInput: true
+    children:
+    -   class: "UIControl"
+        name: "Arrows"
+        position: [102.000000, 79.000000]
+        size: [709.000000, 262.000000]
+        noInput: true
+        children:
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow"
+            position: [0.000000, 130.000000]
+            size: [24.000000, 2.000000]
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow_1"
+            position: [110.000000, 130.000000]
+            size: [24.000000, 2.000000]
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow_2"
+            position: [220.000000, 0.000000]
+            size: [24.000000, 2.000000]
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow_3"
+            position: [330.000000, 0.000000]
+            size: [24.000000, 2.000000]
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow_4"
+            position: [440.000000, 0.000000]
+            size: [24.000000, 2.000000]
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow_5"
+            position: [551.000000, 0.000000]
+            size: [24.000000, 2.000000]
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow_12"
+            position: [551.000000, 0.000000]
+            size: [24.000000, 2.000000]
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow_13"
+            position: [685.000000, 0.000000]
+            size: [24.000000, 2.000000]
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow_6"
+            position: [551.000000, 260.000000]
+            size: [24.000000, 2.000000]
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow_16"
+            position: [661.000000, 260.000000]
+            size: [48.000000, 2.000000]
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow_7"
+            position: [440.000000, 260.000000]
+            size: [24.000000, 2.000000]
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow_8"
+            position: [330.000000, 260.000000]
+            size: [24.000000, 2.000000]
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow_9"
+            position: [220.000000, 260.000000]
+            size: [24.000000, 2.000000]
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow_10"
+            position: [396.000000, 226.000000]
+            size: [60.000000, 2.000000]
+            angle: -90.000000
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow_14"
+            position: [176.000000, 96.000000]
+            size: [60.000000, 2.000000]
+            angle: -90.000000
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow_15"
+            position: [178.000000, 166.000000]
+            size: [60.000000, 2.000000]
+            angle: 90.000000
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow_11"
+            position: [617.000000, 226.000000]
+            size: [60.000000, 2.000000]
+            angle: -90.000000
+        -   prototype: "StoryTreePrototypes/SArrowDown"
+            name: "SArrowDown"
+            position: [661.000000, 0.000000]
+            size: [48.000000, 132.000000]
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "11"
+        position: [16.000000, 175.000000]
+        classes: "step currency-silver"
+        children:
+        -   path: "ExpandedState/Image/Icon"
+            components:
+                Background:
+                    drawType: "DRAW_ALIGNED"
+        -   path: "NormalState/Image/Icon"
+            components:
+                Background:
+                    drawType: "DRAW_ALIGNED"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "12"
+        position: [126.000000, 175.000000]
+        classes: "step currency-silver"
+        children:
+        -   path: "ExpandedState/Image/Icon"
+            components:
+                Background:
+                    drawType: "DRAW_ALIGNED"
+        -   path: "NormalState/Image/Icon"
+            components:
+                Background:
+                    drawType: "DRAW_ALIGNED"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "13"
+        position: [236.000000, 175.000000]
+        children:
+        -   path: "ExpandedState/Image/Icon"
+            size: [56.000000, 56.000000]
+            components:
+                Background:
+                    sprite: "~res:/Gfx/UI/StorageItemIcons/tickets_red.psd"
+        -   path: "NormalState/Image/Icon"
+            size: [56.000000, 56.000000]
+            components:
+                Background:
+                    drawType: "DRAW_SCALE_PROPORTIONAL"
+                    sprite: "~res:/Gfx/UI/StorageItemIcons/tickets_red.psd"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "42"
+        position: [677.000000, 175.000000]
+        size: [86.000000, 70.000000]
+        classes: "step booster-reload unique"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "41"
+        position: [456.000000, 175.000000]
+        children:
+        -   path: "ExpandedState/Image/Icon"
+            components:
+                Background:
+                    drawType: "DRAW_ALIGNED"
+                    sprite: "~res:/Gfx/UI/LobbyCommon/BigStar.psd"
+        -   path: "NormalState/Image/Icon"
+            components:
+                Background:
+                    drawType: "DRAW_ALIGNED"
+                    sprite: "~res:/Gfx/UI/LobbyCommon/BigStar.psd"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "31"
+        position: [236.000000, 305.000000]
+        classes: "step booster-exp-free common"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "32"
+        position: [346.000000, 305.000000]
+        classes: "step booster-exp-comand common"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "33"
+        position: [456.000000, 305.000000]
+        classes: "step booster-exp-basic common"
+        children:
+        -   path: "NormalState"
+            position: [0.000000, 0.000000]
+            children: []
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "34"
+        position: [566.000000, 305.000000]
+        children:
+        -   path: "ExpandedState/Image/Icon"
+            size: [64.000000, 64.000000]
+            components:
+                Background:
+                    drawType: "DRAW_SCALE_PROPORTIONAL"
+                    sprite: "~res:/Gfx/UI/StorageItemIcons/GoldCertificate_0.psd"
+        -   path: "NormalState/Image/Icon"
+            size: [64.000000, 64.000000]
+            components:
+                Background:
+                    drawType: "DRAW_SCALE_PROPORTIONAL"
+                    sprite: "~res:/Gfx/UI/StorageItemIcons/GoldCertificate_0.psd"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "35"
+        position: [677.000000, 305.000000]
+        children:
+        -   path: "ExpandedState/Image/Icon"
+            size: [64.000000, 64.000000]
+            components:
+                Background:
+                    drawType: "DRAW_SCALE_PROPORTIONAL"
+                    sprite: "~res:/Gfx/UI/StorageItemIcons/GoldCertificate_0.psd"
+        -   path: "NormalState/Image/Icon"
+            size: [64.000000, 64.000000]
+            components:
+                Background:
+                    drawType: "DRAW_SCALE_PROPORTIONAL"
+                    sprite: "~res:/Gfx/UI/StorageItemIcons/GoldCertificate_0.psd"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "21"
+        position: [236.000000, 45.000000]
+        classes: "step booster-exp-free common"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "22"
+        position: [346.000000, 45.000000]
+        classes: "step booster-exp-comand common"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "23"
+        position: [456.000000, 45.000000]
+        classes: "step booster-exp-basic common"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "24"
+        position: [566.000000, 45.000000]
+        children:
+        -   path: "ExpandedState/Image/Icon"
+            components:
+                SizePolicy:
+                    verticalPolicy: "PercentOfParent"
+                    verticalValue: 90.000000
+                Background:
+                    sprite: "~res:/Gfx/UI/Quests/AddCurrencyIconsHuge_200percent.psd"
+                    frame: 7
+        -   path: "NormalState/Image/Icon"
+            components:
+                SizePolicy:
+                    horizontalPolicy: "PercentOfParent"
+                    horizontalValue: 80.000000
+                    verticalPolicy: "PercentOfParent"
+                    verticalValue: 75.000000
+                Background:
+                    drawType: "DRAW_SCALE_PROPORTIONAL"
+                    sprite: "~res:/Gfx/UI/Quests/AddCurrencyIconsHuge_200percent.psd"
+                    frame: 7
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "25"
+        position: [677.000000, 45.000000]
+        children:
+        -   path: "ExpandedState/Image/Icon"
+            components:
+                SizePolicy:
+                    verticalPolicy: "PercentOfParent"
+                    verticalValue: 90.000000
+                Background:
+                    sprite: "~res:/Gfx/UI/Quests/AddCurrencyIconsHuge_200percent.psd"
+                    frame: 7
+        -   path: "NormalState/Image/Icon"
+            components:
+                SizePolicy:
+                    horizontalPolicy: "PercentOfParent"
+                    horizontalValue: 80.000000
+                    verticalPolicy: "PercentOfParent"
+                    verticalValue: 75.000000
+                Background:
+                    drawType: "DRAW_SCALE_PROPORTIONAL"
+                    sprite: "~res:/Gfx/UI/Quests/AddCurrencyIconsHuge_200percent.psd"
+                    frame: 7
+    -   prototype: "StoryTreePrototypes/StoryStepLocalBig"
+        name: "27"
+        position: [811.000000, 157.000000]
+        size: [130.000000, 106.000000]
+        children:
+        -   path: "ExpandedState/Image/Icon"
+            components:
+                Anchor:
+                    vCenterAnchor: 7.000000
+                Background:
+                    drawType: "DRAW_ALIGNED"
+                    sprite: "~res:/Gfx/UI/Hangar/IconCamouflage.psd"
+        -   path: "NormalState/Image/Icon"
+            position: [-16.000000, -16.000000]
+            components:
+                Anchor:
+                    vCenterAnchor: -7.000000
+                Background:
+                    drawType: "DRAW_ALIGNED"
+                    sprite: "~res:/Gfx/UI/Hangar/IconCamouflage.psd"
+        -   path: "NormalState/Label"
+            components:
+                UITextComponent:
+                    text: "#camouflages:Shop/Title"
+                    fontName: "WarHeliosCondC_Bold_17"
+    -   prototype: "StoryTreePrototypes/StoryStepLocalBig"
+        name: "26"
+        position: [811.000000, 27.000000]
+        size: [130.000000, 106.000000]
+        children:
+        -   path: "ExpandedState/Image/Icon"
+            components:
+                Anchor:
+                    vCenterAnchor: 7.000000
+                Background:
+                    drawType: "DRAW_ALIGNED"
+                    sprite: "~res:/Gfx/UI/Story/Common/icon_pioneer.psd"
+        -   path: "NormalState/Image"
+            components:
+                Anchor:
+                    vCenterAnchor: -7.000000
+            children: []
+        -   path: "NormalState/Image/Icon"
+            components:
+                Background:
+                    drawType: "DRAW_ALIGNED"
+                    sprite: "~res:/Gfx/UI/Story/Common/icon_pioneer.psd"
+        -   path: "NormalState/Label"
+            position: [6.000000, 71.000000]
+            components:
+                UITextComponent:
+                    text: "may_event/CustomSet"
+                    fontName: "WarHeliosCondC_Bold_17"
+    -   prototype: "StoryTreePrototypes/StoryStepLocalBig"
+        name: "36"
+        position: [811.000000, 287.000000]
+        size: [130.000000, 106.000000]
+        children:
+        -   path: "ExpandedState/Image/Icon"
+            components:
+                SizePolicy:
+                    horizontalPolicy: "PercentOfContent"
+                    horizontalValue: 60.000000
+                    verticalPolicy: "PercentOfContent"
+                Background:
+                    sprite: "~res:/Gfx/UI/BigTankIcons/ussr-Object_252.psd"
+        -   path: "ExpandedState/level"
+            visible: true
+            components:
+                Background:
+                    frame: 17
+        -   path: "ExpandedState/class"
+            visible: true
+            components:
+                Background:
+                    frame: 8
+        -   path: "ExpandedState/grade"
+            visible: true
+        -   path: "NormalState/Image"
+            position: [23.000000, 11.000000]
+            children: []
+        -   path: "NormalState/Image/Icon"
+            size: [80.000000, 100.000000]
+            components:
+                SizePolicy:
+                    horizontalPolicy: "PercentOfContent"
+                    horizontalValue: 70.000000
+                    verticalPolicy: "PercentOfContent"
+                Background:
+                    drawType: "DRAW_SCALE_PROPORTIONAL"
+                    sprite: "~res:/Gfx/UI/BigTankIcons/ussr-Object_252.psd"
+        -   path: "NormalState/Label"
+            components:
+                UITextComponent:
+                    text: "#ussr_vehicles:IS-6"
+        -   path: "NormalState/level"
+            visible: true
+            components:
+                Background:
+                    frame: 17
+        -   path: "NormalState/class"
+            visible: true
+            components:
+                Background:
+                    frame: 8
+        -   path: "NormalState/grade"
+            visible: true

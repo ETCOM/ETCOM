@@ -1,0 +1,66 @@
+Header:
+    version: "21"
+ImportedPackages:
+- "~res:/UI/Screens/Common/LoadingSpinner.yaml"
+- "~res:/UI/Screens/Fonts.yaml"
+StyleSheets:
+-   selector: "#AOGASControl.china_region"
+    properties:
+        visible: true
+-   selector: "#AOGASControl"
+    properties:
+        visible: false
+Prototypes:
+-   class: "UIControl"
+    name: "AOGASControl"
+    position: [262.000000, 16.000000]
+    components:
+        LinearLayout:
+            orientation: "TopDown"
+        SizePolicy:
+            horizontalPolicy: "PercentOfMaxChild"
+            verticalPolicy: "PercentOfChildrenSum"
+        Anchor:
+            hCenterAnchorEnabled: true
+            vCenterAnchorEnabled: false
+    children:
+    -   class: "UIStaticText"
+        name: "DescriptionControlTitle"
+        position: [250.000000, 0.000000]
+        size: [0.000000, 31.000000]
+        noInput: true
+        classes: "header1 text-color-white"
+        components:
+            SizePolicy:
+                horizontalPolicy: "PercentOfContent"
+                verticalPolicy: "PercentOfContent"
+            Anchor:
+                hCenterAnchorEnabled: true
+            UITextComponent:
+                text: "#chinaContent:Restriction/Header"
+                colorInheritType: "COLOR_IGNORE_PARENT"
+                shadowOffset: [1.000000, 1.000000]
+                multiline: "MULTILINE_DISABLED"
+                align: ["HCENTER", "TOP"]
+                useRtlAlign: "DONT_USE"
+    -   class: "UIStaticText"
+        name: "DescriptionControlText"
+        position: [0.000000, 31.000000]
+        size: [500.000000, 92.000000]
+        angle: 0.000000
+        visible: true
+        noInput: true
+        classes: "text2 text-color-white"
+        components:
+            SizePolicy:
+                horizontalPolicy: "PercentOfContent"
+                horizontalValue: 100.000000
+                horizontalMin: 500.000000
+                verticalPolicy: "PercentOfContent"
+            UITextComponent:
+                text: "#chinaContent:Restriction/Description"
+                colorInheritType: "COLOR_IGNORE_PARENT"
+                shadowOffset: [1.000000, 1.000000]
+                multiline: "MULTILINE_ENABLED"
+                align: ["HCENTER", "VCENTER"]
+                useRtlAlign: "USE_BY_CONTENT"

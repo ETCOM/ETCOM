@@ -1,0 +1,35 @@
+Header:
+    version: "20"
+StyleSheets:
+-   selector: ".text3-small-battle"
+    properties:
+        text-fontName: "WarHeliosCondC_Bold_13"
+-   selector: ".bold-text-loading-small"
+    properties:
+        text-fontName: "WarHeliosCondC_Bold_14"
+-   selector: ".text-arena-state"
+    properties:
+        text-fontName: "WarHeliosCondC_Bold_50"
+-   selector: ".text-countdown-before-battle"
+    properties:
+        text-fontName: "WarHeliosCondC_Bold_70"
+-   selector: ".text-arialmb"
+    properties:
+        text-fontName: "arialmb_16"
+-   selector: ".text-marker-damage-points"
+    properties:
+        text-fontName: "WarHeliosCondC_Bold_17_markers"
+-   selector: ".text-marker-health-points"
+    properties:
+        text-fontName: "WarHeliosCondC_Bold_10_markers"
+        text-color: [0.909800, 0.909800, 0.909800, 1.000000]
+-   selector: ".text-marker-nickname"
+    properties:
+        text-fontName: "WarHeliosCondC_Bold_13"
+-   selector: ".text-marker-nickname.Phone"
+    properties:
+        text-fontName: "WarHeliosCondC_Bold_23"
+-   selector: ".text-marker-health-points.Phone"
+    properties:
+        text-fontName: "WarHeliosCondC_Bold_17_markers"
+        text-color: [0.909804, 0.909804, 0.909804, 1.000000]

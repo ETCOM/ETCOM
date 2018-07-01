@@ -1,0 +1,12 @@
+Header:
+    version: "22"
+ImportedPackages:
+- "~res:/UI/Screens/Lobby/Common/Link.yaml"
+Controls:
+-   prototype: "Link/Link"
+    name: "LinkPrivacy"
+    children:
+    -   path: "Text"
+        components:
+            UITextComponent:
+                text: "#eula:confirmation_link_2"

@@ -1,0 +1,176 @@
+Header:
+    version: "21"
+ImportedPackages:
+- "~res:/UI/Screens/Fonts.yaml"
+StyleSheets:
+-   selector: ".no-league #Backgrounds #Small, .no-league #Backgrounds #Medium, .no-league #Backgrounds #Big"
+    properties:
+        bg-color: [1.000000, 1.000000, 1.000000, 0.200000]
+-   selector: ".bronze #Backgrounds #Small, .bronze #Backgrounds #Medium, .bronze #Backgrounds #Big"
+    properties:
+        bg-color: [0.996078, 0.600000, 0.392157, 0.200000]
+-   selector: ".silver #Backgrounds #Small, .silver #Backgrounds #Medium, .silver #Backgrounds #Big"
+    properties:
+        bg-color: [0.549020, 1.000000, 0.949020, 0.200000]
+-   selector: ".gold #Backgrounds #Small, .gold #Backgrounds #Medium, .gold #Backgrounds #Big"
+    properties:
+        bg-color: [1.000000, 1.000000, 0.027451, 0.200000]
+-   selector: ".platinum #Backgrounds #Small, .platinum #Backgrounds #Medium, .platinum #Backgrounds #Big"
+    properties:
+        bg-color: [1.000000, 0.615686, 0.145098, 0.200000]
+-   selector: ".diamond #Backgrounds #Small, .diamond #Backgrounds #Medium, .diamond #Backgrounds #Big"
+    properties:
+        bg-color: [0.996078, 0.000000, 1.000000, 0.200000]
+-   selector: ".league #Data #Icon #PlayerProfileFx"
+    properties:
+        visible: false
+Prototypes:
+-   class: "UIControl"
+    name: "LeagueIcon"
+    noInput: true
+    components:
+        Anchor:
+            hCenterAnchorEnabled: true
+            vCenterAnchorEnabled: true
+        Background:
+            drawType: "DRAW_ALIGNED"
+            sprite: "~res:/Gfx/UI/ProfileScreen/league_medium.psd"
+            perPixelAccuracy: "PER_PIXEL_ACCURACY_ENABLED"
+-   class: "UIControl"
+    name: "LeaguesPrototype"
+    size: [140.000000, 320.000000]
+    noInput: true
+    classes: "league"
+    components:
+        SizePolicy:
+            horizontalPolicy: "PercentOfParent"
+            verticalPolicy: "FixedSize"
+            verticalValue: 320.000000
+        Anchor:
+            bottomAnchorEnabled: true
+            bottomAnchor: 10.000000
+    children:
+    -   class: "UIControl"
+        name: "Backgrounds"
+        noInput: true
+        components:
+            SizePolicy:
+                horizontalPolicy: "PercentOfParent"
+                verticalPolicy: "PercentOfParent"
+        children:
+        -   class: "UIControl"
+            name: "Small"
+            noInput: true
+            components:
+                SizePolicy:
+                    horizontalPolicy: "FixedSize"
+                    horizontalValue: 20.000000
+                Anchor:
+                    hCenterAnchorEnabled: true
+                    topAnchorEnabled: true
+                    bottomAnchorEnabled: true
+                Background:
+                    drawType: "DRAW_STRETCH_BOTH"
+                    sprite: "~res:/Gfx/UI/ProfileScreen/rating_gradient.psd"
+        -   class: "UIControl"
+            name: "Medium"
+            noInput: true
+            components:
+                SizePolicy:
+                    horizontalPolicy: "FixedSize"
+                    horizontalValue: 40.000000
+                Anchor:
+                    hCenterAnchorEnabled: true
+                    topAnchorEnabled: true
+                    topAnchor: 20.000000
+                    bottomAnchorEnabled: true
+                    bottomAnchor: 20.000000
+                Background:
+                    drawType: "DRAW_STRETCH_BOTH"
+                    sprite: "~res:/Gfx/UI/ProfileScreen/rating_gradient.psd"
+        -   class: "UIControl"
+            name: "Big"
+            noInput: true
+            components:
+                SizePolicy:
+                    horizontalPolicy: "FixedSize"
+                    horizontalValue: 60.000000
+                Anchor:
+                    hCenterAnchorEnabled: true
+                    topAnchorEnabled: true
+                    topAnchor: 40.000000
+                    bottomAnchorEnabled: true
+                    bottomAnchor: 40.000000
+                Background:
+                    drawType: "DRAW_STRETCH_BOTH"
+                    sprite: "~res:/Gfx/UI/ProfileScreen/rating_gradient.psd"
+    -   class: "UIControl"
+        name: "Data"
+        noInput: true
+        components:
+            LinearLayout:
+                orientation: "TopDown"
+                spacing: 20.000000
+            SizePolicy:
+                horizontalPolicy: "PercentOfParent"
+                verticalPolicy: "PercentOfChildrenSum"
+        children:
+        -   class: "UIControl"
+            name: "Text"
+            noInput: true
+            components:
+                LinearLayout:
+                    orientation: "TopDown"
+                SizePolicy:
+                    horizontalPolicy: "PercentOfParent"
+                    verticalPolicy: "PercentOfChildrenSum"
+            children:
+            -   class: "UIStaticText"
+                name: "Title"
+                size: [140.000000, 32.000000]
+                classes: "header3 text-color-white"
+                components:
+                    Anchor:
+                        leftAnchorEnabled: true
+                        rightAnchorEnabled: true
+                    UITextComponent:
+                        text: "BRONZE"
+                        colorInheritType: "COLOR_IGNORE_PARENT"
+            -   class: "UIStaticText"
+                name: "Rating"
+                size: [140.000000, 32.000000]
+                classes: "text-color-light-beige text-cond-bold-30-all-locals"
+                components:
+                    Anchor:
+                        leftAnchorEnabled: true
+                        rightAnchorEnabled: true
+                    UITextComponent:
+                        text: "1-1999"
+                        colorInheritType: "COLOR_IGNORE_PARENT"
+                        useRtlAlign: "USE_BY_SYSTEM"
+        -   class: "UIControl"
+            name: "Icon"
+            noInput: true
+            components:
+                SizePolicy:
+                    horizontalPolicy: "FixedSize"
+                    horizontalValue: 120.000000
+                    verticalPolicy: "FixedSize"
+                    verticalValue: 120.000000
+                Anchor:
+                    hCenterAnchorEnabled: true
+                    vCenterAnchorEnabled: true
+            children:
+            -   class: "UIParticles"
+                name: "PlayerProfileFx"
+                scale: [1.500000, 1.500000]
+                noInput: true
+                classes: ""
+                effectPath: "~res:/3d/FX/UI/player_profile_icon.sc2"
+                autoStart: true
+                components:
+                    Anchor:
+                        hCenterAnchorEnabled: true
+                        vCenterAnchorEnabled: true
+            -   prototype: "LeagueIcon"
+                name: "LeagueIcon"

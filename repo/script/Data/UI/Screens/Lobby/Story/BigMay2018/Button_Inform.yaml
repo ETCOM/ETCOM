@@ -1,0 +1,52 @@
+Header:
+    version: "21"
+ImportedPackages:
+- "~res:/UI/Screens/Lobby/Story/StoryButtonPrototype.yaml"
+Controls:
+-   prototype: "StoryButtonPrototype/StoryButton"
+    name: "StoryButton"
+    children:
+    -   path: "Layout"
+        position: [0.000000, 0.000000]
+        children: []
+    -   path: "Layout/IconContainer"
+        components:
+            Anchor:
+                leftAnchorEnabled: true
+                topAnchorEnabled: true
+        children:
+        -   class: "UIControl"
+            name: "Icon"
+            noInput: true
+            components:
+                SizePolicy:
+                    horizontalPolicy: "PercentOfParent"
+                    horizontalValue: 142.000000
+                    verticalPolicy: "PercentOfContent"
+                Anchor:
+                    leftAnchorEnabled: true
+                    leftAnchor: 9.000000
+                    bottomAnchorEnabled: true
+                    bottomAnchor: 1.000000
+                Background:
+                    drawType: "DRAW_ALIGNED"
+                    sprite: "~res:/Gfx/UI/Story/BigMay2018/HangarIcon.psd"
+                    colorInherit: "COLOR_MULTIPLY_ON_PARENT"
+    -   path: "Layout/TextContainer"
+        size: [140.000000, 74.000000]
+        children: []
+    -   path: "Layout/TextContainer/Title"
+        components:
+            Anchor:
+                rightAnchorEnabled: true
+                rightAnchor: 5.000000
+            UITextComponent:
+                text: "may_event/Button"
+                align: ["RIGHT", "VCENTER"]
+    -   path: "Layout/TextContainer/ExpireTimer"
+        position: [57.000000, 50.000000]
+        components:
+            Anchor:
+                rightAnchorEnabled: true
+                rightAnchor: 30.000000
+        children: []

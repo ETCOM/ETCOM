@@ -1,0 +1,207 @@
+Header:
+    version: "20"
+ImportedPackages:
+- "~res:/UI/Screens/Fonts.yaml"
+- "~res:/UI/Screens/Lobby/Common/RichText.yaml"
+- "~res:/UI/Screens/Lobby/Common/Hint.yaml"
+StyleSheets:
+-   selector: ".hint-size.Phone.hint-with-bg, .hint-size.ja.Phone.hint-with-bg"
+    properties:
+        sizePolicy-horizontalPolicy: "FixedSize"
+        sizePolicy-horizontalValue: 400.000000
+-   selector: ".hint-size"
+    properties:
+        sizePolicy-horizontalPolicy: "FixedSize"
+        sizePolicy-horizontalValue: 434.000000
+-   selector: ".hint-size.ja"
+    properties:
+        sizePolicy-horizontalPolicy: "FixedSize"
+        sizePolicy-horizontalValue: 444.000000
+-   selector: ".hint-size.th"
+    properties:
+        sizePolicy-horizontalPolicy: "FixedSize"
+        sizePolicy-horizontalValue: 454.000000
+-   selector: ".hint-with-title #InsideContainer #HintText"
+    properties:
+        flowLayout-hPadding: 0.000000
+        flowLayout-hDynamicPadding: false
+-   selector: ".hint-without-title #InsideContainer #HintText"
+    properties:
+        flowLayout-hDynamicInLinePadding: false
+-   selector: ".text-blocking #InsideContainer #HintText"
+    properties:
+        text-color: [1.000000, 1.000000, 1.000000, 1.000000]
+-   selector: ".text-unblocking #InsideContainer #HintText"
+    properties:
+        text-color: [0.000000, 0.000000, 0.000000, 1.000000]
+-   selector: ".hint-with-bg #InsideContainer #Bg, .hint-with-bg #TailLayer"
+    properties:
+        visible: true
+-   selector: ".hint-without-bg #InsideContainer #Bg, .hint-without-bg #TailLayer"
+    properties:
+        visible: false
+-   selector: ".text-color #InsideContainer #HintText"
+    properties:
+        text-color: [1.000000, 1.000000, 1.000000, 1.000000]
+-   selector: ".text-color.blocking #InsideContainer #HintText"
+    properties: {}
+-   selector: ".dialog-direct-left #bottomTail, .dialog-direct-left #topTail, .dialog-direct-left #leftTail, .dialog-direct-right #rightTail, .dialog-direct-right #topTail, .dialog-direct-right #bottomTail, .dialog-direct-top #rightTail, .dialog-direct-top #topTail, .dialog-direct-top #leftTail, .dialog-direct-bottom #bottomTail, .dialog-direct-bottom #leftTail, .dialog-direct-bottom #rightTail"
+    properties:
+        visible: false
+-   selector: ".dialog-direct-left #rightTail, .dialog-direct-right #leftTail, .dialog-direct-top #bottomTail, .dialog-direct-bottom #topTail"
+    properties:
+        visible: true
+-   selector: ".skill-level-hint-size #Title"
+    properties:
+        anchor-leftAnchor: 0.000000
+-   selector: ".skill-level-hint-size.fr.Phone #Title"
+    properties:
+        anchor-leftAnchor: 15.000000
+Controls:
+-   class: "UIControl"
+    name: "NewSkillLevelDialog"
+    size: [600.000000, 90.000000]
+    noInput: true
+    classes: "skill-level-hint-size"
+    components:
+        Background: {}
+    children:
+    -   class: "UIStaticText"
+        name: "Title"
+        size: [600.000000, 30.000000]
+        visible: true
+        enabled: true
+        noInput: true
+        classes: "text1"
+        components:
+            Anchor:
+                leftAnchorEnabled: true
+                rightAnchorEnabled: true
+                topAnchorEnabled: true
+            UITextComponent:
+                text: "#hangar_tutorial:hangar/skill_received/hint"
+                multiline: "MULTILINE_ENABLED"
+    -   class: "UIControl"
+        name: "Description"
+        size: [600.000000, 40.000000]
+        noInput: true
+        components:
+            Anchor:
+                leftAnchorEnabled: true
+                rightAnchorEnabled: true
+                topAnchorEnabled: true
+                topAnchor: 30.000000
+                bottomAnchorEnabled: true
+                bottomAnchor: 20.000000
+-   class: "UIControl"
+    name: "VehicleType"
+    size: [180.000000, 43.000000]
+    noInput: true
+    components:
+        Background: {}
+    children:
+    -   class: "UIControl"
+        name: "icon"
+        position: [0.000000, 0.000000]
+        size: [30.000000, 43.000000]
+        noInput: true
+        components:
+            Anchor:
+                leftAnchorEnabled: true
+            Background:
+                sprite: "~res:/Gfx/UI/LobbyCommon/TankTypesBig"
+                frame: 1
+    -   class: "UIStaticText"
+        name: "name"
+        classes: "text1"
+        components:
+            Anchor:
+                rightAnchorEnabled: true
+                topAnchorEnabled: true
+                bottomAnchorEnabled: true
+            UITextComponent:
+                text: "Light"
+                align: ["HCENTER", "RIGHT", "VCENTER"]
+                useRtlAlign: "USE_BY_CONTENT"
+-   class: "UIControl"
+    customClass: "UITutorialTapHookControl"
+    name: "TapHookControl"
+    size: [1024.000000, 768.000000]
+    components:
+        Anchor:
+            leftAnchorEnabled: true
+            rightAnchorEnabled: true
+            topAnchorEnabled: true
+            bottomAnchorEnabled: true
+    children:
+    -   class: "UIStaticText"
+        name: "description"
+        size: [990.000000, 74.000000]
+        classes: "text1"
+        components:
+            Anchor:
+                leftAnchorEnabled: true
+                leftAnchor: 17.000000
+                rightAnchorEnabled: true
+                rightAnchor: 17.000000
+                bottomAnchorEnabled: true
+                bottomAnchor: 105.000000
+            UITextComponent:
+                text: "hangar tutorial tap hint"
+-   class: "UIControl"
+    name: "HintShareBattleResults"
+    size: [600.000000, 90.000000]
+    noInput: true
+    components:
+        FlowLayout:
+            hPadding: 5.000000
+            hSpacing: 5.000000
+        Background: {}
+        RichContent: {}
+        RichContentAliases0:
+            aliases: "text_white,<span class=\"text-color-white text1\" />;reward,<object control=\"EmptyControl\" path=\"~res:/UI/Screens/Common/EmptyControl.yaml\" />;"
+-   prototype: "Hint/HintDialog"
+    name: "HintDialog"
+    noInput: true
+    classes: "hint-size hint-type=hint-with-title hint-bg=hint-with-bg direct=dialog-direct-left"
+    components:
+        SizePolicy:
+            verticalFormula: "lastChild+32"
+    children:
+    -   path: "TailLayer/leftTail"
+        components:
+            Anchor:
+                leftAnchor: -6.000000
+    -   path: "TailLayer/rightTail"
+        components:
+            Anchor:
+                rightAnchor: -6.000000
+    -   path: "InsideContainer"
+        components:
+            SizePolicy:
+                horizontalFormula: "parent-30"
+        children:
+        -   class: "UIControl"
+            name: "HintText"
+            noInput: true
+            components:
+                FlowLayout:
+                    hSpacing: 5.000000
+                    vPadding: 10.000000
+                    vSpacing: 5.000000
+                    useRtl: true
+                SizePolicy:
+                    verticalPolicy: "PercentOfChildrenSum"
+                    verticalMin: 34.000000
+                Anchor:
+                    leftAnchorEnabled: true
+                    leftAnchor: 17.000000
+                    rightAnchorEnabled: true
+                    rightAnchor: 17.000000
+                    vCenterAnchorEnabled: true
+                RichContent:
+                    classesInheritance: true
+                RichContentAliases0:
+                    aliases: "vehicle_class,<object path=\"~res:/UI/Screens/Lobby/Common/VehicleClassIcon.yaml\" prototype=\"VehicleClassIcon\" />;"
+                RichContentAliases1:
+                    aliases: "hint_text,<span class=\" text1\" />;hint_title,<span class=\" header3\" />;"

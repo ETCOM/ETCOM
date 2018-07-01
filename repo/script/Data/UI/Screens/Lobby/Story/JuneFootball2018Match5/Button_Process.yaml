@@ -1,0 +1,19 @@
+Header:
+    version: "21"
+ImportedPackages:
+- "~res:/UI/Screens/Lobby/Story/StoryButtonPrototype.yaml"
+Controls:
+-   prototype: "StoryButtonPrototype/StoryButton"
+    name: "StoryButton"
+    classes: "button story-button type=process"
+    children:
+    -   path: "Back"
+        components:
+            Background:
+                drawType: "DRAW_ALIGNED"
+                sprite: "~res:/Gfx/UI/Story/June2018/hangar_btn1.psd"
+                frame: 1
+    -   path: "Layout/TextContainer/Title"
+        components:
+            UITextComponent:
+                text: "june_football_event/finals/Button"

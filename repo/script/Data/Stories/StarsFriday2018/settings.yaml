@@ -1,0 +1,21 @@
+name: "star_event/Header"
+priority: 1
+stages:
+ sf2018-info:
+  timer_hint: "template_event/AnyStage/Start"
+  button: "~res:/UI/Screens/Lobby/Story/StarFridayMay2018/Button_Inform.yaml"
+  info: "event-info-sf2018"
+ sf2018-process:
+  timer_hint: "template_event/AnyStage/Finish"
+  button: "~res:/UI/Screens/Lobby/Story/StarFridayMay2018/Button_Process.yaml"
+  info: "event-progress-sf2018"
+  tree: "~res:/UI/Screens/Lobby/Story/StarFridayMay2018/StarsFriday2018StoryTree.yaml"
+  customComment: "template_event/ProgressStage/StepTree/Comment_SingleCurrency"
+ sf2018-buy:
+  timer_hint: "template_event/AnyStage/Finish"
+  button: "~res:/UI/Screens/Lobby/Story/StarFridayMay2018/Button_Buy.yaml"
+  info: "event-progress-sf2018"
+  tree: "~res:/UI/Screens/Lobby/Story/StarFridayMay2018/StarsFriday2018StoryTree.yaml"
+  customComment: "template_event/FinalStage/Hint/BuyCurrenciesToComplete_SingleCurrency"
+currencyKeys:
+  prx_sf: "star_event/Currency/FirstVictoryProxy/Terms"

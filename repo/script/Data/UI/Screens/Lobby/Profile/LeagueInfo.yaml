@@ -1,0 +1,347 @@
+Header:
+    version: "21"
+ImportedPackages:
+- "~res:/UI/Screens/Common/StyledBackButton.yaml"
+- "~res:/UI/Styles/ButtonSoundStyles.yaml"
+- "~res:/UI/Screens/Fonts.yaml"
+- "~res:/UI/Screens/Lobby/Profile/LeagueInfoPrototype.yaml"
+StyleSheets:
+-   selector: ".arrow #Text #Rating"
+    properties:
+        visible: true
+-   selector: ".active-calibration #Leagues #no-league #Data #Icon #LeagueIcon"
+    properties:
+        bg-frame: 6
+-   selector: ".active-no-league #Leagues #no-league #Data #Icon #LeagueIcon"
+    properties:
+        bg-frame: 0
+-   selector: ".active-no-league #Leagues #no-league #Data #Icon #PlayerProfileFx, .active-calibration #Leagues #no-league #Data #Icon #PlayerProfileFx"
+    properties:
+        visible: true
+-   selector: ".active-no-league #Arrow, .active-calibration #Arrow"
+    properties:
+        anchor-leftAnchor: 0.000000
+-   selector: ".active-no-league #Arrow #Text #Rating, .active-calibration #Arrow #Text #Rating"
+    properties:
+        visible: false
+-   selector: ".active-bronze #Leagues #bronze #Data #Icon #PlayerProfileFx"
+    properties:
+        visible: true
+-   selector: ".active-bronze #Arrow"
+    properties:
+        anchor-leftAnchor: 140.000000
+-   selector: ".active-silver #Leagues #silver #Data #Icon #PlayerProfileFx"
+    properties:
+        visible: true
+-   selector: ".active-silver #Arrow"
+    properties:
+        anchor-leftAnchor: 280.000000
+-   selector: ".active-gold #Leagues #gold #Data #Icon #PlayerProfileFx"
+    properties:
+        visible: true
+-   selector: ".active-gold #Arrow"
+    properties:
+        anchor-leftAnchor: 420.000000
+-   selector: ".active-platinum #Leagues #platinum #Data #Icon #PlayerProfileFx"
+    properties:
+        visible: true
+-   selector: ".active-platinum #Arrow"
+    properties:
+        anchor-leftAnchor: 560.000000
+-   selector: ".active-diamond #Leagues #diamond #Data #Icon #PlayerProfileFx"
+    properties:
+        visible: true
+-   selector: ".active-diamond #Arrow"
+    properties:
+        anchor-leftAnchor: 700.000000
+Controls:
+-   class: "UIControl"
+    name: "LeagueInfoPage"
+    size: [960.000000, 640.000000]
+    noInput: true
+    components:
+        Anchor:
+            leftAnchorEnabled: true
+            rightAnchorEnabled: true
+            topAnchorEnabled: true
+            bottomAnchorEnabled: true
+    children:
+    -   prototype: "StyledBackButton/StyledBackButton"
+        name: "BackButton"
+        position: [8.000000, 8.000000]
+        size: [80.000000, 64.000000]
+        classes: "button button-color-gray button-close-sound"
+    -   class: "UIControl"
+        name: "Container"
+        size: [840.000000, 450.000000]
+        noInput: true
+        components:
+            Anchor:
+                hCenterAnchorEnabled: true
+                vCenterAnchorEnabled: true
+        children:
+        -   class: "UIControl"
+            name: "MainText"
+            noInput: true
+            components:
+                LinearLayout:
+                    orientation: "TopDown"
+                SizePolicy:
+                    horizontalPolicy: "PercentOfParent"
+                    verticalPolicy: "PercentOfChildrenSum"
+                Anchor:
+                    hCenterAnchorEnabled: true
+                    topAnchorEnabled: true
+                    topAnchor: -62.000000
+            children:
+            -   class: "UIStaticText"
+                name: "Title"
+                size: [840.000000, 32.000000]
+                classes: "header1 text-color-white"
+                components:
+                    Anchor:
+                        hCenterAnchorEnabled: true
+                    UITextComponent:
+                        text: "ratingBattles/infoScreen/header"
+                        colorInheritType: "COLOR_IGNORE_PARENT"
+            -   class: "UIStaticText"
+                name: "Description"
+                size: [840.000000, 32.000000]
+                visible: false
+                classes: "text1 text-color-blue"
+                components:
+                    Anchor:
+                        hCenterAnchorEnabled: true
+                    UITextComponent:
+                        text: "19 july - 1 january"
+                        colorInheritType: "COLOR_IGNORE_PARENT"
+                        align: ["HCENTER", "TOP"]
+        -   class: "UIControl"
+            name: "Leagues"
+            size: [840.000000, 450.000000]
+            noInput: true
+            components:
+                LinearLayout:
+                    orientation: "LeftToRight"
+                SizePolicy:
+                    horizontalPolicy: "Ignore"
+                    verticalPolicy: "PercentOfParent"
+                Anchor:
+                    enabled: true
+                    leftAnchorEnabled: true
+                    rightAnchorEnabled: true
+            children:
+            -   prototype: "LeagueInfoPrototype/LeaguesPrototype"
+                name: "no-league"
+                visible: true
+                classes: "league no-league"
+                components:
+                    SizePolicy:
+                        verticalValue: 300.000000
+                    Anchor:
+                        bottomAnchor: 0.000000
+                children:
+                -   path: "Data/Text"
+                    components:
+                        LinearLayout:
+                            skipInvisible: false
+                    children: []
+                -   path: "Data/Text/Title"
+                    components:
+                        UITextComponent:
+                            text: "ratingBattles/infoScreen/calibration"
+                -   path: "Data/Text/Rating"
+                    visible: true
+                    classes: "text1 text-color-blue"
+                    components:
+                        UITextComponent:
+                            text: "ratingBattles/infoScreen/calibration/descr"
+                            fontPath: ""
+                            fontSize: 0.000000
+            -   prototype: "LeagueInfoPrototype/LeaguesPrototype"
+                name: "bronze"
+                classes: "league bronze"
+                children:
+                -   path: "Data/Text/Title"
+                    components:
+                        UITextComponent:
+                            text: "ratingBattles/infoScreen/bronze"
+                -   path: "Data/Text/Rating"
+                    components:
+                        UITextComponent:
+                            text: "ratingBattles/infoScreen/bronze/range"
+                -   path: "Data/Icon/PlayerProfileFx"
+                    effectPath: "~res:/3d/FX/UI/player_profile_icon_bronze.sc2"
+                -   path: "Data/Icon/LeagueIcon"
+                    components:
+                        Background:
+                            frame: 1
+            -   prototype: "LeagueInfoPrototype/LeaguesPrototype"
+                name: "silver"
+                classes: "league silver"
+                components:
+                    SizePolicy:
+                        verticalValue: 340.000000
+                    Anchor:
+                        bottomAnchor: 20.000000
+                children:
+                -   path: "Data/Text/Title"
+                    components:
+                        UITextComponent:
+                            text: "ratingBattles/infoScreen/silver"
+                -   path: "Data/Text/Rating"
+                    components:
+                        UITextComponent:
+                            text: "ratingBattles/infoScreen/silver/range"
+                -   path: "Data/Icon/PlayerProfileFx"
+                    effectPath: "~res:/3d/FX/UI/player_profile_icon_silver.sc2"
+                -   path: "Data/Icon/LeagueIcon"
+                    components:
+                        Background:
+                            frame: 2
+            -   prototype: "LeagueInfoPrototype/LeaguesPrototype"
+                name: "gold"
+                classes: "league gold"
+                components:
+                    SizePolicy:
+                        verticalValue: 360.000000
+                    Anchor:
+                        bottomAnchor: 30.000000
+                children:
+                -   path: "Data/Text/Title"
+                    components:
+                        UITextComponent:
+                            text: "ratingBattles/infoScreen/gold"
+                -   path: "Data/Text/Rating"
+                    components:
+                        UITextComponent:
+                            text: "ratingBattles/infoScreen/gold/range"
+                -   path: "Data/Icon"
+                    position: [10.000000, 84.000000]
+                    children: []
+                -   path: "Data/Icon/PlayerProfileFx"
+                    effectPath: "~res:/3d/FX/UI/player_profile_icon_gold.sc2"
+                -   path: "Data/Icon/LeagueIcon"
+                    components:
+                        Background:
+                            frame: 3
+            -   prototype: "LeagueInfoPrototype/LeaguesPrototype"
+                name: "platinum"
+                classes: "league platinum"
+                components:
+                    SizePolicy:
+                        verticalValue: 380.000000
+                    Anchor:
+                        bottomAnchor: 40.000000
+                children:
+                -   path: "Data/Text/Title"
+                    components:
+                        UITextComponent:
+                            text: "ratingBattles/infoScreen/platinum"
+                -   path: "Data/Text/Rating"
+                    components:
+                        UITextComponent:
+                            text: "ratingBattles/infoScreen/platinum/range"
+                -   path: "Data/Icon/PlayerProfileFx"
+                    effectPath: "~res:/3d/FX/UI/player_profile_icon_platinum.sc2"
+                -   path: "Data/Icon/LeagueIcon"
+                    components:
+                        Background:
+                            frame: 4
+            -   prototype: "LeagueInfoPrototype/LeaguesPrototype"
+                name: "diamond"
+                classes: "league diamond"
+                components:
+                    SizePolicy:
+                        verticalValue: 400.000000
+                    Anchor:
+                        bottomAnchor: 50.000000
+                children:
+                -   path: "Data/Text/Title"
+                    components:
+                        UITextComponent:
+                            text: "ratingBattles/infoScreen/diamond"
+                -   path: "Data/Text/Rating"
+                    components:
+                        UITextComponent:
+                            text: "ratingBattles/infoScreen/diamond/range"
+                -   path: "Data/Icon"
+                    position: [10.000000, 84.000000]
+                    children: []
+                -   path: "Data/Icon/PlayerProfileFx"
+                    effectPath: "~res:/3d/FX/UI/player_profile_icon_diamond.sc2"
+                -   path: "Data/Icon/LeagueIcon"
+                    components:
+                        Background:
+                            frame: 5
+        -   class: "UIControl"
+            name: "Arrow"
+            position: [145.000000, 375.000000]
+            noInput: true
+            classes: "arrow"
+            components:
+                SizePolicy:
+                    horizontalPolicy: "FixedSize"
+                    horizontalValue: 140.000000
+                    verticalPolicy: "FixedSize"
+                    verticalValue: 130.000000
+                Anchor:
+                    leftAnchorEnabled: true
+            children:
+            -   class: "UIControl"
+                name: "Icon"
+                position: [29.500000, 0.000000]
+                size: [71.000000, 74.000000]
+                noInput: true
+                components:
+                    Anchor:
+                        hCenterAnchorEnabled: true
+                        topAnchorEnabled: true
+                    Background:
+                        sprite: "~res:/Gfx/UI/ProfileScreen/rating_arrow.psd"
+                        color: [0.705882, 0.925490, 0.317647, 1.000000]
+            -   class: "UIControl"
+                name: "Text"
+                position: [-3.333336, 62.000000]
+                noInput: true
+                components:
+                    LinearLayout:
+                        orientation: "TopDown"
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfMaxChild"
+                        verticalPolicy: "PercentOfChildrenSum"
+                    Anchor:
+                        hCenterAnchorEnabled: true
+                        bottomAnchorEnabled: true
+                        bottomAnchor: 10.000000
+                children:
+                -   class: "UIStaticText"
+                    name: "Rating"
+                    position: [0.000000, 0.000000]
+                    size: [136.666672, 32.000000]
+                    classes: "header0 text-color-light-white"
+                    components:
+                        Anchor:
+                            hCenterAnchorEnabled: true
+                            vCenterAnchorEnabled: true
+                        UITextComponent:
+                            text: "690"
+                            colorInheritType: "COLOR_IGNORE_PARENT"
+                -   class: "UIStaticText"
+                    name: "Description"
+                    position: [0.000000, 32.000000]
+                    size: [136.666672, 26.000000]
+                    classes: "text1 text-color-blue"
+                    components:
+                        SizePolicy:
+                            verticalPolicy: "PercentOfContent"
+                            verticalMin: 26.000000
+                        Anchor:
+                            leftAnchorEnabled: true
+                            rightAnchorEnabled: true
+                        UITextComponent:
+                            text: "ratingBattles/infoScreen/currentLeague"
+                            fontName: "WarHeliosCondC_21"
+                            colorInheritType: "COLOR_IGNORE_PARENT"
+                            multiline: "MULTILINE_ENABLED"
+                            align: ["HCENTER", "TOP"]

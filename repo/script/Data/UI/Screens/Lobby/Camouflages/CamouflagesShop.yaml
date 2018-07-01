@@ -1,0 +1,447 @@
+Header:
+    version: "21"
+ImportedPackages:
+- "~res:/UI/Screens/Lobby/LobbyHeader.yaml"
+- "~res:/UI/Screens/Common.yaml"
+- "~res:/UI/Screens/Lobby/Camouflages/CamouflagesShopProto.yaml"
+- "~res:/UI/Screens/Lobby/Common/FooterPriceControl.yaml"
+- "~res:/UI/Screens/Lobby/Common/ShopFooter.yaml"
+- "~res:/UI/Screens/Common/StyledButton.yaml"
+- "~res:/UI/Screens/Fonts.yaml"
+- "~res:/UI/Screens/Lobby/Common/SafeAreaSpacer.yaml"
+StyleSheets:
+-   selector: "#Screen.preview_on ? #previewButton"
+    properties:
+        anchor-topAnchor:
+            value: -76.000000
+            transitionTime: 0.160000
+            transitionFunction: "LINEAR"
+-   selector: "#Screen.preview_off ? #previewButton"
+    properties:
+        anchor-topAnchor:
+            value: 7.000000
+            transitionTime: 0.160000
+            transitionFunction: "LINEAR"
+-   selector: "#Screen.preview_on ? #footer"
+    properties:
+        anchor-bottomAnchor:
+            value: -94.000000
+            transitionTime: 0.160000
+            transitionFunction: "LINEAR"
+-   selector: "#Screen.preview_off ? #footer"
+    properties:
+        anchor-bottomAnchor:
+            value: 0.000000
+            transitionTime: 0.160000
+            transitionFunction: "LINEAR"
+-   selector: "#Screen.preview_on ? #info"
+    properties:
+        anchor-leftAnchor:
+            value: 1024.000000
+            transitionTime: 0.160000
+            transitionFunction: "LINEAR"
+        bg-color:
+            value: [0.000000, 0.000000, 0.000000, 0.000000]
+            transitionTime: 0.160000
+            transitionFunction: "LINEAR"
+        anchor-rightAnchor:
+            value: -416.000000
+            transitionTime: 0.160000
+            transitionFunction: "LINEAR"
+-   selector: "#Screen.preview_off ? #info"
+    properties:
+        anchor-leftAnchor:
+            value: 416.000000
+            transitionTime: 0.160000
+            transitionFunction: "LINEAR"
+        bg-color: [0.000000, 0.000000, 0.000000, 1.000000]
+        anchor-rightAnchor:
+            value: 0.000000
+            transitionTime: 0.160000
+            transitionFunction: "LINEAR"
+-   selector: "#Screen.preview_on ? #content"
+    properties:
+        anchor-leftAnchor:
+            value: -712.000000
+            transitionTime: 0.160000
+            transitionFunction: "LINEAR"
+        anchor-bottomAnchor:
+            value: 94.000000
+            transitionTime: 0.160000
+            transitionFunction: "LINEAR"
+        anchor-topAnchor:
+            value: 0.000000
+            transitionTime: 0.160000
+            transitionFunction: "LINEAR"
+-   selector: "#Screen.preview_off ? #content"
+    properties:
+        anchor-leftAnchor:
+            value: 0.000000
+            transitionTime: 0.160000
+            transitionFunction: "LINEAR"
+        anchor-bottomAnchor:
+            value: 94.000000
+            transitionTime: 0.160000
+            transitionFunction: "LINEAR"
+        anchor-topAnchor:
+            value: 0.000000
+            transitionTime: 0.160000
+            transitionFunction: "LINEAR"
+-   selector: "#Screen.preview_on #Header"
+    properties:
+        anchor-topAnchor:
+            value: -80.000000
+            transitionTime: 0.160000
+            transitionFunction: "LINEAR"
+-   selector: "#Screen.preview_off #Header"
+    properties:
+        anchor-topAnchor:
+            value: 0.000000
+            transitionTime: 0.160000
+            transitionFunction: "LINEAR"
+-   selector: "#Screen.preview_on ? ? #icon"
+    properties:
+        bg-frame: 1
+-   selector: "#Screen.preview_off ? ? #icon"
+    properties:
+        bg-frame: 0
+-   selector: "#ShopFooter.has_resupply #ResupplyContainer"
+    properties:
+        visible: true
+-   selector: "#ShopFooter.no_resupply #ResupplyContainer"
+    properties:
+        visible: false
+Controls:
+-   class: "UIControl"
+    customClass: "UICamouflagesShopScreen"
+    name: "Screen"
+    size: [1024.000000, 768.000000]
+    noInput: true
+    classes: "preview=preview_off"
+    components:
+        Anchor:
+            leftAnchorEnabled: true
+            rightAnchorEnabled: true
+            topAnchorEnabled: true
+            bottomAnchorEnabled: true
+    children:
+    -   prototype: "LobbyHeader/Header"
+        name: "Header"
+    -   class: "UIControl"
+        name: "Content"
+        noInput: true
+        components:
+            Anchor:
+                leftAnchorEnabled: true
+                rightAnchorEnabled: true
+                topAnchorEnabled: true
+                topAnchor: 80.000000
+                bottomAnchorEnabled: true
+        children:
+        -   class: "UIControl"
+            name: "content"
+            noInput: true
+            classes: "preview_hide screen-background"
+            components:
+                LinearLayout: {}
+                SizePolicy:
+                    horizontalPolicy: "PercentOfChildrenSum"
+                Anchor:
+                    leftAnchorEnabled: true
+                    topAnchorEnabled: true
+                    bottomAnchorEnabled: true
+                Background: {}
+                ClipContent: {}
+            children:
+            -   prototype: "SafeAreaSpacer/SafeAreaSpacer"
+                name: "SafeAreaSpacer"
+                classes: "pane-bg"
+                components:
+                    Background: {}
+            -   class: "UIControl"
+                name: "SlotsPanel"
+                noInput: true
+                classes: "pane-bg"
+                components:
+                    SizePolicy:
+                        horizontalPolicy: "FixedSize"
+                        horizontalValue: 120.000000
+                        verticalPolicy: "PercentOfParent"
+                    Background: {}
+                children:
+                -   class: "UIControl"
+                    name: "SlotsWrapper"
+                    components:
+                        LinearLayout:
+                            orientation: "TopDown"
+                        SizePolicy:
+                            horizontalPolicy: "PercentOfParent"
+                            verticalPolicy: "PercentOfChildrenSum"
+                        Anchor:
+                            vCenterAnchorEnabled: true
+                    children:
+                    -   class: "UIControl"
+                        name: "Spacer"
+                        position: [0.000000, 0.000000]
+                        size: [120.000000, 26.000000]
+                        noInput: true
+                        components:
+                            SizePolicy:
+                                horizontalPolicy: "PercentOfParent"
+                    -   class: "UIControl"
+                        name: "Slots"
+                        position: [23.000000, 32.000000]
+                        components:
+                            LinearLayout:
+                                orientation: "TopDown"
+                            SizePolicy:
+                                horizontalPolicy: "PercentOfLastChild"
+                                verticalPolicy: "PercentOfChildrenSum"
+                            Anchor:
+                                enabled: true
+                                hCenterAnchorEnabled: true
+                                vCenterAnchorEnabled: true
+                            UIAnchorSafeAreaComponent:
+                                leftSafeInset: "INSET"
+                        children:
+                        -   prototype: "CamouflagesShopProto/CamouflageSlot"
+                            name: "CustomSets"
+                            components:
+                                SizePolicy:
+                                    verticalPolicy: "Formula"
+                                    verticalFormula: "maxChild + 40"
+                                Anchor:
+                                    hCenterAnchorEnabled: true
+                            children:
+                            -   path: "title"
+                                components:
+                                    UITextComponent:
+                                        text: "#customSets:Slots/customSet"
+                            -   path: "button/WhiteMask"
+                                visible: true
+                        -   prototype: "CamouflagesShopProto/CamouflageSlot"
+                            name: "Summer"
+                            components:
+                                SizePolicy:
+                                    verticalPolicy: "Formula"
+                                    verticalFormula: "maxChild + 40"
+                                Anchor:
+                                    hCenterAnchorEnabled: true
+                            children:
+                            -   path: "title"
+                                components:
+                                    UITextComponent:
+                                        text: "#camouflages:Slots/Summer"
+                        -   prototype: "CamouflagesShopProto/CamouflageSlot"
+                            name: "Winter"
+                            components:
+                                SizePolicy:
+                                    verticalPolicy: "Formula"
+                                    verticalFormula: "maxChild + 40"
+                                Anchor:
+                                    hCenterAnchorEnabled: true
+                            children:
+                            -   path: "title"
+                                components:
+                                    UITextComponent:
+                                        text: "#camouflages:Slots/Winter"
+                        -   prototype: "CamouflagesShopProto/CamouflageSlot"
+                            name: "Desert"
+                            components:
+                                SizePolicy:
+                                    verticalPolicy: "Formula"
+                                    verticalFormula: "maxChild"
+                                Anchor:
+                                    hCenterAnchorEnabled: true
+                            children:
+                            -   path: "title"
+                                components:
+                                    UITextComponent:
+                                        text: "#camouflages:Slots/Desert"
+            -   class: "UIScrollView"
+                name: "scrollView"
+                autoUpdate: true
+                components:
+                    SizePolicy:
+                        horizontalPolicy: "FixedSize"
+                        horizontalValue: 296.000000
+                        horizontalFormula: "safeAreaInsets.left+296"
+                    Anchor:
+                        leftAnchorEnabled: true
+                        leftAnchor: 120.000000
+                        topAnchorEnabled: true
+                        bottomAnchorEnabled: true
+                children:
+                -   class: "UIScrollViewContainer"
+                    name: "scrollContainerControl"
+                    components:
+                        LinearLayout:
+                            orientation: "TopDown"
+                            spacing: 1.000000
+                        SizePolicy:
+                            verticalPolicy: "PercentOfChildrenSum"
+                        Anchor:
+                            leftAnchorEnabled: true
+                            rightAnchorEnabled: true
+            -   class: "UIScrollBar"
+                name: "scrollbar"
+                size: [10.000000, 594.000000]
+                components:
+                    IgnoreLayout: {}
+                    Anchor:
+                        rightAnchorEnabled: true
+                        topAnchorEnabled: true
+                        bottomAnchorEnabled: true
+                children:
+                -   class: "UIControl"
+                    name: "slider"
+                    size: [10.000000, 20.000000]
+                    noInput: true
+                    components:
+                        Background:
+                            drawType: "DRAW_STRETCH_VERTICAL"
+                            sprite: "~res:/Gfx/UI/CommonUIElements/VerticalScroll"
+                            topBottomStretchCap: 10.000000
+        -   class: "UIControl"
+            name: "info"
+            position: [512.000000, 483.000000]
+            size: [512.000000, 111.000000]
+            noInput: true
+            components:
+                LinearLayout:
+                    orientation: "TopDown"
+                    padding: 10.000000
+                    spacing: 10.000000
+                SizePolicy:
+                    verticalPolicy: "PercentOfChildrenSum"
+                Anchor:
+                    leftAnchorEnabled: true
+                    rightAnchorEnabled: true
+                    topAnchorEnabled: false
+                    bottomAnchorEnabled: true
+                    bottomAnchor: 94.000000
+                UIAnchorSafeAreaComponent:
+                    leftSafeInset: "INSET"
+                Background:
+                    leftRightStretchCap: 9.000000
+                    topBottomStretchCap: 9.000000
+            children:
+            -   class: "UIControl"
+                name: "content"
+                noInput: true
+                components:
+                    IgnoreLayout: {}
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfParent"
+                        verticalPolicy: "PercentOfParent"
+                    Background:
+                        drawType: "DRAW_FILL"
+                        color: [0.000000, 0.000000, 0.000000, 0.600000]
+                        colorInherit: "COLOR_MULTIPLY_ALPHA_ONLY"
+            -   class: "UIStaticText"
+                name: "title"
+                noInput: true
+                classes: "header2 text-color-white"
+                components:
+                    SizePolicy:
+                        verticalPolicy: "PercentOfContent"
+                    Anchor:
+                        leftAnchorEnabled: true
+                        leftAnchor: 15.000000
+                        rightAnchorEnabled: true
+                        rightAnchor: 5.000000
+                    UIAnchorSafeAreaComponent:
+                        rightSafeInset: "INSET"
+                    Background:
+                        colorInherit: "COLOR_MULTIPLY_ALPHA_ONLY"
+                        align: ["LEFT", "TOP"]
+                    UITextComponent:
+                        text: "Капитанская дочка"
+                        colorInheritType: "COLOR_MULTIPLY_ALPHA_ONLY"
+                        multiline: "MULTILINE_ENABLED"
+                        fitting: "FITTING_REDUCE"
+                        align: ["LEFT", "VCENTER"]
+                        useRtlAlign: "DONT_USE"
+            -   class: "UIStaticText"
+                name: "description"
+                noInput: true
+                classes: "text1 text-color-blue"
+                components:
+                    SizePolicy:
+                        verticalPolicy: "PercentOfContent"
+                    Anchor:
+                        leftAnchorEnabled: true
+                        leftAnchor: 15.000000
+                        rightAnchorEnabled: true
+                        rightAnchor: 10.000000
+                    UIAnchorSafeAreaComponent:
+                        rightSafeInset: "INSET"
+                    Background:
+                        colorInherit: "COLOR_MULTIPLY_ALPHA_ONLY"
+                        align: ["LEFT", "TOP"]
+                    UITextComponent:
+                        text: "#vehicle_customization:Camouflage/Universal/Descr"
+                        colorInheritType: "COLOR_MULTIPLY_ALPHA_ONLY"
+                        multiline: "MULTILINE_ENABLED"
+                        fitting: "FITTING_REDUCE"
+                        align: ["LEFT", "TOP"]
+                        useRtlAlign: "USE_BY_SYSTEM"
+        -   prototype: "StyledButton/DefaultStyledButton"
+            name: "previewButton"
+            size: [64.000000, 64.000000]
+            classes: "button button-color-gray preview_hide"
+            components:
+                Anchor:
+                    rightAnchorEnabled: true
+                    rightAnchor: 7.000000
+                    topAnchorEnabled: true
+                UIAnchorSafeAreaComponent:
+                    rightSafeInset: "INSET"
+            children:
+            -   class: "UIControl"
+                name: "icon"
+                pivot: [0.500000, 0.500000]
+                classes: "preview_icon"
+                components:
+                    Anchor:
+                        hCenterAnchorEnabled: true
+                        vCenterAnchorEnabled: true
+                    Background:
+                        sprite: "~res:/Gfx/UI/LobbyCommon/icon_camouflage_preview.psd"
+                        colorInherit: "COLOR_MULTIPLY_ON_PARENT"
+        -   class: "UIControl"
+            name: "footer"
+            size: [1024.000000, 94.000000]
+            components:
+                Anchor:
+                    leftAnchorEnabled: true
+                    rightAnchorEnabled: true
+                    bottomAnchorEnabled: true
+                UIAnchorSafeAreaComponent:
+                    leftSafeInset: "INSET"
+                    rightSafeInset: "INSET"
+            children:
+            -   class: "UIControl"
+                name: "back"
+                position: [-44.000000, 0.000000]
+                size: [1024.000000, 94.000000]
+                noInput: true
+                classes: "screen-background"
+                components:
+                    IgnoreLayout: {}
+                    Anchor:
+                        leftAnchorEnabled: true
+                        rightAnchorEnabled: true
+                        topAnchorEnabled: true
+                        bottomAnchorEnabled: true
+                    UIAnchorSafeAreaComponent:
+                        leftSafeInset: "REVERSE"
+                        rightSafeInset: "REVERSE"
+                    Background: {}
+            -   prototype: "ShopFooter/ShopFooter"
+                name: "ShopFooter"
+                position: [0.000000, 0.000000]
+                components:
+                    UIAnchorSafeAreaComponent:
+                        leftSafeInset: "NONE"
+                        rightSafeInset: "NONE"

@@ -1,0 +1,71 @@
+Header:
+    version: "21"
+ImportedPackages:
+- "~res:/UI/Screens/Lobby/Story/StoryButtonPrototype.yaml"
+Controls:
+-   prototype: "StoryButtonPrototype/StoryButton"
+    name: "StoryButton"
+    children:
+    -   path: "Layout"
+        position: [0.000000, 0.000000]
+        children: []
+    -   path: "Layout/Footer/Type"
+        components:
+            Background:
+                sprite: "~res:/Gfx/UI/Story/coins_icon"
+    -   path: "Layout/IconContainer"
+        components:
+            Anchor:
+                leftAnchorEnabled: true
+                topAnchorEnabled: true
+        children:
+        -   class: "UIControl"
+            name: "Icon-2"
+            noInput: true
+            components:
+                SizePolicy:
+                    horizontalPolicy: "PercentOfParent"
+                    horizontalValue: 142.000000
+                    verticalPolicy: "PercentOfContent"
+                Anchor:
+                    leftAnchorEnabled: true
+                    leftAnchor: 9.000000
+                    bottomAnchorEnabled: true
+                    bottomAnchor: 1.000000
+                Background:
+                    drawType: "DRAW_ALIGNED"
+                    sprite: "~res:/Gfx/UI/Story/BigMay2018/HangarIcon.psd"
+                    frame: 1
+                    colorInherit: "COLOR_MULTIPLY_ON_PARENT"
+            children:
+            -   class: "UIParticles"
+                name: "Particle"
+                position: [68.000000, 43.000000]
+                size: [32.000000, 32.000000]
+                pivot: [0.500000, 0.500000]
+                noInput: true
+                effectPath: "~res:/3d/FX/UI/9may/remap_tank.sc2"
+                autoStart: true
+            -   class: "UIParticles"
+                name: "Particle_1"
+                position: [100.000000, 16.000000]
+                size: [32.000000, 32.000000]
+                pivot: [0.500000, 0.500000]
+                noInput: true
+                effectPath: "~res:/3d/FX/UI/9may/confetti.sc2"
+                autoStart: true
+    -   path: "Layout/TextContainer/Title"
+        components:
+            Anchor:
+                rightAnchorEnabled: true
+                rightAnchor: 5.000000
+            UITextComponent:
+                text: "may_event/Button"
+                align: ["RIGHT", "VCENTER"]
+    -   path: "Layout/TextContainer/ExpireTimer"
+        position: [57.000000, 50.000000]
+        components:
+            Anchor:
+                rightAnchorEnabled: true
+                rightAnchor: 30.000000
+        children: []

@@ -1,0 +1,28 @@
+Header:
+    version: "20"
+ImportedPackages:
+- "~res:/UI/Screens/Fonts.yaml"
+- "~res:/UI/Screens/Lobby/Common/Price.yaml"
+StyleSheets:
+-   selector: ".align.vi"
+    properties:
+        anchor-vCenterAnchor: -4.000000
+-   selector: ".align"
+    properties:
+        anchor-vCenterAnchor: -2.000000
+-   selector: ".align.th"
+    properties:
+        anchor-vCenterAnchor: -1.000000
+Controls:
+-   prototype: "Price/Price"
+    name: "Reward"
+    classes: "currency=gold align"
+    components:
+        LinearLayout:
+            spacing: 3.000000
+    children:
+    -   path: "Text"
+        classes: "header3 text-color=text-color-white"
+        components:
+            UITextComponent:
+                text: "250"

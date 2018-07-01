@@ -1,0 +1,18 @@
+Header:
+    version: "22"
+ImportedPackages:
+- "~res:/UI/Screens/Lobby/Story/StoryButtonPrototype.yaml"
+Controls:
+-   prototype: "StoryButtonPrototype/StoryButton"
+    name: "StoryButton"
+    classes: "button story-button type=process"
+    children:
+    -   path: "Back"
+        components:
+            Background:
+                drawType: "DRAW_ALIGNED"
+                sprite: "~res:/Gfx/UI/Story/Star_Event2018/HangarIcon_0.psd"
+    -   path: "Layout/TextContainer/Title"
+        components:
+            UITextComponent:
+                text: "star_event/Button"

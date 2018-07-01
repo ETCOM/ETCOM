@@ -1,0 +1,209 @@
+Header:
+    version: "22"
+ImportedPackages:
+- "~res:/UI/Screens/Lobby/Story/StoryTreePrototypes.yaml"
+Controls:
+-   class: "UIControl"
+    name: "Stories"
+    size: [960.000000, 407.000000]
+    noInput: true
+    children:
+    -   class: "UIControl"
+        name: "Arrow"
+        position: [145.000000, 168.000000]
+        size: [40.000000, 70.000000]
+        noInput: true
+        children:
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow"
+            components:
+                SizePolicy:
+                    horizontalPolicy: "PercentOfParent"
+                Anchor:
+                    vCenterAnchorEnabled: true
+    -   class: "UIControl"
+        name: "Arrow_1"
+        position: [271.000000, 168.000000]
+        size: [40.000000, 70.000000]
+        noInput: true
+        children:
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow"
+            components:
+                SizePolicy:
+                    horizontalPolicy: "PercentOfParent"
+                Anchor:
+                    vCenterAnchorEnabled: true
+    -   class: "UIControl"
+        name: "Arrow_2"
+        position: [397.000000, 168.000000]
+        size: [40.000000, 70.000000]
+        noInput: true
+        children:
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow"
+            components:
+                SizePolicy:
+                    horizontalPolicy: "PercentOfParent"
+                Anchor:
+                    vCenterAnchorEnabled: true
+    -   class: "UIControl"
+        name: "Arrow_3"
+        position: [523.000000, 168.000000]
+        size: [40.000000, 70.000000]
+        noInput: true
+        children:
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow"
+            components:
+                SizePolicy:
+                    horizontalPolicy: "PercentOfParent"
+                Anchor:
+                    vCenterAnchorEnabled: true
+    -   class: "UIControl"
+        name: "Arrow_4"
+        position: [649.000000, 168.000000]
+        size: [40.000000, 70.000000]
+        noInput: true
+        children:
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow"
+            components:
+                SizePolicy:
+                    horizontalPolicy: "PercentOfParent"
+                Anchor:
+                    vCenterAnchorEnabled: true
+    -   class: "UIControl"
+        name: "Arrow_6"
+        position: [571.000000, 168.000000]
+        size: [40.000000, 70.000000]
+        angle: -90.000000
+        noInput: true
+        children:
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow"
+            components:
+                SizePolicy:
+                    horizontalPolicy: "PercentOfParent"
+                Anchor:
+                    vCenterAnchorEnabled: true
+    -   class: "UIControl"
+        name: "Arrow_7"
+        position: [641.000000, 238.000000]
+        size: [40.000000, 70.000000]
+        angle: 90.000000
+        noInput: true
+        children:
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow"
+            components:
+                SizePolicy:
+                    horizontalPolicy: "PercentOfParent"
+                Anchor:
+                    vCenterAnchorEnabled: true
+    -   class: "UIControl"
+        name: "Arrow_8"
+        position: [823.000000, 168.000000]
+        size: [40.000000, 70.000000]
+        angle: -90.000000
+        noInput: true
+        children:
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow"
+            components:
+                SizePolicy:
+                    horizontalPolicy: "PercentOfParent"
+                Anchor:
+                    vCenterAnchorEnabled: true
+    -   class: "UIControl"
+        name: "Arrow_9"
+        position: [893.000000, 238.000000]
+        size: [40.000000, 70.000000]
+        angle: 90.000000
+        noInput: true
+        children:
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow"
+            components:
+                SizePolicy:
+                    horizontalPolicy: "PercentOfParent"
+                Anchor:
+                    vCenterAnchorEnabled: true
+    -   class: "UIControl"
+        name: "Arrow_5"
+        position: [775.000000, 168.000000]
+        size: [40.000000, 70.000000]
+        noInput: true
+        children:
+        -   prototype: "StoryTreePrototypes/Arrow"
+            name: "Arrow"
+            components:
+                SizePolicy:
+                    horizontalPolicy: "PercentOfParent"
+                Anchor:
+                    vCenterAnchorEnabled: true
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "13"
+        position: [311.000000, 168.000000]
+        classes: "step grade=rare content=booster-exp-basic"
+        children:
+        -   path: "NormalState/Image/Icon"
+            position: [-0.500000, 6.500000]
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "14"
+        position: [437.000000, 168.000000]
+        classes: "step grade=rare content=booster-exp-comand"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "15"
+        position: [563.000000, 168.000000]
+        classes: "step grade=rare content=booster-exp-free"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "16"
+        position: [564.000000, 58.000000]
+        classes: "step grade=unique content=booster-reload"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "17"
+        position: [563.000000, 278.000000]
+        classes: "step grade=unique content=booster-reload"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "11"
+        position: [59.000000, 168.000000]
+        classes: "step grade=default content=currency-silver"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "12"
+        position: [185.000000, 168.000000]
+        classes: "step grade=default content=currency-silver"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "18"
+        position: [689.000000, 168.000000]
+        classes: "step grade=default content=prem"
+        children:
+        -   path: "NormalState/Image/Icon"
+            size: [86.000000, 64.000000]
+            components:
+                Background:
+                    drawType: "DRAW_SCALE_PROPORTIONAL"
+                    sprite: "~res:/Gfx/UI/Quests/AddCurrencyIconsHuge_200percent.psd"
+                    frame: 7
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "19"
+        position: [815.000000, 168.000000]
+        classes: "step grade=unique content=chest-daily"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "21"
+        position: [816.000000, 278.000000]
+        classes: "step grade=default content=free-exp"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "20"
+        position: [816.000000, 58.000000]
+        classes: "step grade=unique content=chest-kpfpz70"
+CustomData:
+    Guides:
+        Stories:
+            Vertical:
+            - 546.000000
+            - 799.000000
+            - 840.000000
+            - 282.000000
+            Horizontal:
+            - 292.000000

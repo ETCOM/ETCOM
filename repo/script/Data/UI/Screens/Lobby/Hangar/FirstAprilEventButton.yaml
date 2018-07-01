@@ -1,0 +1,108 @@
+Header:
+    version: "20"
+ImportedPackages:
+- "~res:/UI/Screens/Fonts.yaml"
+- "~res:/UI/Styles/ButtonSoundStyles.yaml"
+StyleSheets:
+-   selector: ".first-april-event-button:pressed_inside"
+    properties:
+        bg-color: [1.000000, 1.000000, 1.000000, 0.501961]
+Prototypes:
+-   class: "UIControl"
+    name: "FirstAprilEventButton"
+    size: [229.000000, 73.000000]
+    classes: "first-april-event-button button-battle-sound"
+    components:
+        Background: {}
+        Sound: {}
+        ClipContent: {}
+    children:
+    -   class: "UIControl"
+        name: "Back"
+        position: [8.000000, -1.000000]
+        noInput: true
+        components:
+            SizePolicy:
+                horizontalPolicy: "FixedSize"
+                horizontalValue: 230.000000
+                verticalPolicy: "FixedSize"
+                verticalValue: 74.000000
+            Background:
+                drawType: "DRAW_ALIGNED"
+                sprite: "~res:/Gfx/UI/Story/world_of_ducks/btn_back.psd"
+                colorInherit: "COLOR_REPLACE_ALPHA_ONLY"
+    -   class: "UIControl"
+        name: "WavesAndDuck"
+        size: [229.000000, 70.000000]
+        noInput: true
+        components:
+            Anchor:
+                leftAnchorEnabled: true
+                rightAnchorEnabled: true
+                topAnchorEnabled: true
+                bottomAnchorEnabled: true
+                bottomAnchor: 3.000000
+            ClipContent: {}
+        children:
+        -   class: "UIParticles"
+            name: "wave3"
+            position: [-26.000000, 37.000000]
+            size: [32.000000, 32.000000]
+            pivot: [0.500000, 0.500000]
+            noInput: true
+            effectPath: "~res:/3d/FX/UI/Duck/wave3.sc2"
+            autoStart: true
+        -   class: "UIParticles"
+            name: "gull"
+            position: [-18.000000, 16.000000]
+            size: [32.000000, 32.000000]
+            pivot: [0.500000, 0.500000]
+            noInput: true
+            effectPath: "~res:/3d/FX/UI/Duck/gull.sc2"
+            autoStart: true
+        -   class: "UIParticles"
+            name: "wave2"
+            position: [248.000000, 58.000000]
+            size: [32.000000, 32.000000]
+            pivot: [0.500000, 0.500000]
+            noInput: true
+            effectPath: "~res:/3d/FX/UI/Duck/wave2.sc2"
+            autoStart: true
+        -   class: "UIParticles"
+            name: "duck"
+            position: [131.000000, 37.000000]
+            size: [32.000000, 32.000000]
+            pivot: [0.500000, 0.500000]
+            noInput: true
+            effectPath: "~res:/3d/FX/UI/Duck/duck.sc2"
+            autoStart: true
+        -   class: "UIParticles"
+            name: "wave1"
+            position: [-18.000000, 69.000000]
+            size: [32.000000, 32.000000]
+            pivot: [0.500000, 0.500000]
+            noInput: true
+            effectPath: "~res:/3d/FX/UI/Duck/wave1.sc2"
+            autoStart: true
+        -   class: "UIControl"
+            name: "Text"
+            position: [108.500000, 19.000000]
+            size: [32.000000, 32.000000]
+            noInput: true
+            classes: "header0"
+            components:
+                Anchor:
+                    hCenterAnchorEnabled: true
+                    hCenterAnchor: 10.000000
+                    vCenterAnchorEnabled: true
+                Background:
+                    sprite: "~res:/Gfx/UI/Story/world_of_ducks/hangar_btn.psd"
+                    colorInherit: "COLOR_REPLACE_ALPHA_ONLY"
+    -   class: "UIParticles"
+        name: "bubbles"
+        position: [115.000000, 85.000000]
+        size: [32.000000, 32.000000]
+        pivot: [0.500000, 0.500000]
+        noInput: true
+        effectPath: "~res:/3d/FX/UI/Duck/bubbles.sc2"
+        autoStart: true

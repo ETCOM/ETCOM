@@ -1,0 +1,340 @@
+Header:
+    version: "21"
+ImportedPackages:
+- "~res:/UI/Screens/Lobby/Story/StoryTreePrototypes.yaml"
+- "~res:/UI/Screens/Fonts.yaml"
+Prototypes:
+-   class: "UIControl"
+    name: "Group-bg"
+    size: [126.000000, 262.000000]
+    noInput: true
+    classes: "border2"
+    components:
+        Background:
+            drawType: "DRAW_STRETCH_BOTH"
+            sprite: "~res:/Gfx/UI/CommonUIElements/square_BigAngle.psd"
+            color: [0.000000, 0.000000, 0.000000, 0.100000]
+            leftRightStretchCap: 6.000000
+            topBottomStretchCap: 6.000000
+Controls:
+-   class: "UIControl"
+    name: "Stories"
+    size: [920.000000, 420.000000]
+    noInput: true
+    children:
+    -   class: "UIControl"
+        name: "Common"
+        position: [40.000000, 33.000000]
+        size: [794.000000, 335.000000]
+        noInput: true
+        children:
+        -   class: "UIControl"
+            name: "Arrow"
+            position: [106.000000, 81.000000]
+            size: [80.000000, 70.000000]
+            noInput: true
+            children:
+            -   prototype: "StoryTreePrototypes/Arrow"
+                name: "Arrow"
+                components:
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfParent"
+                    Anchor:
+                        vCenterAnchorEnabled: true
+        -   class: "UIControl"
+            name: "Arrow_1"
+            position: [272.000000, 81.000000]
+            size: [80.000000, 70.000000]
+            noInput: true
+            children:
+            -   prototype: "StoryTreePrototypes/Arrow"
+                name: "Arrow"
+                components:
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfParent"
+                    Anchor:
+                        vCenterAnchorEnabled: true
+        -   class: "UIControl"
+            name: "Arrow_2"
+            position: [438.000000, 81.000000]
+            size: [80.000000, 70.000000]
+            noInput: true
+            children:
+            -   prototype: "StoryTreePrototypes/Arrow"
+                name: "Arrow"
+                components:
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfParent"
+                    Anchor:
+                        vCenterAnchorEnabled: true
+        -   class: "UIControl"
+            name: "Arrow_3"
+            position: [604.000000, 81.000000]
+            size: [80.000000, 70.000000]
+            noInput: true
+            children:
+            -   prototype: "StoryTreePrototypes/Arrow"
+                name: "Arrow"
+                components:
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfParent"
+                    Anchor:
+                        vCenterAnchorEnabled: true
+        -   class: "UIControl"
+            name: "Arrow_4"
+            position: [106.000000, 217.000000]
+            size: [80.000000, 70.000000]
+            noInput: true
+            children:
+            -   prototype: "StoryTreePrototypes/Arrow"
+                name: "Arrow"
+                components:
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfParent"
+                    Anchor:
+                        vCenterAnchorEnabled: true
+        -   class: "UIControl"
+            name: "Arrow_5"
+            position: [272.000000, 217.000000]
+            size: [80.000000, 70.000000]
+            noInput: true
+            children:
+            -   prototype: "StoryTreePrototypes/Arrow"
+                name: "Arrow"
+                components:
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfParent"
+                    Anchor:
+                        vCenterAnchorEnabled: true
+        -   class: "UIControl"
+            name: "Arrow_6"
+            position: [438.000000, 217.000000]
+            size: [80.000000, 70.000000]
+            noInput: true
+            children:
+            -   prototype: "StoryTreePrototypes/Arrow"
+                name: "Arrow"
+                components:
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfParent"
+                    Anchor:
+                        vCenterAnchorEnabled: true
+        -   class: "UIControl"
+            name: "Arrow_7"
+            position: [604.000000, 217.000000]
+            size: [80.000000, 70.000000]
+            noInput: true
+            children:
+            -   prototype: "StoryTreePrototypes/Arrow"
+                name: "Arrow"
+                components:
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfParent"
+                    Anchor:
+                        vCenterAnchorEnabled: true
+        -   class: "UIControl"
+            name: "Header1"
+            position: [0.000000, 0.000000]
+            size: [126.000000, 21.000000]
+            noInput: true
+            children:
+            -   class: "UIControl"
+                name: "Value"
+                noInput: true
+                classes: "text2-small color=text-color-white"
+                components:
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfParent"
+                        verticalPolicy: "PercentOfContent"
+                    UITextComponent:
+                        text: "june_football_event/match1"
+                        colorInheritType: "COLOR_IGNORE_PARENT"
+        -   class: "UIControl"
+            name: "Header2"
+            position: [166.000000, 0.000000]
+            size: [126.000000, 21.000000]
+            noInput: true
+            children:
+            -   class: "UIControl"
+                name: "Value"
+                noInput: true
+                classes: "text2-small color=text-color-white"
+                components:
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfParent"
+                        verticalPolicy: "PercentOfContent"
+                    UITextComponent:
+                        text: "june_football_event/match2"
+                        colorInheritType: "COLOR_IGNORE_PARENT"
+        -   class: "UIControl"
+            name: "Header3"
+            position: [332.000000, 0.000000]
+            size: [126.000000, 21.000000]
+            noInput: true
+            children:
+            -   class: "UIControl"
+                name: "Value"
+                noInput: true
+                classes: "text2-small color=text-color-white"
+                components:
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfParent"
+                        verticalPolicy: "PercentOfContent"
+                    UITextComponent:
+                        text: "june_football_event/match3"
+                        colorInheritType: "COLOR_IGNORE_PARENT"
+        -   class: "UIControl"
+            name: "Header4"
+            position: [498.000000, 0.000000]
+            size: [126.000000, 21.000000]
+            noInput: true
+            children:
+            -   class: "UIControl"
+                name: "Value"
+                noInput: true
+                classes: "text2-small color=text-color-white"
+                components:
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfParent"
+                        verticalPolicy: "PercentOfContent"
+                    UITextComponent:
+                        text: "june_football_event/match4"
+                        colorInheritType: "COLOR_IGNORE_PARENT"
+        -   class: "UIControl"
+            name: "Header5"
+            position: [664.000000, 0.000000]
+            size: [170.000000, 21.000000]
+            noInput: true
+            children:
+            -   class: "UIControl"
+                name: "Value"
+                noInput: true
+                classes: "text2-small color=text-color-white"
+                components:
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfParent"
+                        verticalPolicy: "PercentOfContent"
+                    UITextComponent:
+                        text: "june_football_event/finals"
+                        colorInheritType: "COLOR_IGNORE_PARENT"
+        -   prototype: "Group-bg"
+            name: "Group-bg-1"
+            position: [0.000000, 53.000000]
+        -   prototype: "Group-bg"
+            name: "Group-bg-2"
+            position: [166.000000, 53.000000]
+        -   prototype: "Group-bg"
+            name: "Group-bg-3"
+            position: [332.000000, 53.000000]
+        -   prototype: "Group-bg"
+            name: "Group-bg-4"
+            position: [498.000000, 53.000000]
+        -   prototype: "Group-bg"
+            name: "Group-bg-5"
+            position: [664.000000, 33.000000]
+            size: [170.000000, 302.000000]
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "11"
+        position: [60.000000, 114.000000]
+        classes: "step grade=default content=booster-credits"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "12"
+        position: [60.000000, 250.000000]
+        classes: "step grade=default content=booster-exp-comand"
+        components:
+            Background:
+                colorInherit: "COLOR_REPLACE_TO_PARENT"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "21"
+        position: [226.000000, 114.000000]
+        classes: "step grade=rare content=booster-exp-free"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "22"
+        position: [226.000000, 250.000000]
+        classes: "step grade=rare content=booster-exp-basic"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "31"
+        position: [392.000000, 114.000000]
+        classes: "step grade=unique content=booster-reload"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "32"
+        position: [392.000000, 250.000000]
+        classes: "step grade=unique content=prem-sertificate"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "41"
+        position: [558.000000, 114.000000]
+        classes: "step grade=default content=details"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "42"
+        position: [558.000000, 250.000000]
+        classes: "step grade=default content=free-exp"
+    -   prototype: "StoryTreePrototypes/StoryStepLocalBig"
+        name: "51"
+        position: [724.000000, 96.000000]
+        classes: "step grade=default"
+        children:
+        -   path: "ExpandedState/Image/Icon"
+            size: [100.000000, 70.000000]
+            components:
+                Background:
+                    drawType: "DRAW_SCALE_PROPORTIONAL"
+                    sprite: "~res:/Gfx/UI/BigTankIcons/france-CDC.psd"
+        -   path: "ExpandedState/level"
+            visible: true
+            components:
+                Background:
+                    frame: 17
+        -   path: "ExpandedState/class"
+            visible: true
+            components:
+                Background:
+                    frame: 7
+        -   path: "ExpandedState/grade"
+            visible: true
+        -   path: "NormalState/Image/Icon"
+            size: [112.000000, 70.000000]
+            components:
+                Background:
+                    drawType: "DRAW_SCALE_PROPORTIONAL"
+                    sprite: "~res:/Gfx/UI/BigTankIcons/france-CDC.psd"
+        -   path: "NormalState/Label"
+            components:
+                UITextComponent:
+                    text: "#france_vehicles:F68_AMX_Chasseur_de_char_46_short"
+        -   path: "NormalState/level"
+            visible: true
+            components:
+                Background:
+                    frame: 17
+        -   path: "NormalState/class"
+            visible: true
+            components:
+                Background:
+                    frame: 7
+        -   path: "NormalState/grade"
+            visible: true
+    -   prototype: "StoryTreePrototypes/StoryStepLocalBig"
+        name: "52"
+        position: [724.000000, 232.000000]
+        classes: "step grade=default"
+        children:
+        -   path: "ExpandedState/Image/Icon"
+            components:
+                Anchor:
+                    vCenterAnchor: 7.000000
+                Background:
+                    sprite: "~res:/Gfx/UI/Story/Common/icon_pioneer.psd"
+        -   path: "NormalState/Image"
+            components:
+                Anchor:
+                    vCenterAnchor: -7.000000
+            children: []
+        -   path: "NormalState/Image/Icon"
+            components:
+                Background:
+                    sprite: "~res:/Gfx/UI/Story/Common/icon_pioneer.psd"
+        -   path: "NormalState/Label"
+            position: [6.000000, 71.000000]
+            components:
+                UITextComponent:
+                    text: "may_event/CustomSet"

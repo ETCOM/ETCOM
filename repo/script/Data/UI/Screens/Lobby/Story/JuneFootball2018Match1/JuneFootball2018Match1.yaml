@@ -1,0 +1,212 @@
+Header:
+    version: "21"
+ImportedPackages:
+- "~res:/UI/Screens/Lobby/Story/StoryTreePrototypes.yaml"
+- "~res:/UI/Screens/Lobby/Story/StoryFootballPrototypes.yaml"
+StyleSheets:
+-   selector: ".arrow #part-1, .arrow #part-2, .arrow #part-3"
+    properties:
+        visible: false
+-   selector: ".arrow.size-1 #part-1"
+    properties:
+        visible: true
+-   selector: ".arrow.size-2 #part-1, .arrow.size-2 #part-2"
+    properties:
+        visible: true
+-   selector: ".arrow.size-3 #part-1, .arrow.size-3 #part-2, .arrow.size-3 #part-3"
+    properties:
+        visible: true
+-   selector: ".button:pressed_inside, .button:pressed_inside #Background"
+    properties:
+        bg-color: [0.725490, 0.839216, 0.960784, 1.000000]
+Prototypes:
+-   class: "UIControl"
+    name: "straight-arrow"
+    size: [32.000000, 32.000000]
+    noInput: true
+    classes: "arrow"
+    components:
+        LinearLayout: {}
+        SizePolicy:
+            horizontalPolicy: "PercentOfChildrenSum"
+            verticalPolicy: "PercentOfMaxChild"
+    children:
+    -   class: "UIControl"
+        name: "part-3"
+        size: [32.000000, 32.000000]
+        noInput: true
+        components:
+            SizePolicy:
+                horizontalPolicy: "PercentOfContent"
+                verticalPolicy: "PercentOfContent"
+            Background:
+                sprite: "~res:/Gfx/UI/Story/June2018/straight_chalk_arrow-part.psd"
+                frame: 0
+    -   class: "UIControl"
+        name: "part-2"
+        size: [32.000000, 32.000000]
+        noInput: true
+        components:
+            SizePolicy:
+                horizontalPolicy: "PercentOfContent"
+                verticalPolicy: "PercentOfContent"
+            Background:
+                sprite: "~res:/Gfx/UI/Story/June2018/straight_chalk_arrow-part.psd"
+                frame: 0
+    -   class: "UIControl"
+        name: "part-1"
+        size: [32.000000, 32.000000]
+        noInput: true
+        components:
+            SizePolicy:
+                horizontalPolicy: "PercentOfContent"
+                verticalPolicy: "PercentOfContent"
+            Background:
+                sprite: "~res:/Gfx/UI/Story/June2018/straight_chalk_arrow-part.psd"
+                frame: 0
+    -   class: "UIControl"
+        name: "end"
+        size: [32.000000, 32.000000]
+        noInput: true
+        components:
+            SizePolicy:
+                horizontalPolicy: "PercentOfContent"
+                verticalPolicy: "PercentOfContent"
+            Background:
+                sprite: "~res:/Gfx/UI/Story/June2018/straight_chalk_arrow-part.psd"
+                frame: 1
+Controls:
+-   class: "UIControl"
+    name: "Stories"
+    size: [960.000000, 520.000000]
+    noInput: true
+    children:
+    -   prototype: "StoryFootballPrototypes/Background-field"
+        name: "Background-field"
+    -   class: "UIControl"
+        name: "Common"
+        position: [146.000000, 93.000000]
+        size: [693.000000, 394.000000]
+        noInput: true
+        children:
+        -   class: "UIControl"
+            name: "Arrow-1"
+            position: [57.000000, 28.000000]
+            angle: -57.999977
+            noInput: true
+            components:
+                SizePolicy:
+                    horizontalPolicy: "PercentOfContent"
+                    verticalPolicy: "PercentOfContent"
+                Background:
+                    sprite: "~res:/Gfx/UI/Story/June2018/round_chalk_arrow.psd"
+        -   class: "UIControl"
+            name: "Arrow-2"
+            position: [92.000000, 286.000000]
+            angle: 57.999977
+            noInput: true
+            components:
+                SizePolicy:
+                    horizontalPolicy: "PercentOfContent"
+                    verticalPolicy: "PercentOfContent"
+                Background:
+                    sprite: "~res:/Gfx/UI/Story/June2018/round_chalk_arrow.psd"
+                    spriteModification: ["FLIP_VERTICAL"]
+        -   class: "UIControl"
+            name: "Arrow-3"
+            position: [375.000000, 118.000000]
+            angle: -73.999969
+            noInput: true
+            components:
+                SizePolicy:
+                    horizontalPolicy: "PercentOfContent"
+                    verticalPolicy: "PercentOfContent"
+                Background:
+                    sprite: "~res:/Gfx/UI/Story/June2018/round_chalk_arrow.psd"
+                    spriteModification: ["FLIP_VERTICAL"]
+        -   prototype: "straight-arrow"
+            name: "straight-arrow"
+            position: [0.000000, 153.000000]
+        -   prototype: "straight-arrow"
+            name: "straight-arrow_1"
+            position: [533.000000, 152.000000]
+            classes: "arrow size-1"
+        -   prototype: "straight-arrow"
+            name: "straight-arrow_5"
+            position: [83.000000, 139.000000]
+            angle: -45.000000
+        -   prototype: "straight-arrow"
+            name: "straight-arrow_6"
+            position: [103.000000, 174.000000]
+            angle: 45.000000
+        -   prototype: "straight-arrow"
+            name: "straight-arrow_7"
+            position: [189.000000, -10.000000]
+            angle: 49.999992
+            classes: "arrow size-1"
+        -   prototype: "straight-arrow"
+            name: "straight-arrow_8"
+            position: [141.000000, 267.000000]
+            angle: -30.000000
+            classes: "arrow size-1"
+        -   prototype: "straight-arrow"
+            name: "straight-arrow_9"
+            position: [182.000000, 367.000000]
+            angle: -30.000000
+            classes: "arrow size-1"
+        -   prototype: "straight-arrow"
+            name: "straight-arrow_10"
+            position: [347.000000, 205.000000]
+            angle: -21.999996
+            classes: "arrow size-1"
+            children:
+            -   path: "end"
+                position: [80.000000, 0.000000]
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "10"
+        position: [55.000000, 225.000000]
+        classes: "step grade=default content=form-rus"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "22"
+        position: [282.000000, 29.000000]
+        classes: "step grade=default content=ball"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "21"
+        position: [242.000000, 127.000000]
+        classes: "step grade=default content=form-rus"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "11"
+        position: [212.000000, 225.000000]
+        classes: "step grade=default content=form-rus"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "31"
+        position: [242.000000, 323.000000]
+        classes: "step grade=default content=ball"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "41"
+        position: [282.000000, 421.000000]
+        classes: "step grade=default content=form-rus"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "24"
+        position: [459.000000, 78.000000]
+        classes: "step grade=default content=ball"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "23"
+        position: [419.000000, 176.000000]
+        classes: "step grade=default content=form-rus"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "32"
+        position: [419.000000, 274.000000]
+        classes: "step grade=default content=form-rus"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "42"
+        position: [459.000000, 372.000000]
+        classes: "step grade=default content=ball"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "33"
+        position: [631.000000, 225.000000]
+        classes: "step grade=default content=ball"
+    -   prototype: "StoryTreePrototypes/StoryStepLocal"
+        name: "34"
+        position: [823.000000, 225.000000]
+        classes: "step grade=default content=reward"

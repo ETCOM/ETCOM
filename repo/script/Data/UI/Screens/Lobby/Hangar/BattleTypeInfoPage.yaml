@@ -1,0 +1,169 @@
+Header:
+    version: "20"
+ImportedPackages:
+- "~res:/UI/Screens/Hangar/BasePopup.yaml"
+- "~res:/UI/Screens/Fonts.yaml"
+- "~res:/UI/Screens/Common/ScrollBar.yaml"
+- "~res:/UI/Screens/Common/StyledBackButton.yaml"
+- "~res:/UI/Styles/ButtonSoundStyles.yaml"
+Prototypes:
+-   class: "UIControl"
+    name: "TypeDescription"
+    size: [700.000000, 82.000000]
+    noInput: true
+    components:
+        LinearLayout:
+            dynamicPadding: true
+            spacing: 20.000000
+        SizePolicy:
+            horizontalPolicy: "PercentOfParent"
+            verticalPolicy: "PercentOfMaxChild"
+    children:
+    -   class: "UIControl"
+        name: "Icon"
+        position: [0.000000, 0.000000]
+        size: [80.000000, 72.000000]
+        noInput: true
+        components:
+            Background:
+                sprite: "~res:/Gfx/UI/CommonUIElements/Battle_type.psd"
+                frame: 1
+    -   class: "UIControl"
+        name: "TextContainer"
+        position: [100.000000, 0.000000]
+        size: [600.000000, 82.000000]
+        noInput: true
+        components:
+            LinearLayout:
+                orientation: "TopDown"
+                spacing: 10.000000
+            SizePolicy:
+                horizontalPolicy: "PercentOfLastChild"
+                verticalPolicy: "PercentOfChildrenSum"
+        children:
+        -   class: "UIStaticText"
+            name: "Title"
+            position: [0.000000, 0.000000]
+            size: [600.000000, 26.000000]
+            classes: "header3 text-color-white"
+            components:
+                SizePolicy:
+                    horizontalPolicy: "PercentOfParent"
+                    verticalPolicy: "PercentOfContent"
+                UITextComponent:
+                    text: ""
+                    colorInheritType: "COLOR_IGNORE_PARENT"
+                    fitting: "FITTING_POINTS"
+                    align: ["LEFT"]
+                    useRtlAlign: "USE_BY_CONTENT"
+        -   class: "UIStaticText"
+            name: "Description"
+            classes: "text2 text-color-blue"
+            components:
+                SizePolicy:
+                    horizontalPolicy: "FixedSize"
+                    horizontalValue: 600.000000
+                    verticalPolicy: "PercentOfContent"
+                UITextComponent:
+                    text: ""
+                    colorInheritType: "COLOR_IGNORE_PARENT"
+                    multiline: "MULTILINE_ENABLED"
+                    align: ["LEFT", "TOP"]
+                    useRtlAlign: "USE_BY_CONTENT"
+Controls:
+-   class: "UIControl"
+    name: "Popup"
+    size: [1024.000000, 768.000000]
+    components:
+        Anchor:
+            leftAnchorEnabled: true
+            rightAnchorEnabled: true
+            topAnchorEnabled: true
+            bottomAnchorEnabled: true
+    children:
+    -   class: "UIControl"
+        name: "Content"
+        noInput: true
+        components:
+            Anchor:
+                leftAnchorEnabled: true
+                rightAnchorEnabled: true
+                topAnchorEnabled: true
+                bottomAnchorEnabled: true
+        children:
+        -   class: "UIControl"
+            name: "VerticalScrollView"
+            noInput: true
+            components:
+                Anchor:
+                    leftAnchorEnabled: true
+                    rightAnchorEnabled: true
+                    topAnchorEnabled: true
+                    bottomAnchorEnabled: true
+            children:
+            -   class: "UIScrollView"
+                name: "ScrollArea"
+                autoUpdate: true
+                components:
+                    Anchor:
+                        leftAnchorEnabled: true
+                        rightAnchorEnabled: true
+                        topAnchorEnabled: true
+                        bottomAnchorEnabled: true
+                children:
+                -   class: "UIScrollViewContainer"
+                    name: "scrollContainerControl"
+                    components:
+                        LinearLayout:
+                            orientation: "TopDown"
+                            spacing: 30.000000
+                        SizePolicy:
+                            horizontalPolicy: "PercentOfParent"
+                            verticalPolicy: "PercentOfChildrenSum"
+                    children:
+                    -   class: "UIControl"
+                        name: "Spacer"
+                        noInput: true
+                        components:
+                            SizePolicy:
+                                horizontalPolicy: "PercentOfParent"
+                                verticalPolicy: "FixedSize"
+                                verticalValue: 40.000000
+                    -   prototype: "TypeDescription"
+                        name: "TypeDescriptionDefault"
+                        children:
+                        -   path: "TextContainer/Title"
+                            components:
+                                UITextComponent:
+                                    text: "battleType/regular"
+                        -   path: "TextContainer/Description"
+                            components:
+                                UITextComponent:
+                                    text: "hangar/battleType/regularDescription"
+                    -   prototype: "TypeDescription"
+                        name: "TypeDescriptionRating"
+                        children:
+                        -   path: "Icon"
+                            components:
+                                Background:
+                                    frame: 0
+                        -   path: "TextContainer/Title"
+                            components:
+                                UITextComponent:
+                                    text: "battleType/rating"
+                        -   path: "TextContainer/Description"
+                            components:
+                                UITextComponent:
+                                    text: "hangar/battleType/ratingDescription"
+            -   prototype: "ScrollBar/VerticalScrollBar"
+                name: "VerticalScrollBar"
+                components:
+                    Anchor:
+                        rightAnchorEnabled: true
+                        topAnchorEnabled: true
+                        bottomAnchorEnabled: true
+                    ScrollBarDelegate:
+                        delegate: "../ScrollArea"
+    -   prototype: "StyledBackButton/StyledBackButton"
+        name: "BackButton"
+        classes: "button button-color-gray button-close-sound"

@@ -1,0 +1,25 @@
+modules:
+    "#vehicle:Ferdinand":
+        position: [3, 6]
+    "#vehicle:PzVI":
+        position: [2, 3]
+    "#vehicle:VK4502A":
+        position: [2, 1]
+    "#vehicleGun:_88mm_KwK_36_L56":
+        position: [1, 2]
+    "#vehicleGun:_88mm_KwK_43_L71":
+        position: [2, 2]
+    "#vehicleTurret:Turret_1_PzVI_Tiger_P":
+        position: [1, 4]
+    "#vehicleTurret:Turret_2_PzVI_Tiger_P":
+        position: [2, 4]
+    "#vehicleEngine:Porsche_Typ_100_1":
+        position: [2, 5]
+    "#vehicleEngine:Porsche_Typ_100_1A":
+        position: [1, 5]
+    "#vehicleEngine:Porsche_Typ_100_3":
+        position: [3, 5]
+    "#vehicleChassis:Chassis_PzVI_Tiger_P":
+        position: [1, 6]
+    "#vehicleChassis:Chassis_PzVI_Tiger_P_2":
+        position: [2, 6]

@@ -1,0 +1,134 @@
+Header:
+    version: "21"
+ImportedPackages:
+- "~res:/UI/Screens/Common/StyledButton.yaml"
+- "~res:/UI/Screens/Fonts.yaml"
+- "~res:/UI/Screens/Common/ScrollBar.yaml"
+- "~res:/UI/Screens/Lobby/Common/Dialog.yaml"
+- "~res:/UI/Styles/ButtonSoundStyles.yaml"
+Controls:
+-   class: "UIControl"
+    customClass: "UIAmmoGoldPurchaseDialog"
+    name: "dialog"
+    size: [1024.000000, 768.000000]
+    components:
+        Anchor:
+            leftAnchorEnabled: true
+            rightAnchorEnabled: true
+            topAnchorEnabled: true
+            bottomAnchorEnabled: true
+    children:
+    -   class: "UIControl"
+        name: "bg"
+        size: [1024.000000, 768.000000]
+        noInput: true
+        components:
+            Anchor:
+                leftAnchorEnabled: true
+                leftAnchor: 0.000000
+                rightAnchorEnabled: true
+                rightAnchor: 0.000000
+                topAnchorEnabled: true
+                topAnchor: 0.000000
+                bottomAnchorEnabled: true
+                bottomAnchor: 0.000000
+            Background:
+                drawType: "DRAW_FILL"
+                color: [0.070600, 0.090200, 0.113700, 0.784300]
+        children:
+        -   prototype: "Dialog/Dialog"
+            name: "Dialog"
+            components:
+                SizePolicy:
+                    horizontalValue: 504.000000
+                    verticalPolicy: "PercentOfChildrenSum"
+                    verticalMin: 194.000000
+                Anchor:
+                    hCenterAnchorEnabled: true
+                    vCenterAnchorEnabled: true
+            children:
+            -   prototype: "Dialog/Top"
+                name: "Top"
+                children:
+                -   class: "UIStaticText"
+                    name: "Header1"
+                    size: [504.000000, 56.000000]
+                    classes: "header1 text-color-white"
+                    components:
+                        Anchor:
+                            leftAnchorEnabled: true
+                            rightAnchorEnabled: true
+                            topAnchorEnabled: true
+                            bottomAnchorEnabled: true
+                        UITextComponent:
+                            text: "Warning"
+                            colorInheritType: "COLOR_IGNORE_PARENT"
+            -   class: "UIControl"
+                name: "Content"
+                size: [504.000000, 158.000000]
+                components:
+                    LinearLayout:
+                        orientation: "TopDown"
+                        padding: 40.000000
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfParent"
+                        verticalPolicy: "Formula"
+                        verticalFormula: "maxChild + 80"
+                children:
+                -   class: "UIStaticText"
+                    name: "DialogText"
+                    noInput: true
+                    classes: "text1 text-color-blue"
+                    components:
+                        SizePolicy:
+                            verticalPolicy: "PercentOfContent"
+                        Anchor:
+                            leftAnchorEnabled: true
+                            leftAnchor: 20.000000
+                            rightAnchorEnabled: true
+                            rightAnchor: 20.000000
+                            vCenterAnchorEnabled: true
+                        Background:
+                            align: ["LEFT", "TOP"]
+                            leftRightStretchCap: 7.000000
+                        UITextComponent:
+                            text: "NOT_ENOUGH_GOLD_PROPOSE_CREDITS"
+                            colorInheritType: "COLOR_IGNORE_PARENT"
+                            multiline: "MULTILINE_ENABLED"
+            -   prototype: "Dialog/ButtonHolder"
+                name: "ButtonHolder"
+                components:
+                    SizePolicy:
+                        verticalPolicy: "Formula"
+                        verticalFormula: "maxChild + 20"
+                children:
+                -   prototype: "StyledButton/StyledButton"
+                    name: "OkButton"
+                    classes: "button button-color-gray button-cancel-sound"
+                    components:
+                        SizePolicy:
+                            horizontalPolicy: "PercentOfParent"
+                    children:
+                    -   path: "Caption"
+                        components:
+                            Anchor:
+                                leftAnchor: 5.000000
+                                rightAnchor: 5.000000
+                            UITextComponent:
+                                text: "#entry:social/dialog/back"
+                                fitting: "FITTING_REDUCE"
+                -   prototype: "StyledButton/StyledButton"
+                    name: "GoldButton"
+                    classes: "button button-color-green button-ok-sound"
+                    components:
+                        SizePolicy:
+                            horizontalPolicy: "PercentOfParent"
+                    children:
+                    -   path: "Caption"
+                        components:
+                            Anchor:
+                                leftAnchor: 5.000000
+                                rightAnchor: 5.000000
+                            UITextComponent:
+                                text: "BUY_GOLD"
+                                fitting: "FITTING_REDUCE"

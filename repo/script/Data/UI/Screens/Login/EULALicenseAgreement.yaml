@@ -1,0 +1,92 @@
+Header:
+    version: "22"
+ImportedPackages:
+- "~res:/UI/Screens/Hangar/BasePopup.yaml"
+- "~res:/UI/Screens/Lobby/Common/Footer.yaml"
+- "~res:/UI/Screens/Lobby/Common/CheckBox.yaml"
+- "~res:/UI/Screens/Fonts.yaml"
+- "~res:/UI/Screens/Common/StyledButton.yaml"
+- "~res:/UI/Styles/ButtonSoundStyles.yaml"
+- "~res:/UI/Screens/Lobby/Common/RichText.yaml"
+- "~res:/UI/Screens/Lobby/Common/Link.yaml"
+- "~res:/UI/Styles/DesktopStyles.yaml"
+Controls:
+-   class: "UIControl"
+    name: "BasePopup"
+    size: [960.000000, 640.000000]
+    noInput: true
+    components:
+        SizePolicy:
+            horizontalPolicy: "PercentOfParent"
+            verticalPolicy: "PercentOfParent"
+    children:
+    -   class: "UIControl"
+        name: "DialogBackground"
+        noInput: true
+        classes: "screen-background"
+        components:
+            SizePolicy:
+                horizontalPolicy: "PercentOfParent"
+                verticalPolicy: "PercentOfParent"
+            Background: {}
+    -   class: "UIControl"
+        name: "Content"
+        noInput: true
+        components:
+            LinearLayout:
+                padding: 60.000000
+                dynamicPadding: true
+                spacing: 20.000000
+            SizePolicy:
+                horizontalPolicy: "PercentOfParent"
+                verticalPolicy: "PercentOfMaxChild"
+            Anchor:
+                hCenterAnchorEnabled: true
+                vCenterAnchorEnabled: true
+        children:
+        -   prototype: "CheckBox/CheckBox"
+            name: "CheckBox"
+            size: [50.000000, 50.000000]
+            classes: "checkbox button-color-gray"
+        -   class: "UIControl"
+            name: "Text"
+            noInput: true
+            components:
+                SizePolicy:
+                    horizontalPolicy: "PercentOfMaxChild"
+                    verticalPolicy: "PercentOfParent"
+            children:
+            -   class: "UIControl"
+                name: "Text"
+                noInput: true
+                classes: "text-color-ignore-parent"
+                components:
+                    FlowLayout:
+                        hSpacing: 5.000000
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfChildrenSum"
+                        horizontalMax: 770.000000
+                        verticalPolicy: "PercentOfChildrenSum"
+                    Anchor:
+                        hCenterAnchorEnabled: true
+                        vCenterAnchorEnabled: true
+                        vCenterAnchor: -2.000000
+                    Background: {}
+                    RichContent:
+                        text: "#eula:confirmation"
+                        baseClasses: "text-color-blue text1"
+                    RichContentAliases0:
+                        aliases: "link-license,<object name=\"LinkLicense\" path=\"~res:/UI/Screens/Login/LinkLicense.yaml\" prototype=\"LinkLicense\" />;link-privacy,<object name=\"LinkPrivacy\" path=\"~res:/UI/Screens/Login/LinkPrivacy.yaml\" prototype=\"LinkPrivacy\" />;"
+    -   prototype: "StyledButton/StyledButton"
+        name: "ButtonGreen"
+        classes: "button button-color-green button-ok-sound"
+        components:
+            Anchor:
+                hCenterAnchorEnabled: true
+                bottomAnchorEnabled: true
+                bottomAnchor: 40.000000
+        children:
+        -   path: "Caption"
+            components:
+                UITextComponent:
+                    text: "#common:DialogButton/Approve"

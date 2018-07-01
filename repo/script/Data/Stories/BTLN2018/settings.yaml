@@ -1,0 +1,34 @@
+name: "big_april_event/Header"
+priority: 1
+stages:
+ info-btln:
+  timer_hint: "template_event/AnyStage/Start"
+  button: "~res:/UI/Screens/Lobby/Story/TanksBiatlon2018/Button_Inform.yaml"
+  info: "event-info-btln"
+ progress-btln:
+  timer_hint: "template_event/AnyStage/Finish"
+  button: "~res:/UI/Screens/Lobby/Story/TanksBiatlon2018/Button_Process.yaml"
+  info: "event-progress-btln"
+  tree: "~res:/UI/Screens/Lobby/Story/TanksBiatlon2018/TanksBiatlon2018StoryTree.yaml"
+  detailedInfo:
+    titleKey: "big_april_event/Info/DamageCurrency/Header"
+    descriptionKey: "big_april_event/Info/DamageCurrency/Description"
+    imagePath: "~res:/Gfx/UI/StorageItemIcons/target.psd"
+  subprogressQuest:
+    progress1:
+      labelKey: "march_event/ProgressStage/Battles"
+    progress2:
+      labelKey: "big_april_event/ProgressStage/Damage"
+    progress3:
+      labelKey: "big_april_event/ProgressStage/Tasks"
+    processHint: "big_april_event/ProgressStage/DamageTask"  
+ buy-btln:
+  timer_hint: "template_event/AnyStage/Finish"
+  button: "~res:/UI/Screens/Lobby/Story/TanksBiatlon2018/Button_Buy.yaml"
+  info: "event-progress-btln"
+  tree: "~res:/UI/Screens/Lobby/Story/TanksBiatlon2018/TanksBiatlon2018StoryTree.yaml"
+  subprogressQuest:
+    buyHint: "template_event/ProgressStage/RocketPlaywar/Error/TimeIsOver"  
+currencyKeys:
+  prx1_bitl: "big_april_event/Currencies/BattleProxy/Terms"
+  prx2_bitl: "big_april_event/Currencies/SpecialTaskProxy/Terms"

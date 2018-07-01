@@ -1,0 +1,97 @@
+Header:
+    version: "21"
+StyleSheets:
+-   selector: ".step.form-rus #NormalState #Image #Icon, .step.form-rus #ExpandedState #Image #Icon"
+    properties:
+        bg-drawType: "DRAW_ALIGNED"
+        bg-sprite: "~res:/Gfx/UI/Story/June2018/Tshirts.psd"
+        bg-frame: 1
+-   selector: ".step.form-france #NormalState #Image #Icon, .step.form-france #ExpandedState #Image #Icon"
+    properties:
+        bg-drawType: "DRAW_ALIGNED"
+        bg-sprite: "~res:/Gfx/UI/Story/June2018/Tshirts.psd"
+        bg-frame: 4
+-   selector: ".step.form-japan #NormalState #Image #Icon, .step.form-japan #ExpandedState #Image #Icon"
+    properties:
+        bg-drawType: "DRAW_ALIGNED"
+        bg-sprite: "~res:/Gfx/UI/Story/June2018/Tshirts.psd"
+        bg-frame: 2
+-   selector: ".step.form-germany #NormalState #Image #Icon, .step.form-germany #ExpandedState #Image #Icon"
+    properties:
+        bg-drawType: "DRAW_ALIGNED"
+        bg-sprite: "~res:/Gfx/UI/Story/June2018/Tshirts.psd"
+        bg-frame: 3
+-   selector: ".step.form-england #NormalState #Image #Icon, .step.form-england #ExpandedState #Image #Icon"
+    properties:
+        bg-drawType: "DRAW_ALIGNED"
+        bg-sprite: "~res:/Gfx/UI/Story/June2018/Tshirts.psd"
+        bg-frame: 0
+-   selector: ".step.ball #NormalState #Image #Icon, .step.ball #ExpandedState #Image #Icon"
+    properties:
+        bg-drawType: "DRAW_ALIGNED"
+        bg-sprite: "~res:/Gfx/UI/Story/June2018/football_ball.psd"
+-   selector: ".step.reward #NormalState #Image #Icon, .step.reward #ExpandedState #Image #Icon"
+    properties:
+        bg-drawType: "DRAW_SCALE_PROPORTIONAL"
+        bg-sprite: "~res:/Gfx/UI/Story/June2018/football_cup.psd"
+Prototypes:
+-   class: "UIControl"
+    name: "FieldPart"
+    noInput: true
+    components:
+        SizePolicy:
+            horizontalPolicy: "PercentOfParent"
+            horizontalValue: 50.000000
+            verticalPolicy: "PercentOfContent"
+        Background:
+            drawType: "DRAW_SCALE_PROPORTIONAL"
+            sprite: "~res:/Gfx/UI/Story/June2018/football_field.psd"
+-   class: "UIControl"
+    name: "Background-field"
+    noInput: true
+    components:
+        LinearLayout:
+            orientation: "TopDown"
+        SizePolicy:
+            horizontalPolicy: "FixedSize"
+            horizontalValue: 960.000000
+            verticalPolicy: "PercentOfChildrenSum"
+    children:
+    -   class: "UIControl"
+        name: "FirstLine"
+        noInput: true
+        components:
+            LinearLayout: {}
+            SizePolicy:
+                horizontalPolicy: "PercentOfParent"
+                verticalPolicy: "PercentOfMaxChild"
+        children:
+        -   prototype: "FieldPart"
+            name: "FieldPart_1"
+            components:
+                Background:
+                    drawType: "DRAW_SCALE_PROPORTIONAL"
+        -   prototype: "FieldPart"
+            name: "FieldPart_2"
+            components:
+                Background:
+                    spriteModification: ["FLIP_HORIZONTAL"]
+    -   class: "UIControl"
+        name: "SecondLine"
+        noInput: true
+        components:
+            LinearLayout: {}
+            SizePolicy:
+                horizontalPolicy: "PercentOfParent"
+                verticalPolicy: "PercentOfMaxChild"
+        children:
+        -   prototype: "FieldPart"
+            name: "FieldPart_1"
+            components:
+                Background:
+                    spriteModification: ["FLIP_VERTICAL"]
+        -   prototype: "FieldPart"
+            name: "FieldPart_2"
+            components:
+                Background:
+                    spriteModification: ["FLIP_HORIZONTAL", "FLIP_VERTICAL"]

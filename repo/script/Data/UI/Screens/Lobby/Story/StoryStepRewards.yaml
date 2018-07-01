@@ -1,0 +1,66 @@
+Header:
+    version: "21"
+ImportedPackages:
+- "~res:/UI/Screens/Fonts.yaml"
+- "~res:/UI/Screens/Lobby/Story/StoryRewardPrototypes.yaml"
+- "~res:/UI/Screens/Common/StyledBackButton.yaml"
+Controls:
+-   class: "UIControl"
+    name: "Content"
+    size: [1027.000000, 768.000000]
+    components:
+        Anchor:
+            leftAnchorEnabled: true
+            rightAnchorEnabled: true
+            topAnchorEnabled: true
+            bottomAnchorEnabled: true
+        Background:
+            drawType: "DRAW_FILL"
+            color: [0.070588, 0.125490, 0.160784, 0.921569]
+        ModalInput: {}
+    children:
+    -   prototype: "StoryRewardPrototypes/StepScrollView"
+        name: "StepScrollView"
+        centerContent: true
+        children:
+        -   path: "scrollContainerControl"
+            children:
+            -   class: "UIControl"
+                name: "CongratsContainer"
+                components:
+                    LinearLayout:
+                        orientation: "TopDown"
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfChildrenSum"
+                        verticalPolicy: "PercentOfChildrenSum"
+                    Anchor:
+                        hCenterAnchorEnabled: true
+                children:
+                -   class: "UIStaticText"
+                    name: "CongratsHeader"
+                    classes: "header1"
+                    components:
+                        SizePolicy:
+                            horizontalPolicy: "PercentOfContent"
+                            verticalPolicy: "PercentOfContent"
+                        Anchor:
+                            hCenterAnchorEnabled: true
+                        UITextComponent:
+                            text: "template_event/CompleteStep/Congratulation/Header"
+                            colorInheritType: "COLOR_IGNORE_PARENT"
+                -   class: "UIStaticText"
+                    name: "CongratsText"
+                    classes: "text2 text-color-blue"
+                    components:
+                        SizePolicy:
+                            horizontalPolicy: "PercentOfContent"
+                            verticalPolicy: "PercentOfContent"
+                        Anchor:
+                            hCenterAnchorEnabled: true
+                        UITextComponent:
+                            text: "template_event/CompleteStep/Congratulation/Descr"
+                            colorInheritType: "COLOR_IGNORE_PARENT"
+            -   prototype: "StoryRewardPrototypes/Rewards"
+                name: "Rewards"
+    -   prototype: "StyledBackButton/StyledBackButton"
+        name: "BackButton"
