@@ -1,0 +1,5 @@
+1
+HangarIcon_process0.tex
+278 158
+1
+0 0 277 157 0 0 0 frame0

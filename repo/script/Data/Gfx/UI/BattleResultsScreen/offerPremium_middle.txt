@@ -1,0 +1,5 @@
+1
+offerPremium_middle0.tex
+72 99
+1
+0 0 72 98 0 0 0 frame0

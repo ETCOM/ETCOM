@@ -1,0 +1,5 @@
+1
+france_chest0.tex
+96 116
+1
+0 0 95 87 1 16 0 frame0

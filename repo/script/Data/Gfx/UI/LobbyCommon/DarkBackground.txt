@@ -1,0 +1,5 @@
+1
+DarkBackground0.tex
+480 2
+1
+0 0 480 2 0 0 0 frame0

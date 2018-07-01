@@ -1,0 +1,5 @@
+1
+next_or_prev_tournament_team0.tex
+25 35
+1
+0 0 18 32 4 3 0 frame0

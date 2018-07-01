@@ -1,0 +1,5 @@
+1
+ATDirection0.tex
+240 160
+1
+0 0 168 154 40 6 0 frame0

@@ -1,0 +1,7 @@
+1
+equipment_icons0.tex
+72 72
+3
+0 0 58 58 7 10 0 frame0
+120 0 47 60 12 9 0 frame1
+60 0 58 58 7 10 0 frame2

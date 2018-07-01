@@ -1,0 +1,5 @@
+1
+front_arrow0.tex
+210 64
+1
+0 0 210 64 0 0 0 frame0

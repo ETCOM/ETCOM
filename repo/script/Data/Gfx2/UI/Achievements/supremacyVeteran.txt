@@ -1,0 +1,5 @@
+1
+supremacyVeteran0.tex
+200 200
+1
+0 0 173 177 15 15 0 frame0

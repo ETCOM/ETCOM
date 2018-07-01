@@ -1,0 +1,5 @@
+1
+icon_slider0.tex
+16 26
+1
+0 0 16 26 0 0 0 frame0

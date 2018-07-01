@@ -1,0 +1,5 @@
+1
+OptionalDeviceCurrency0.tex
+96 116
+1
+0 0 67 75 15 22 0 frame0

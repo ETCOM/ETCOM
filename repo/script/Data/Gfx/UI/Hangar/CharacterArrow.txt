@@ -1,0 +1,6 @@
+1
+CharacterArrow0.tex
+10 10
+2
+0 0 10 10 0 0 0 frame0
+12 0 10 9 0 1 0 frame1

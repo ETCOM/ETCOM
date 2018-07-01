@@ -1,0 +1,5 @@
+1
+icon_read_all_news0.tex
+128 128
+1
+0 0 92 76 26 26 0 frame0

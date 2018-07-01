@@ -1,0 +1,8 @@
+1
+load_process_icons0.tex
+47 46
+4
+95 0 43 43 2 2 0 frame0
+140 0 43 43 2 2 0 frame1
+0 0 44 45 1 1 0 frame2
+46 0 47 41 0 3 0 frame3

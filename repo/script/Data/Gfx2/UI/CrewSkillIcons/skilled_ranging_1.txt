@@ -1,0 +1,5 @@
+1
+skilled_ranging_10.tex
+154 154
+1
+0 0 132 127 11 2 0 frame0

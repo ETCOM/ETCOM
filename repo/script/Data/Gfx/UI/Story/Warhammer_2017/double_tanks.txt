@@ -1,0 +1,5 @@
+1
+double_tanks0.tex
+109 67
+1
+0 0 108 67 1 0 0 frame0

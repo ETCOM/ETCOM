@@ -1,0 +1,5 @@
+1
+HorizontalYellowLine0.tex
+414 2
+1
+0 0 414 2 0 0 0 frame0

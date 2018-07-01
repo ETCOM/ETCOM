@@ -1,0 +1,5 @@
+1
+large_ticket0.tex
+68 90
+1
+0 0 59 82 4 7 0 frame0

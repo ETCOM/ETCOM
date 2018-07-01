@@ -1,0 +1,5 @@
+1
+info_background0.tex
+12 140
+1
+0 0 12 92 0 0 0 frame0

@@ -1,0 +1,5 @@
+1
+empty_replay_bg0.tex
+144 144
+1
+0 0 143 143 0 1 0 frame0

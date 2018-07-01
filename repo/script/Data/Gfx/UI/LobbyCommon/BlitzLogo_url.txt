@@ -1,0 +1,5 @@
+1
+BlitzLogo_url0.tex
+193 52
+1
+0 0 192 52 1 0 0 frame0

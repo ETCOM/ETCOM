@@ -1,0 +1,6 @@
+1
+dynamic_control0.tex
+40 40
+2
+42 0 34 34 3 3 0 frame0
+0 0 40 40 0 0 0 frame1

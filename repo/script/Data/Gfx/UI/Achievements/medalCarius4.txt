@@ -1,0 +1,5 @@
+1
+medalCarius40.tex
+100 100
+1
+0 0 73 73 14 14 0 frame0

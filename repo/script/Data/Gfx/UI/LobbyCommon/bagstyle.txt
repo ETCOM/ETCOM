@@ -1,0 +1,5 @@
+1
+bagstyle0.tex
+38 48
+1
+0 0 36 45 1 1 0 frame0

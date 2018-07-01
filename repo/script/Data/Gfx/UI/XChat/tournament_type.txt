@@ -1,0 +1,6 @@
+1
+tournament_type0.tex
+63 65
+2
+0 0 52 59 11 3 0 frame0
+54 0 51 58 11 5 0 frame1

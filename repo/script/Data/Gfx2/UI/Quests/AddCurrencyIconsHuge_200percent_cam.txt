@@ -1,0 +1,8 @@
+1
+AddCurrencyIconsHuge_200percent_cam0.tex
+200 200
+4
+0 0 196 196 2 2 0 frame0
+198 0 196 196 2 2 0 frame1
+396 0 196 196 2 2 0 frame2
+594 0 196 196 2 2 0 frame3

@@ -1,0 +1,5 @@
+1
+currency_back0.tex
+220 48
+1
+0 0 220 46 0 1 0 frame0

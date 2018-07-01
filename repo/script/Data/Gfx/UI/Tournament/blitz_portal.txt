@@ -1,0 +1,5 @@
+1
+blitz_portal0.tex
+80 36
+1
+0 0 73 33 4 1 0 frame0

@@ -1,0 +1,5 @@
+1
+HangarIcon_inform0.tex
+278 158
+1
+0 0 268 157 0 0 0 frame0

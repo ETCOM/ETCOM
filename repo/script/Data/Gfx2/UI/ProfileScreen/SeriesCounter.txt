@@ -1,0 +1,5 @@
+1
+SeriesCounter0.tex
+100 48
+1
+0 0 100 47 0 0 0 frame0

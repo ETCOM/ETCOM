@@ -1,0 +1,5 @@
+1
+DiscountClanSmall0.tex
+104 64
+1
+0 0 100 60 2 2 0 frame0

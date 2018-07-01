@@ -1,0 +1,6 @@
+1
+Arrowhead0.tex
+12 12
+2
+0 0 11 12 1 0 0 frame0
+13 0 11 12 1 0 0 frame1

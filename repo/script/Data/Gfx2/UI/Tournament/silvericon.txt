@@ -1,0 +1,5 @@
+1
+silvericon0.tex
+108 72
+1
+0 0 108 72 0 0 0 frame0

@@ -1,0 +1,5 @@
+1
+olimpicGolden0.tex
+100 100
+1
+0 0 80 79 10 12 0 frame0

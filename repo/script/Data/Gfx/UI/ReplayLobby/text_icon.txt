@@ -1,0 +1,5 @@
+1
+text_icon0.tex
+37 36
+1
+0 0 37 36 0 0 0 frame0

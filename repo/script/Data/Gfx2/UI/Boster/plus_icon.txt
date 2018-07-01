@@ -1,0 +1,5 @@
+1
+plus_icon0.tex
+32 32
+1
+0 0 28 28 2 3 0 frame0

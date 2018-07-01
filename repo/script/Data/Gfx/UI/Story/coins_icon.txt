@@ -1,0 +1,5 @@
+1
+coins_icon0.tex
+18 19
+1
+0 0 18 19 0 0 0 frame0

@@ -1,0 +1,5 @@
+1
+smooth_turret0.tex
+77 77
+1
+0 0 64 52 5 11 0 frame0

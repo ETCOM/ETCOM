@@ -1,0 +1,6 @@
+1
+gametype_new0.tex
+80 72
+2
+0 0 67 62 7 5 0 frame0
+69 0 62 62 9 5 0 frame1

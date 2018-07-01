@@ -1,0 +1,5 @@
+1
+GoldCertificate_10.tex
+192 232
+1
+0 0 157 159 19 40 0 frame0

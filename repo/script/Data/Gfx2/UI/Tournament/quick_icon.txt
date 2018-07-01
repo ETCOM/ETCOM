@@ -1,0 +1,5 @@
+1
+quick_icon0.tex
+50 50
+1
+0 0 48 47 0 1 0 frame0

@@ -1,0 +1,5 @@
+1
+ticket_blitzcoin0.tex
+192 232
+1
+0 0 114 166 39 37 0 frame0

@@ -1,0 +1,5 @@
+1
+ButtonInfo0.tex
+120 122
+1
+0 0 108 111 6 6 0 frame0

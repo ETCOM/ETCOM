@@ -1,0 +1,5 @@
+1
+vehicleTurret0.tex
+59 59
+1
+0 0 56 50 2 5 0 frame0

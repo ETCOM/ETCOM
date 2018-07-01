@@ -1,0 +1,5 @@
+1
+ContactsDivider0.tex
+100 2
+1
+0 0 99 2 1 0 0 frame0

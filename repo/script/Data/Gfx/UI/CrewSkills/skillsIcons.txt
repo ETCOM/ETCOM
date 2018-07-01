@@ -1,0 +1,6 @@
+1
+skillsIcons0.tex
+64 49
+2
+62 0 46 39 8 5 0 frame0
+0 0 60 35 2 7 0 frame1

@@ -1,0 +1,5 @@
+1
+DoubleJetton_icon0.tex
+192 232
+1
+0 0 141 130 25 51 0 frame0

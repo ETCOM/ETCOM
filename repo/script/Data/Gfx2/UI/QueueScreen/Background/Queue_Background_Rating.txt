@@ -1,0 +1,6 @@
+1
+Queue_Background_Rating0.tex
+2048 332
+2
+0 0 2048 332 0 0 0 frame0
+0 333 2048 302 0 30 0 frame1

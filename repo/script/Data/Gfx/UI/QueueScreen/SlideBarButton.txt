@@ -1,0 +1,5 @@
+1
+SlideBarButton0.tex
+38 47
+1
+0 0 26 45 6 1 0 frame0

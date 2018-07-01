@@ -1,0 +1,6 @@
+1
+Liked_stars0.tex
+33 31
+2
+0 0 33 31 0 0 0 frame0
+35 0 33 31 0 0 0 frame1

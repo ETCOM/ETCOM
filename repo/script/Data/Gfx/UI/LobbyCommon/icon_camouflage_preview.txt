@@ -1,0 +1,6 @@
+1
+icon_camouflage_preview0.tex
+64 64
+2
+0 0 32 32 16 17 0 frame0
+34 0 32 32 16 16 0 frame1

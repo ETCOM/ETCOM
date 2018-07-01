@@ -1,0 +1,6 @@
+1
+icon_clan_resources_big0.tex
+112 66
+2
+0 0 112 66 0 0 0 frame0
+114 0 56 66 28 0 0 frame1

@@ -1,0 +1,5 @@
+1
+medalLafayettePool0.tex
+100 100
+1
+0 0 70 81 15 10 0 frame0

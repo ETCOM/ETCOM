@@ -1,0 +1,5 @@
+1
+select_mark0.tex
+30 24
+1
+0 0 30 24 0 0 0 frame0

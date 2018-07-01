@@ -1,0 +1,5 @@
+1
+Dragon_buy0.tex
+90 57
+1
+0 0 90 57 0 0 0 frame0

@@ -1,0 +1,5 @@
+1
+smooth_turn0.tex
+154 154
+1
+0 0 148 139 3 0 0 frame0

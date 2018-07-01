@@ -1,0 +1,6 @@
+1
+FieldBorders0.tex
+52 72
+2
+0 0 42 66 5 3 0 frame0
+44 0 42 66 5 3 0 frame1

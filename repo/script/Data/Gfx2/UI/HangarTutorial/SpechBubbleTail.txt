@@ -1,0 +1,5 @@
+1
+SpechBubbleTail0.tex
+52 52
+1
+0 0 51 52 0 0 0 frame0

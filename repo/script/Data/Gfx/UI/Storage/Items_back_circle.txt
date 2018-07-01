@@ -1,0 +1,5 @@
+1
+Items_back_circle0.tex
+104 65
+1
+0 0 104 65 0 0 0 frame0

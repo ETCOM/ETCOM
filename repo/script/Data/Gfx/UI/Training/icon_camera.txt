@@ -1,0 +1,5 @@
+1
+icon_camera0.tex
+27 17
+1
+0 0 27 17 0 0 0 frame0

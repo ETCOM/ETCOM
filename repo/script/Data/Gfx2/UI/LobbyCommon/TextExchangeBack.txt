@@ -1,0 +1,5 @@
+1
+TextExchangeBack0.tex
+566 92
+1
+0 0 566 92 0 0 0 frame0

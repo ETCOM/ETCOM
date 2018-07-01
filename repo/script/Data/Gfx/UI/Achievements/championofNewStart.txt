@@ -1,0 +1,5 @@
+1
+championofNewStart0.tex
+100 100
+1
+0 0 77 71 11 14 0 frame0

@@ -1,0 +1,5 @@
+1
+no_prem_icon0.tex
+70 70
+1
+0 0 58 62 6 5 0 frame0

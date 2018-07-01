@@ -1,0 +1,5 @@
+1
+divide_bar0.tex
+128 4
+1
+0 0 128 4 0 0 0 frame0

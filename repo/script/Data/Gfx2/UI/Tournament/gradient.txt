@@ -1,0 +1,5 @@
+1
+gradient0.tex
+9 203
+1
+0 0 9 192 0 0 0 frame0

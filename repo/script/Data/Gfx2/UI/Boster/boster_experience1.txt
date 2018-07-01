@@ -1,0 +1,5 @@
+1
+boster_experience10.tex
+192 232
+1
+0 0 150 169 20 36 0 frame0

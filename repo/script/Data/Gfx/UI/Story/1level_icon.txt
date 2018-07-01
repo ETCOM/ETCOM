@@ -1,0 +1,5 @@
+1
+1level_icon0.tex
+59 60
+1
+0 0 59 60 0 0 0 frame0

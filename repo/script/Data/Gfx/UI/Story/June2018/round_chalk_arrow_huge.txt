@@ -1,0 +1,5 @@
+1
+round_chalk_arrow_huge0.tex
+281 82
+1
+0 0 281 82 0 0 0 frame0

@@ -1,0 +1,7 @@
+1
+AddCurrencyIconsHuge0.tex
+50 50
+3
+39 0 40 28 5 13 0 frame0
+81 0 36 28 7 11 0 frame1
+0 0 37 42 6 5 0 frame2

@@ -1,0 +1,7 @@
+1
+PlayButton_BattleType0.tex
+182 140
+3
+175 0 167 128 8 6 0 frame0
+344 0 167 128 8 6 0 frame1
+0 0 173 140 8 0 0 frame2

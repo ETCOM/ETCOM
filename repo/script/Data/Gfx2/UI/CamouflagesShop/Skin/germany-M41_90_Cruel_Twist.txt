@@ -1,0 +1,5 @@
+1
+germany-M41_90_Cruel_Twist0.tex
+180 180
+1
+0 0 180 180 0 0 0 frame0

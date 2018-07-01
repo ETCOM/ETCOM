@@ -1,0 +1,5 @@
+1
+medalLavrinenko10.tex
+100 100
+1
+0 0 72 77 14 12 0 frame0

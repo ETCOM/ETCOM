@@ -1,0 +1,5 @@
+1
+search_clan0.tex
+128 128
+1
+0 0 92 74 17 25 0 frame0

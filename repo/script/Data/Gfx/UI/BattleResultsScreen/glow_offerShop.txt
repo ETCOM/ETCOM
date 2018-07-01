@@ -1,0 +1,5 @@
+1
+glow_offerShop0.tex
+107 90
+1
+0 0 106 90 1 0 0 frame0

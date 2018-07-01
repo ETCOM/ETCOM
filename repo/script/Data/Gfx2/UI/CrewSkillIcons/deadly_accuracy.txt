@@ -1,0 +1,5 @@
+1
+deadly_accuracy0.tex
+154 154
+1
+0 0 138 135 9 6 0 frame0

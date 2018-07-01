@@ -1,0 +1,5 @@
+1
+ThinRedLine0.tex
+256 10
+1
+0 0 256 10 0 0 0 frame0

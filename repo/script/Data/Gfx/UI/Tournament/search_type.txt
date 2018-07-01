@@ -1,0 +1,7 @@
+1
+search_type0.tex
+28 28
+3
+0 0 20 26 4 1 0 frame0
+22 0 28 17 0 6 0 frame1
+52 0 24 19 2 5 0 frame2

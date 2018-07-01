@@ -1,0 +1,5 @@
+1
+icon_refresh0.tex
+50 50
+1
+0 0 44 37 3 8 0 frame0

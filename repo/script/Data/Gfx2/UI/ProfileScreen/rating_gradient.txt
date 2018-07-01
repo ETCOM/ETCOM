@@ -1,0 +1,5 @@
+1
+rating_gradient0.tex
+20 300
+1
+0 0 20 300 0 0 0 frame0

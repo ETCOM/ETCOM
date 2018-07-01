@@ -1,0 +1,5 @@
+1
+GooglePlayGames0.tex
+56 56
+1
+0 0 56 40 0 7 0 frame0

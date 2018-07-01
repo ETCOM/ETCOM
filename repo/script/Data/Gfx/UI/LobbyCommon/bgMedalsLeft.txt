@@ -1,0 +1,7 @@
+1
+bgMedalsLeft0.tex
+568 70
+3
+0 0 568 70 0 0 0 frame0
+570 0 568 70 0 0 0 frame1
+1140 0 568 70 0 0 0 frame2

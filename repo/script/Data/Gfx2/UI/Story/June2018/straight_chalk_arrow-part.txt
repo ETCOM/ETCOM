@@ -1,0 +1,6 @@
+1
+straight_chalk_arrow-part0.tex
+160 58
+2
+121 0 160 14 0 26 0 frame0
+0 0 119 58 0 0 0 frame1

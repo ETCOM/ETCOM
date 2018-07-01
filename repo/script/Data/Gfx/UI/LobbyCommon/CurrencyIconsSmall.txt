@@ -1,0 +1,13 @@
+1
+CurrencyIconsSmall0.tex
+22 22
+9
+115 0 20 20 1 1 0 frame0
+137 0 20 20 1 1 0 frame1
+24 0 21 20 0 0 0 frame2
+47 0 21 20 0 0 0 frame3
+70 0 21 20 0 0 0 frame4
+159 0 21 18 0 2 0 frame5
+182 0 15 17 3 2 0 frame6
+0 0 22 20 0 1 0 frame7
+93 0 20 21 2 0 0 frame8

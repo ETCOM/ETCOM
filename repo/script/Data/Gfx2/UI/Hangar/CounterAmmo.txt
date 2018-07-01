@@ -1,0 +1,5 @@
+1
+CounterAmmo0.tex
+38 28
+1
+0 0 37 28 0 0 0 frame0

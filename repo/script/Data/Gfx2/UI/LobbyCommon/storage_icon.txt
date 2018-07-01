@@ -1,0 +1,5 @@
+1
+storage_icon0.tex
+88 94
+1
+0 0 88 93 0 0 0 frame0

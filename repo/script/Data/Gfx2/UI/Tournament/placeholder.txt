@@ -1,0 +1,5 @@
+1
+placeholder0.tex
+960 200
+1
+0 0 960 200 0 0 0 frame0

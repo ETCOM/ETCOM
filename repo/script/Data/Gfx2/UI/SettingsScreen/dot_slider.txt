@@ -1,0 +1,5 @@
+1
+dot_slider0.tex
+12 12
+1
+0 0 12 12 0 0 0 frame0

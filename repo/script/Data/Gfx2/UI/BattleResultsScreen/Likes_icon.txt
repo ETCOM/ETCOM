@@ -1,0 +1,5 @@
+1
+Likes_icon0.tex
+52 52
+1
+0 0 44 46 4 3 0 frame0

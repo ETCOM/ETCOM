@@ -1,0 +1,6 @@
+1
+currency_halloween_big0.tex
+32 32
+2
+0 0 30 29 2 1 0 frame0
+32 0 22 24 5 4 0 frame1

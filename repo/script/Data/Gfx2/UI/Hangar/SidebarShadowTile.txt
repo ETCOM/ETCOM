@@ -1,0 +1,5 @@
+1
+SidebarShadowTile0.tex
+40 4
+1
+0 0 38 4 2 0 0 frame0

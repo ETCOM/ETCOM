@@ -1,0 +1,6 @@
+1
+whiteramka0.tex
+16 16
+2
+0 0 16 16 0 0 0 frame0
+0 18 16 2 0 0 0 frame1

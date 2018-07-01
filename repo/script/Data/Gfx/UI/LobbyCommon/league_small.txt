@@ -1,0 +1,11 @@
+1
+league_small0.tex
+30 30
+7
+119 0 19 26 5 2 0 frame0
+97 0 20 26 5 2 0 frame1
+27 0 22 26 5 2 0 frame2
+51 0 21 27 4 2 0 frame3
+74 0 21 27 4 1 0 frame4
+0 0 25 26 3 2 0 frame5
+140 0 20 24 5 3 0 frame6

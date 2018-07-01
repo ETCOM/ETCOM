@@ -1,0 +1,5 @@
+1
+androidTest0.tex
+100 100
+1
+0 0 78 82 11 9 0 frame0

@@ -1,0 +1,5 @@
+1
+boster_battle00.tex
+192 232
+1
+0 0 154 171 19 36 0 frame0

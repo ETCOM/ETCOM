@@ -1,0 +1,5 @@
+1
+ussr-KV1s_bear0.tex
+180 180
+1
+0 0 180 180 0 0 0 frame0

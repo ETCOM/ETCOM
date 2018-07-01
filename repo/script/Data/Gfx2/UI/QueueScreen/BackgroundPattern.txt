@@ -1,0 +1,5 @@
+1
+BackgroundPattern0.tex
+140 140
+1
+0 0 140 140 0 0 0 frame0

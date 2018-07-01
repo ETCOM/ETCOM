@@ -1,0 +1,5 @@
+1
+resistReward_middle0.tex
+37 109
+1
+0 0 37 109 0 0 0 frame0

@@ -1,0 +1,5 @@
+1
+HangarIcon_20.tex
+220 92
+1
+0 0 217 91 0 1 0 frame0

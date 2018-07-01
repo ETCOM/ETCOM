@@ -1,0 +1,5 @@
+1
+info_button0.tex
+44 44
+1
+0 0 16 16 14 14 0 frame0

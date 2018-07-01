@@ -1,0 +1,5 @@
+1
+TanksDivider0.tex
+100 2
+1
+0 0 98 2 2 0 0 frame0

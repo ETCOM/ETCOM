@@ -1,0 +1,5 @@
+1
+springEvent_10.tex
+192 232
+1
+0 0 180 130 6 72 0 frame0

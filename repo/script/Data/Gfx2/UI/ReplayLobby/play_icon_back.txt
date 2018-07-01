@@ -1,0 +1,5 @@
+1
+play_icon_back0.tex
+160 160
+1
+0 0 160 160 0 0 0 frame0

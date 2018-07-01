@@ -1,0 +1,9 @@
+1
+icon_team_controls0.tex
+126 72
+5
+242 0 76 68 25 4 0 frame0
+128 0 58 58 34 9 0 frame1
+0 66 119 60 3 8 0 frame2
+121 66 119 60 3 8 0 frame3
+0 0 126 64 0 6 0 frame4

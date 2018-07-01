@@ -1,0 +1,5 @@
+1
+LeasedTank0.tex
+84 54
+1
+0 0 84 54 0 0 0 frame0

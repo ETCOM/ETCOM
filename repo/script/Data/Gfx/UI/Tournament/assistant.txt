@@ -1,0 +1,5 @@
+1
+assistant0.tex
+40 40
+1
+0 0 39 39 0 0 0 frame0

@@ -1,0 +1,8 @@
+1
+GameplayIcon0.tex
+80 80
+4
+0 0 80 80 0 0 0 frame0
+164 0 80 79 0 0 0 frame1
+246 0 80 79 0 0 0 frame2
+82 0 80 80 0 0 0 frame3

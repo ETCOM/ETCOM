@@ -1,0 +1,5 @@
+1
+Proxy_GoldenIcon0.tex
+192 232
+1
+0 0 150 149 21 41 0 frame0

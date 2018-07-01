@@ -1,0 +1,7 @@
+1
+CrewSkills_icon0.tex
+82 54
+3
+153 0 65 39 8 7 0 frame0
+71 0 80 46 1 4 0 frame1
+0 0 69 54 6 0 0 frame2

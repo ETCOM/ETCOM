@@ -1,0 +1,5 @@
+1
+HangarIcon_pay0.tex
+318 236
+1
+0 0 300 136 0 52 0 frame0

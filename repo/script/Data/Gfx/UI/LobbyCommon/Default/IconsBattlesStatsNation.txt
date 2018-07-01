@@ -1,0 +1,12 @@
+1
+IconsBattlesStatsNation0.tex
+32 32
+8
+0 0 22 22 5 5 0 frame0
+24 0 22 22 5 5 0 frame1
+48 0 22 22 5 5 0 frame2
+72 0 22 22 5 5 0 frame3
+96 0 22 22 5 5 0 frame4
+120 0 22 22 5 5 0 frame5
+144 0 22 22 5 5 0 frame6
+168 0 22 22 5 5 0 frame7

@@ -1,0 +1,6 @@
+1
+AddRemovePlayer0.tex
+59 41
+2
+59 0 47 39 2 2 0 frame0
+0 0 57 39 2 2 0 frame1

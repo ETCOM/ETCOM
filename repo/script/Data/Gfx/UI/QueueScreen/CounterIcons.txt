@@ -1,0 +1,6 @@
+1
+CounterIcons0.tex
+19 20
+2
+0 0 19 17 0 1 0 frame0
+21 0 17 17 1 1 0 frame1

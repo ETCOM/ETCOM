@@ -1,0 +1,5 @@
+1
+firstVictory0.tex
+100 100
+1
+0 0 78 87 11 7 0 frame0

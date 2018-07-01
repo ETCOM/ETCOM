@@ -1,0 +1,5 @@
+1
+boster_icon_add0.tex
+50 50
+1
+0 0 42 45 5 4 0 frame0

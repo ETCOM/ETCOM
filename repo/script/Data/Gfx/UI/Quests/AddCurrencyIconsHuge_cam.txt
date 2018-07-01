@@ -1,0 +1,8 @@
+1
+AddCurrencyIconsHuge_cam0.tex
+50 50
+4
+0 0 50 50 0 0 0 frame0
+52 0 50 50 0 0 0 frame1
+104 0 50 49 0 1 0 frame2
+156 0 50 49 0 1 0 frame3

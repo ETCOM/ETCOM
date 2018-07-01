@@ -1,0 +1,5 @@
+1
+medalHalonen0.tex
+100 100
+1
+0 0 73 74 14 13 0 frame0

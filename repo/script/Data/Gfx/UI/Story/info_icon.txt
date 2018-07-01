@@ -1,0 +1,5 @@
+1
+info_icon0.tex
+19 19
+1
+0 0 19 19 0 0 0 frame0

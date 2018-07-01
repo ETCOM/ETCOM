@@ -1,0 +1,8 @@
+1
+items_reward_back_200percent0.tex
+140 140
+4
+0 0 130 132 5 7 0 frame0
+132 0 130 132 5 7 0 frame1
+264 0 130 132 5 7 0 frame2
+396 0 130 132 5 7 0 frame3

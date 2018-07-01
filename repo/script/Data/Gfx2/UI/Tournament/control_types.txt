@@ -1,0 +1,7 @@
+1
+control_types0.tex
+64 64
+3
+0 0 60 44 2 10 0 frame0
+62 0 27 44 2 10 0 frame1
+91 0 26 44 4 10 0 frame2

@@ -1,0 +1,5 @@
+1
+eSportQualification0.tex
+200 200
+1
+0 0 143 155 28 30 0 frame0

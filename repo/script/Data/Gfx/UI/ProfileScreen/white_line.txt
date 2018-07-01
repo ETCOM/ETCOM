@@ -1,0 +1,5 @@
+1
+white_line0.tex
+276 2
+1
+0 0 276 2 0 0 0 frame0

@@ -1,0 +1,5 @@
+1
+participantofWGFest20170.tex
+200 200
+1
+0 0 144 149 28 25 0 frame0

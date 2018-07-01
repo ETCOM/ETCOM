@@ -1,0 +1,5 @@
+1
+medalTournamentProfessional0.tex
+100 100
+1
+0 0 95 72 3 20 0 frame0

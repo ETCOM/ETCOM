@@ -1,0 +1,5 @@
+1
+medalAbrams40.tex
+100 100
+1
+0 0 66 71 17 15 0 frame0

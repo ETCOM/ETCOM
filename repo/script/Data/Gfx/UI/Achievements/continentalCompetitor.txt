@@ -1,0 +1,5 @@
+1
+continentalCompetitor0.tex
+100 100
+1
+0 0 73 67 14 17 0 frame0

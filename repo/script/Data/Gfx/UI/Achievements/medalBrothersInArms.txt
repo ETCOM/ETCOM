@@ -1,0 +1,5 @@
+1
+medalBrothersInArms0.tex
+100 100
+1
+0 0 74 75 13 13 0 frame0

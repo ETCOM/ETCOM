@@ -1,0 +1,5 @@
+1
+passing_icon0.tex
+34 34
+1
+0 0 34 34 0 0 0 frame0

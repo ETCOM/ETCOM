@@ -1,0 +1,5 @@
+1
+resistReward_right0.tex
+258 109
+1
+0 0 257 109 0 0 0 frame0

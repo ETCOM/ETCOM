@@ -1,0 +1,5 @@
+1
+icon_edit0.tex
+73 58
+1
+0 0 73 58 0 0 0 frame0

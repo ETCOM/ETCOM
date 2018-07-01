@@ -1,0 +1,5 @@
+1
+levels_gradient0.tex
+10 25
+1
+0 0 10 25 0 0 0 frame0

@@ -1,0 +1,5 @@
+1
+close_combat_master0.tex
+154 154
+1
+0 0 138 106 9 23 0 frame0

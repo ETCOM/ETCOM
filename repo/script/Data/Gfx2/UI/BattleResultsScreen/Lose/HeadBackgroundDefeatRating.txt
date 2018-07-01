@@ -1,0 +1,8 @@
+1
+HeadBackgroundDefeatRating0.tex
+2048 520
+4
+0 0 2048 520 0 0 0 frame0
+0 1034 2038 349 10 171 0 frame1
+0 522 1895 510 0 10 0 frame2
+0 1385 292 139 701 217 0 frame3

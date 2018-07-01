@@ -1,0 +1,5 @@
+1
+vehicleHull0.tex
+118 118
+1
+0 0 118 112 0 6 0 frame0

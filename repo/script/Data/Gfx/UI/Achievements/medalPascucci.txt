@@ -1,0 +1,5 @@
+1
+medalPascucci0.tex
+100 100
+1
+0 0 78 80 11 10 0 frame0

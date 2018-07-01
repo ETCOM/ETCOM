@@ -1,0 +1,5 @@
+1
+offerPremium_left0.tex
+246 99
+1
+0 0 244 99 2 0 0 frame0

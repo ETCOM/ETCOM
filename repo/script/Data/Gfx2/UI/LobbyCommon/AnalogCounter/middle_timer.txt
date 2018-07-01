@@ -1,0 +1,5 @@
+1
+middle_timer0.tex
+110 232
+1
+0 0 110 232 0 0 0 frame0

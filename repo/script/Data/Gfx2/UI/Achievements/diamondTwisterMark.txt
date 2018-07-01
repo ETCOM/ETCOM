@@ -1,0 +1,5 @@
+1
+diamondTwisterMark0.tex
+200 200
+1
+0 0 176 168 16 16 0 frame0

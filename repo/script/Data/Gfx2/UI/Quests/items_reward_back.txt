@@ -1,0 +1,8 @@
+1
+items_reward_back0.tex
+140 140
+4
+0 0 129 132 5 7 0 frame0
+131 0 129 132 5 7 0 frame1
+262 0 129 132 5 7 0 frame2
+393 0 129 132 5 7 0 frame3

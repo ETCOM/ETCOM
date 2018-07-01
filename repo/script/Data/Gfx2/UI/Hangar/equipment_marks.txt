@@ -1,0 +1,7 @@
+1
+equipment_marks0.tex
+12 28
+3
+0 0 8 22 2 3 0 frame0
+10 0 8 22 2 3 0 frame1
+20 0 8 22 2 3 0 frame2

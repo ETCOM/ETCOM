@@ -1,0 +1,5 @@
+1
+Selection_back_00.tex
+64 32
+1
+0 0 60 31 2 1 0 frame0

@@ -1,0 +1,13 @@
+1
+CurrencyIconsBig0.tex
+64 64
+9
+183 0 52 52 9 7 0 frame0
+127 0 54 54 9 7 0 frame1
+237 0 52 49 5 8 0 frame2
+291 0 52 49 5 8 0 frame3
+345 0 52 49 5 8 0 frame4
+64 0 61 53 2 7 0 frame5
+449 0 40 46 15 9 0 frame6
+0 0 62 56 1 5 0 frame7
+399 0 48 50 10 7 0 frame8

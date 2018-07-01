@@ -1,0 +1,6 @@
+1
+InputButton0.tex
+83 72
+2
+34 0 29 30 28 21 0 frame0
+0 0 32 33 26 20 0 frame1

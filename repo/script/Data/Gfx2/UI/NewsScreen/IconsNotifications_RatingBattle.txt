@@ -1,0 +1,7 @@
+1
+IconsNotifications_RatingBattle0.tex
+216 160
+3
+0 0 200 144 8 8 0 frame0
+0 146 200 144 8 8 0 frame1
+0 292 200 144 8 8 0 frame2

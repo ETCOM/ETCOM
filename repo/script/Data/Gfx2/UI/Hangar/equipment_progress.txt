@@ -1,0 +1,6 @@
+1
+equipment_progress0.tex
+48 48
+2
+0 0 48 48 0 0 0 frame0
+50 0 48 48 0 0 0 frame1

@@ -1,0 +1,6 @@
+1
+SquadHeaderChat0.tex
+243 42
+2
+0 0 243 42 0 0 0 frame0
+245 0 243 42 0 0 0 frame1

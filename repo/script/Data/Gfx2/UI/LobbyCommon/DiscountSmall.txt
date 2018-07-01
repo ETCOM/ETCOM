@@ -1,0 +1,5 @@
+1
+DiscountSmall0.tex
+126 72
+1
+0 0 120 66 3 3 0 frame0

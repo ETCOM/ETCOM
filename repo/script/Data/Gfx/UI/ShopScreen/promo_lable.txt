@@ -1,0 +1,6 @@
+1
+promo_lable0.tex
+86 86
+2
+0 0 86 86 0 0 0 frame0
+88 0 86 86 0 0 0 frame1

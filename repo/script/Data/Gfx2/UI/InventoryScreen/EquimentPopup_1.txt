@@ -1,0 +1,5 @@
+1
+EquimentPopup_10.tex
+300 160
+1
+0 0 297 157 1 1 0 frame0

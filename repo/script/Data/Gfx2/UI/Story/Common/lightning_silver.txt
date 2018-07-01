@@ -1,0 +1,5 @@
+1
+lightning_silver0.tex
+140 140
+1
+0 0 26 51 58 41 0 frame0

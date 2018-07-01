@@ -1,0 +1,5 @@
+1
+Selection0.tex
+94 94
+1
+0 0 94 94 0 0 0 frame0

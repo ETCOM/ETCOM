@@ -1,0 +1,5 @@
+1
+black_gradient0.tex
+62 86
+1
+0 0 62 86 0 0 0 frame0

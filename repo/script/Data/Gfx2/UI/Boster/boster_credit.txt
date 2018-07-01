@@ -1,0 +1,5 @@
+1
+boster_credit0.tex
+192 232
+1
+0 0 156 156 18 42 0 frame0

@@ -1,0 +1,5 @@
+1
+IconCamouflage0.tex
+108 108
+1
+0 0 92 92 8 8 0 frame0

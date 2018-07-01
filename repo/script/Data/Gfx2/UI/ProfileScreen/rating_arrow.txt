@@ -1,0 +1,5 @@
+1
+rating_arrow0.tex
+142 148
+1
+0 0 142 148 0 0 0 frame0

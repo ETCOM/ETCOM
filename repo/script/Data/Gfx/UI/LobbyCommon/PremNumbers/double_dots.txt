@@ -1,0 +1,5 @@
+1
+double_dots0.tex
+17 95
+1
+0 0 15 45 1 25 0 frame0

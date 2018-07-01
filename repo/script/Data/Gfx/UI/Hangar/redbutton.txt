@@ -1,0 +1,5 @@
+1
+redbutton0.tex
+62 62
+1
+0 0 62 62 0 0 0 frame0

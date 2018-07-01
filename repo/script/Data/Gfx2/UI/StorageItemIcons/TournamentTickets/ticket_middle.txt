@@ -1,0 +1,5 @@
+1
+ticket_middle0.tex
+192 232
+1
+0 0 161 171 19 34 0 frame0

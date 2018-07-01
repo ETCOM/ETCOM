@@ -1,0 +1,5 @@
+1
+medalErohin0.tex
+200 200
+1
+0 0 145 160 28 20 0 frame0

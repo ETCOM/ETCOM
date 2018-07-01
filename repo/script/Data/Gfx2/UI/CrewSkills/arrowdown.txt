@@ -1,0 +1,5 @@
+1
+arrowdown0.tex
+86 98
+1
+0 0 85 97 0 1 0 frame0

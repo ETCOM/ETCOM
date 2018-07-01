@@ -1,0 +1,5 @@
+1
+TankDirection0.tex
+120 80
+1
+0 0 76 77 23 3 0 frame0

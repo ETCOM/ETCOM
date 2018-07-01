@@ -1,0 +1,7 @@
+1
+OldPlayButton0.tex
+200 74
+3
+0 76 190 64 5 5 0 frame0
+0 142 190 64 5 5 0 frame1
+0 0 200 74 0 0 0 frame2

@@ -1,0 +1,5 @@
+1
+horseshoe0.tex
+96 116
+1
+0 0 70 74 13 27 0 frame0

@@ -1,0 +1,5 @@
+1
+InputIconsSearch0.tex
+36 36
+1
+0 0 28 29 3 3 0 frame0

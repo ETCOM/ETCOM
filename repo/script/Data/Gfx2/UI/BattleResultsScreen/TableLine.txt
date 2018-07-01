@@ -1,0 +1,5 @@
+1
+TableLine0.tex
+952 2
+1
+0 0 952 2 0 0 0 frame0

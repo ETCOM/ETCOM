@@ -1,0 +1,5 @@
+1
+collectorWarhammer0.tex
+100 100
+1
+0 0 100 45 0 28 0 frame0

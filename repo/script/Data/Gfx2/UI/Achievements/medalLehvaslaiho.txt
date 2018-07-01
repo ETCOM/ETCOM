@@ -1,0 +1,5 @@
+1
+medalLehvaslaiho0.tex
+200 200
+1
+0 0 167 147 17 27 0 frame0

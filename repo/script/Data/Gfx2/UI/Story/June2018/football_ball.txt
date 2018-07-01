@@ -1,0 +1,5 @@
+1
+football_ball0.tex
+192 232
+1
+0 0 104 104 44 64 0 frame0

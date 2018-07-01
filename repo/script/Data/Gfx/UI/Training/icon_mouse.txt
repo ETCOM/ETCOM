@@ -1,0 +1,5 @@
+1
+icon_mouse0.tex
+50 50
+1
+0 0 21 28 15 12 0 frame0

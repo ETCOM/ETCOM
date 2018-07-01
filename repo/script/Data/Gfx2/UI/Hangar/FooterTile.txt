@@ -1,0 +1,5 @@
+1
+FooterTile0.tex
+4 250
+1
+0 0 4 250 0 0 0 frame0

@@ -1,0 +1,5 @@
+1
+medalTournamentOffseason40.tex
+100 100
+1
+0 0 79 89 11 7 0 frame0

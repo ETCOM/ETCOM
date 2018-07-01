@@ -1,0 +1,5 @@
+1
+PremCertificate_00.tex
+192 232
+1
+0 0 157 166 19 37 0 frame0

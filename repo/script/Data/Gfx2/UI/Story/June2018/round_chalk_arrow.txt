@@ -1,0 +1,5 @@
+1
+round_chalk_arrow0.tex
+184 82
+1
+0 0 184 82 0 0 0 frame0

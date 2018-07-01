@@ -1,0 +1,6 @@
+1
+loadingbar0.tex
+88 4
+2
+0 0 88 4 0 0 0 frame0
+90 0 88 4 0 0 0 frame1

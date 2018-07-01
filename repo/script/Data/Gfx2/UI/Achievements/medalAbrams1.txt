@@ -1,0 +1,5 @@
+1
+medalAbrams10.tex
+200 200
+1
+0 0 145 138 28 31 0 frame0

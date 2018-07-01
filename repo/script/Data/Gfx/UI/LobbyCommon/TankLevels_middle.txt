@@ -1,0 +1,14 @@
+1
+TankLevels_middle0.tex
+38 32
+10
+159 0 3 16 18 8 0 frame0
+149 0 8 16 15 8 0 frame1
+105 0 14 16 12 8 0 frame2
+70 0 16 16 11 8 0 frame3
+136 0 11 16 13 8 0 frame4
+88 0 15 16 11 8 0 frame5
+28 0 21 16 8 8 0 frame6
+0 0 26 16 6 8 0 frame7
+51 0 17 16 11 8 0 frame8
+121 0 13 16 12 8 0 frame9

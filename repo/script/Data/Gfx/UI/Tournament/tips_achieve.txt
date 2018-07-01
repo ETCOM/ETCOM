@@ -1,0 +1,5 @@
+1
+tips_achieve0.tex
+128 37
+1
+0 0 128 37 0 0 0 frame0

@@ -1,0 +1,5 @@
+1
+CharacterArrow_white0.tex
+20 20
+1
+0 0 20 18 0 2 0 frame0

@@ -1,0 +1,5 @@
+1
+medium_ticket0.tex
+44 56
+1
+0 0 38 52 2 4 0 frame0

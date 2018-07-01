@@ -1,0 +1,5 @@
+1
+small_ticket0.tex
+40 50
+1
+0 0 33 44 3 5 0 frame0

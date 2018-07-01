@@ -1,0 +1,5 @@
+1
+triangle_select0.tex
+60 36
+1
+0 0 60 36 0 0 0 frame0

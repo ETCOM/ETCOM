@@ -1,0 +1,5 @@
+1
+daily_chest_small0.tex
+340 248
+1
+0 0 292 218 23 15 0 frame0

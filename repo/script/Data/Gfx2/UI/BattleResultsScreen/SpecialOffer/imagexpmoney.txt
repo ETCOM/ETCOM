@@ -1,0 +1,5 @@
+1
+imagexpmoney0.tex
+176 120
+1
+0 0 175 120 0 0 0 frame0

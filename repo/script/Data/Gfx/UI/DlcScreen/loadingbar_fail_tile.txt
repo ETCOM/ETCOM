@@ -1,0 +1,5 @@
+1
+loadingbar_fail_tile0.tex
+6 4
+1
+0 0 6 4 0 0 0 frame0

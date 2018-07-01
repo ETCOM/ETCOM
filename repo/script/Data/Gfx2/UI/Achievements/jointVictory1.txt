@@ -1,0 +1,5 @@
+1
+jointVictory10.tex
+200 200
+1
+0 0 175 162 13 19 0 frame0

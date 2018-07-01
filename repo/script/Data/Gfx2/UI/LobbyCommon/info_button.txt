@@ -1,0 +1,5 @@
+1
+info_button0.tex
+88 88
+1
+0 0 32 32 28 28 0 frame0

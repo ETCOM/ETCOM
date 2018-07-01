@@ -1,0 +1,5 @@
+1
+markOfMastery10.tex
+100 100
+1
+0 0 70 71 16 17 0 frame0

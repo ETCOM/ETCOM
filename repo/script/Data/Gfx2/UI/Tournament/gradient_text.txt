@@ -1,0 +1,5 @@
+1
+gradient_text0.tex
+2 112
+1
+0 0 2 111 0 1 0 frame0

@@ -1,0 +1,5 @@
+1
+TankCertificate_00.tex
+192 232
+1
+0 0 158 163 17 36 0 frame0

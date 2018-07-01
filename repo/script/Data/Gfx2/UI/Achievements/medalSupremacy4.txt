@@ -1,0 +1,5 @@
+1
+medalSupremacy40.tex
+200 200
+1
+0 0 163 162 18 19 0 frame0

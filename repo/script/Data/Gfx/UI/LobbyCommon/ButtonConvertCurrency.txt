@@ -1,0 +1,7 @@
+1
+ButtonConvertCurrency0.tex
+73 37
+3
+0 0 73 37 0 0 0 frame0
+75 0 61 28 7 5 0 frame1
+75 30 60 28 7 5 0 frame2

@@ -1,0 +1,5 @@
+1
+rating_arrow0.tex
+71 74
+1
+0 0 71 73 0 0 0 frame0

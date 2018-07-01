@@ -1,0 +1,5 @@
+1
+olimpicSilver0.tex
+200 200
+1
+0 0 161 162 19 21 0 frame0

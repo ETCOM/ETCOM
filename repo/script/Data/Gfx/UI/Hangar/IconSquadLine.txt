@@ -1,0 +1,6 @@
+1
+IconSquadLine0.tex
+52 4
+2
+0 0 52 4 0 0 0 frame0
+54 0 52 4 0 0 0 frame1

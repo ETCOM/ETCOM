@@ -1,0 +1,5 @@
+1
+binoculars_icon0.tex
+192 232
+1
+0 0 176 146 8 57 0 frame0

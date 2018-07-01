@@ -1,0 +1,5 @@
+1
+triangle_icon0.tex
+28 28
+1
+0 0 9 13 10 8 0 frame0

@@ -1,0 +1,5 @@
+1
+tankExpert60.tex
+100 100
+1
+0 0 62 77 20 13 0 frame0

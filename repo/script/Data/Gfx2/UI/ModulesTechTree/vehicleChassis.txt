@@ -1,0 +1,5 @@
+1
+vehicleChassis0.tex
+118 118
+1
+0 0 118 105 0 11 0 frame0

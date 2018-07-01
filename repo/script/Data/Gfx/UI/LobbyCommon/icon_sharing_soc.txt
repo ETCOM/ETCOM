@@ -1,0 +1,5 @@
+1
+icon_sharing_soc0.tex
+28 28
+1
+0 0 18 18 5 5 0 frame0

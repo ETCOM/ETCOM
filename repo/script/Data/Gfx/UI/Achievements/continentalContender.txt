@@ -1,0 +1,5 @@
+1
+continentalContender0.tex
+100 100
+1
+0 0 87 81 7 12 0 frame0

@@ -1,0 +1,5 @@
+1
+fire_fighting0.tex
+154 154
+1
+0 0 149 143 5 11 0 frame0

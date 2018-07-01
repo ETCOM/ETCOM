@@ -1,0 +1,5 @@
+1
+lightning_gold0.tex
+70 70
+1
+0 0 13 26 29 20 0 frame0

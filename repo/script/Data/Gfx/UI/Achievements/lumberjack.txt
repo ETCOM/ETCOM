@@ -1,0 +1,5 @@
+1
+lumberjack0.tex
+100 100
+1
+0 0 75 85 13 8 0 frame0

@@ -1,0 +1,5 @@
+1
+arrow_settings0.tex
+32 52
+1
+0 0 26 46 2 4 0 frame0

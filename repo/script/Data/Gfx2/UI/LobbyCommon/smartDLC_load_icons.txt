@@ -1,0 +1,9 @@
+1
+smartDLC_load_icons0.tex
+94 62
+5
+0 0 94 43 0 11 0 frame0
+272 0 57 44 14 11 0 frame1
+96 0 69 55 10 5 0 frame2
+167 0 50 62 19 0 0 frame3
+219 0 51 53 19 6 0 frame4
