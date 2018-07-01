@@ -1,0 +1,5 @@
+keyedArchive:
+    storeName:
+        string: "Google_Play"
+    storeId:
+        int32: 5

@@ -1,0 +1,15 @@
+keyedArchive:
+    Branch:
+        string: "hotfix/5.0.1"
+    Framework:
+        string: "hotfix/5.0.1"
+    BranchRev:
+        string: "9ea4383fb772e37ff39514ef77f935322a7063ba"
+    FrameworkRev:
+        string: "279f28a2b0e34871a7ae2fb7f7e5efb0be354b39"
+    BuildId:
+        string: "5.0.1.437"
+    ConfigId:
+        string: "dava_wotblitz_Trunk_510_Bu_WotbAndroidWindows"
+    Date:
+        string: "20180627"

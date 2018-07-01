@@ -1,0 +1,10 @@
+nations:
+    ussr: "ru"
+    germany: "de"
+    usa: "en"
+    china: "cn"
+    france: "fr"
+    uk: "en"
+    japan: "ja"
+tanks:
+    "japan:Pz_IV_AusfH": "gup"
