@@ -20,14 +20,9 @@
 		</dict>
 		<key>SFX:sfx</key>
 		<dict>
-			<key>Camiyu(카미유) Voice Pack 소녀톤:cami_r1</key>
+			<key>Camiyu Voice Pack 소녀톤:cami_r1</key>
 			<string>5.0.1:a</string>
 			<key>PC WoT GUI Sound Pack With Radio Sounds:wotpcwrs</key>
-			<string>5.0.1:a</string>
-		</dict>
-		<key>etc:etc</key>
-		<dict>
-			<key>test 1:t_1</key>
 			<string>5.0.1:a</string>
 		</dict>
 	</dict>
